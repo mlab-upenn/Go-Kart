@@ -1,5 +1,9 @@
-Welcome to Lumache's documentation!
+Welcome to XLAB's documentation!
 ===================================
+
+Autonomous Go-Kart Project under Autoware Foundation
+
+We have our documentation hosted on Read the Docs.
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
 that creates recipes mixing random ingredients.
