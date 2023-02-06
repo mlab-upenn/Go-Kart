@@ -7,8 +7,6 @@ We have our documentation hosted on Read the Docs.
 
 
 .. image:: docs/source/Images/Go-Kart overview.png
-  :width: 400
-  :alt: Alternative text
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
 that creates recipes mixing random ingredients.
