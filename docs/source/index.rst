@@ -6,6 +6,9 @@ Autonomous Go-Kart Project under Autoware Foundation
 We have our documentation hosted on Read the Docs.
 
 
+.. image:: path/filename.png
+  :width: 400
+  :alt: Alternative text
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
 that creates recipes mixing random ingredients.
