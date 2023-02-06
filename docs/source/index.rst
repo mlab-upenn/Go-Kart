@@ -6,7 +6,7 @@ Autonomous Go-Kart Project under Autoware Foundation
 We have our documentation hosted on Read the Docs.
 
 
-.. image:: path/filename.png
+.. image:: docs/source/Images/Go-Kart overview.png
   :width: 400
   :alt: Alternative text
 
