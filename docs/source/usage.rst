@@ -18,7 +18,7 @@ controller area network (CAN) to allow efficient information
 exchange between nodes. These modular control systems
 are integrated with the original go-kart chassis in a nonintrusive manner and are easy to understand, build, and modify.
 
-.. Power Distribution Subsystem:
+..Power Distribution Subsystem:
 
                                 Power Distribution Subsystem
                                -------------------------------
