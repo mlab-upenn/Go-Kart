@@ -20,6 +20,9 @@ are integrated with the original go-kart chassis in a nonintrusive manner and ar
 
 ..Power Distribution Subsystem:
 
+Power Distribution Subsystem
+-----------------------------
+
                                 Power Distribution Subsystem
                                -------------------------------
                                The autonomous go-kart is powered by six Nermak Lithium
