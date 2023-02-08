@@ -19,10 +19,10 @@ how to :ref:`usage`
 Contents
 --------
 
-//.. toctree::
+.. toctree::
 
-    //usage
-   //api
-   //NUCELO-F439ZI
+   usage
+   api
+   NUCELO-F439ZI
   
    
