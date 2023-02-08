@@ -20,7 +20,7 @@ Contents
 .. toctree::
 
    usage
-   api
-   NUCELO-F439ZI
+       Power Distribution Subsystem
+       Main Control Subsystem
   
    
