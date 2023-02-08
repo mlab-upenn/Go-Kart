@@ -1,5 +1,5 @@
 """
-Lumache - Python library for cooks and food lovers.
+Go-Kart - Autoware Foundation
 """
 
 __version__ = "0.1.0"
