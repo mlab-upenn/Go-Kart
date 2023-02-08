@@ -8,9 +8,7 @@ We have our documentation hosted on Read the Docs.
 .. image:: Go-Kart_overview.png
    :width: 600
 
-Check out the :doc:`Mechatronics` section for further information, including
-how to :ref:`usage`
-:doc:`installation` the project.
+Check out the :doc:`Mechatronics` section for further information related to Mechatronics of the project.
 
 .. note::
 
