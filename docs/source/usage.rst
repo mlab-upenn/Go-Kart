@@ -21,13 +21,29 @@ are integrated with the original go-kart chassis in a nonintrusive manner and ar
 Power Distribution Subsystem
 -----------------------------
 
+                    The autonomous go-kart is powered by six Nermak Lithium
+                    LiFePO4 deep cycle batteries, each with a voltage of 12V and
+                    capacity 50Ah. The batteries are mounted on the two sides of
+                    the go-kart, with wired connections across the chassis. Four
+                    batteries are connected in series, leading to a net voltage of
+                    48V, which is used to power the main drive motor. Meanwhile,
+                    a buck converter is used to step down the voltage from 48V to
+                    12V, which is then used to power up the motors in the SBW
+                    and BBW subsystems for autonomous control (Fig. 2).
                     
-                               The autonomous go-kart is powered by six Nermak Lithium
-                               LiFePO4 deep cycle batteries, each with a voltage of 12V and
-                               capacity 50Ah. The batteries are mounted on the two sides of
-                               the go-kart, with wired connections across the chassis. Four
-                               batteries are connected in series, leading to a net voltage of
-                               48V, which is used to power the main drive motor. Meanwhile,
-                               a buck converter is used to step down the voltage from 48V to
-                               12V, which is then used to power up the motors in the SBW
-                               and BBW subsystems for autonomous control (Fig. 2).
+ Main Control Subsystem
+-----------------------------
+
+                    The MC handles all the driving requests from the high-level 
+                    end and sends out those commands (throttle, steering, brake)
+                    on the CAN bus. It serves as an interface between the go-kart
+                    mechatronic system and the end user. Three different operation
+                    modes are supported: manual, remote, and autonomous. In the
+                    manual mode, input is read from the steering wheel, throttle,
+                    and brake pedals of a driver just like in any conventional
+                    vehicle. In the remote mode, the operator uses a Spektrum
+                    DX6 2.4GHz radio to send the driving commands, which
+                    are received by the MC using an AR6200 receiver. In the
+                    autonomous mode, the command is transmitted from a highlevel 
+                    computing unit such as a laptop or a specialized onboard computer, 
+                    through a USB to TTL communication. 
