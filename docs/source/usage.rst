@@ -31,8 +31,9 @@ Power Distribution Subsystem
                     12V, which is then used to power up the motors in the SBW
                     and BBW subsystems for autonomous control (Fig. 2).
                     
- Main Control Subsystem
------------------------------
+
+Main Control Subsystem
+------------------------
 
                     The MC handles all the driving requests from the high-level 
                     end and sends out those commands (throttle, steering, brake)
