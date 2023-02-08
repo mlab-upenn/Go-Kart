@@ -29,7 +29,7 @@ Power Distribution Subsystem
                     48V, which is used to power the main drive motor. Meanwhile,
                     a buck converter is used to step down the voltage from 48V to
                     12V, which is then used to power up the motors in the SBW
-                    and BBW subsystems for autonomous control (Fig. 2).
+                    and BBW subsystems for autonomous control.
                     
 
 Main Control Subsystem
