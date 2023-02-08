@@ -23,8 +23,7 @@ are integrated with the original go-kart chassis in a nonintrusive manner and ar
 Power Distribution Subsystem
 -----------------------------
 
-                                Power Distribution Subsystem
-                               -------------------------------
+                    
                                The autonomous go-kart is powered by six Nermak Lithium
                                LiFePO4 deep cycle batteries, each with a voltage of 12V and
                                capacity 50Ah. The batteries are mounted on the two sides of
