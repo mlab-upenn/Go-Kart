@@ -1,7 +1,3 @@
-API
+SENSOR SYSTEM
 ===
 
-.. autosummary::
-   :toctree: generated
-
-   lumache
