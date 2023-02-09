@@ -48,3 +48,39 @@ Main Control Subsystem
                     autonomous mode, the command is transmitted from a highlevel 
                     computing unit such as a laptop or a specialized onboard computer, 
                     through a USB to TTL communication. 
+                    
+ 
+User Interface Subsystem
+------------------------
+
+                    The UI is a customized PCB mounted on the side of the driver’s seat. 
+                    It allows the user to select the desired operating mode using the toggle switches. 
+                    Meanwhile, it collects real- time go-kart state information, including its speed, steering, and 
+                    brake and display them on an LCD panel. It plays no role in mechanical control and is solely 
+                    used for user monitoring and interaction.
+
+Throttle-by-Wire Subsystem
+---------------------------
+
+                    The UI is a customized PCB mounted on the side of the driver’s seat. 
+                    The TBW controls the go-kart’s main drive motor. The TBW’s Nucleo receives 
+                    the desired speed from the CAN bus and sends out the measured speed. Speed 
+                    measurement is achieved using a hall effect wheel speed sensor mounted 
+                    close to the go-kart’s rear shaft. Speed control is performed using a 
+                    closed PID loop. The output of the Nucleo is a PWM signal with a varying 
+                    duty cycle which is then converted into a 0-5V analog voltage. This analog 
+                    voltage is passed into the Alltrax SR48300 DC Motor Controller for speed control.
+                    Another design is a remote kill switch which allows the operator to remotely cut off 
+                    the power if an emergency occurs. This is implemented using a remote relay that can 
+                    disconnect the switch to the motor contact which instantly stops power delivery to 
+                    the main power. This part is independent from the MC and will continue functioning 
+                    in a worst-case system failure.
+
+Steer-by-Wire Subsystem
+------------------------
+
+                    The original unmodified go-kart platform uses an alloy shaft to connect the steering wheel 
+                    and the front wheel. Steering is made possible entirely through the driver’s torque input. 
+                    In order to provide an autonomous mode, a motor must be added to actuate the steering. Several 
+                    design ideas have been composed: one attempt was to mount the motor parallel to the steering shaft 
+                    and use a belt or chain for motion transmission.
