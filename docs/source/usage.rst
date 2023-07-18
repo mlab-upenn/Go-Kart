@@ -21,15 +21,39 @@ are integrated with the original go-kart chassis in a nonintrusive manner and ar
 Power Distribution Subsystem
 -----------------------------
 
-                    The autonomous go-kart is powered by six Nermak Lithium
-                    LiFePO4 deep cycle batteries, each with a voltage of 12V and
-                    capacity 50Ah. The batteries are mounted on the two sides of
-                    the go-kart, with wired connections across the chassis. Four
-                    batteries are connected in series, leading to a net voltage of
-                    48V, which is used to power the main drive motor. Meanwhile,
-                    a buck converter is used to step down the voltage from 48V to
-                    12V, which is then used to power up the motors in the SBW
-                    and BBW subsystems for autonomous control.
+Feature
+~~~~~~~~~~~~~~~~~~~~~~
+
+Dual Input:
+++++++++++++
+
+2x 12V battery input with XT90 connectors, offering flexibility in battery selection and redundancy for increased reliability.
+
+Fuse Protection:
++++++++++++++++++
+Each component has an individual fuse, ensuring protection against overcurrent and short circuits.
+
+Multiple DC-DC Converters: 
+++++++++++++++++++++++++++++
+
++--------------------------+------------------------+
+| High-Current 24V         | Laptop Charger 19V     |
+| Converter                | Converter              |
++--------------------------+------------------------+
+| Auxiliary 12V Converter  | Isolated 5V Converter  |
++--------------------------+------------------------+
+| Isolated LIDAR 24V       | Isolated LIDAR 12V     |
+| Converter                | Converter              |
++--------------------------+------------------------+
+| Isolated 3.3V Converter  |                        |
++--------------------------+------------------------+
+
+Description
+~~~~~~~~~~~~~~~~~~~~~~
+
+The Power Distribution Unit (PDU) V3, designed for the Autoware Autonomous Gokart Team at the University of Pennsylvania, is a highly efficient and versatile power distribution board. The PDU V3 takes input from two 12V batteries and distributes power through various voltage outputs to various devices. The board features a combination of external and in-board isolated DC-DC converters, fuses for overcurrent protection, and XT60 connectors for secure power distribution.
+
+
                     
 
 Main Control Subsystem
