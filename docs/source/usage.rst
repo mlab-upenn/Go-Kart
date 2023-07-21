@@ -33,7 +33,7 @@ Fuse Protection:
 +++++++++++++++++
 Each component has an individual fuse, ensuring protection against overcurrent and short circuits.
 
-Multiple DC-DC Converters: 
+Multiple DC-DC Converters:
 ++++++++++++++++++++++++++++
 
 +--------------------------+------------------------+
@@ -52,6 +52,32 @@ Description
 ~~~~~~~~~~~~~~~~~~~~~~
 
 The Power Distribution Unit (PDU) V3, designed for the Autoware Autonomous Gokart Team at the University of Pennsylvania, is a highly efficient and versatile power distribution board. The PDU V3 takes input from two 12V batteries and distributes power through various voltage outputs to various devices. The board features a combination of external and in-board isolated DC-DC converters, fuses for overcurrent protection, and XT60 connectors for secure power distribution.
+
+Specification of Board
+++++++++++++++++++++++
+
+
++------------------------+-------------------+
+|               General                      |
++------------------------+-------------------+
+| Board Size             |230.00mmx150.00mm  |
++------------------------+-------------------+
+| Components on board    | 78                |
++------------------------+-------------------+
+|             Routing Information            |
++------------------------+-------------------+
+| Routing completion     | 100.00%           |
++------------------------+-------------------+
+| Connections            | 163               |
++------------------------+-------------------+
+| Connections routed     | 163               |
++------------------------+-------------------+
+|              Layer / Sq.mm                 |
++------------------------+-------------------+
+| Top Layer              | 9891.453          |
++------------------------+-------------------+
+| Bottom Layer           | 32700.357         |
++------------------------+-------------------+
 
 
                     
