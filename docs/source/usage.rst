@@ -80,8 +80,6 @@ Specification of Board
 +------------------------+-------------------+
 
 
-
-
                     
 
 Main Control Subsystem
