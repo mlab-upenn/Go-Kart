@@ -2,8 +2,6 @@ Mechatronics
 =====
 
 
-This is a test edit!!
-
 The go-kart mechatronics system is designed as a modular
 system, consisting of several subsystems that are responsible
 for different tasks. There are six major subsystems: Power
