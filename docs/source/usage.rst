@@ -56,7 +56,7 @@ The Power Distribution Unit (PDU) V3, designed for the Autoware Autonomous Gokar
 .. image:: Gokart_Control_Power_V3.png
 
 3. Specification of Board
-++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 +------------------------+-------------------+
@@ -82,7 +82,8 @@ The Power Distribution Unit (PDU) V3, designed for the Autoware Autonomous Gokar
 +------------------------+-------------------+
 
 
-4. **Layout**
+4. Layout
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: vertopal_89473492f87843d38ce69ba576e4f6e0/media/image2.png
    :width: 7.5in
@@ -100,7 +101,8 @@ circuits or other electrical hazards. Keep the board in a dry and
 well-ventilated area to prevent condensation and overheating.
 
 
-5. **Device**
+5. Devices
+~~~~~~~~~~~~~~~
 
 +----------+-----------+-----------------------------------------------+
 | **Name** | **Unit    | **Purchasing Link**                           |
@@ -183,7 +185,8 @@ well-ventilated area to prevent condensation and overheating.
 
 Table 2. PDU Device and Purchasing Link
 
-6. **Battery Recommendation**
+6. Battery Recommendation
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Input Voltage: Dual 12V batteries
 
@@ -209,7 +212,8 @@ Input Voltage: Dual 12V batteries
 
 -  Power Connectors: XT90
 
-7. **Schematic**
+7. Schematic
+~~~~~~~~~~~~~~~~~~~~~~
 
 ..
 
