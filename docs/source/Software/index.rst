@@ -7,7 +7,7 @@ Software
    :maxdepth: 5
 
    Sensor
-   NUCELO-F439ZI
+   NUCELOF439ZI
    Communication
    MCU
    Compute (Laptop)
