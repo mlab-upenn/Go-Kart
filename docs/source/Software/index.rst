@@ -4,9 +4,10 @@ Software
 =========
 
 .. toctree::
-   :maxdepth: 8
+   :maxdepth: 5
 
+   Sensor
+   NUCELO-F439ZI
    Communication
    MCU
    Compute (Laptop)
-   Sensor System
