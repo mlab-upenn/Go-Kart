@@ -9,3 +9,4 @@ Software
    Communication
    MCU
    Compute (Laptop)
+   Sensor System
