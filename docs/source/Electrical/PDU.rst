@@ -277,10 +277,15 @@ Input Voltage: Dual 12V batteries
    unused ports for future expansion.
 
 
-                    
+Control Systems 
+----------------
+Except the Power Distrubtion System, we still have five control unit, Main Control (MC), User Interface (UI),
+Throttle-by-Wire (TBW), Brake-by-Wire (BBW), and Steerby-Wire (SBW), they make up our control system. 
+
+.. image:: vertopal_89473492f87843d38ce69ba576e4f6e0/media/Control_System_Main.png
 
 Main Control Subsystem
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~
 
                     The MC handles all the driving requests from the high-level 
                     end and sends out those commands (throttle, steering, brake)
