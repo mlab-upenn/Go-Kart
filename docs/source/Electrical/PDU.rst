@@ -217,7 +217,7 @@ Input Voltage: Dual 12V batteries
 
 ..
 
-   .. image:: imgs/Electrical/vertopal_89473492f87843d38ce69ba576e4f6e0/media/image3.png
+   .. image:: vertopal_89473492f87843d38ce69ba576e4f6e0/media/image3.png
       :width: 5.9887in
       :height: 4.07145in
       :scale: 50%
