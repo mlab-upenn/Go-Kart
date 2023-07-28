@@ -53,7 +53,7 @@ Multiple DC-DC Converters:
 
 The Power Distribution Unit (PDU) V3, designed for the Autoware Autonomous Gokart Team at the University of Pennsylvania, is a highly efficient and versatile power distribution board. The PDU V3 takes input from two 12V batteries and distributes power through various voltage outputs to various devices. The board features a combination of external and in-board isolated DC-DC converters, fuses for overcurrent protection, and XT60 connectors for secure power distribution.
 
-.. image:: imgs/Gokart_Control_Power_V3.png
+.. image:: vertopal_89473492f87843d38ce69ba576e4f6e0/media/Gokart_Control_Power_V3.png
 
 3. Specification of Board
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
