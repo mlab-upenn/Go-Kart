@@ -21,6 +21,4 @@ Contents
 
    overview
    api
-   Build-the-Kart/Mechanical/index
-   Build-the-Kart/Electrical/index
-   Build-the-Kart/Software/index
+   Build-the-Kart/index
