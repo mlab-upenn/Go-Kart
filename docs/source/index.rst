@@ -19,7 +19,7 @@ Contents
 
 .. toctree::
 
-   Overview
+   overview
    api
    Build-the-Kart/Mechanical/index
    Build-the-Kart/Electrical/index
