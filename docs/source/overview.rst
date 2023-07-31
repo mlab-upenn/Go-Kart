@@ -8,7 +8,7 @@ Autonomous operation
 =========
 .. raw:: html
 
-   <iframe width="560" height="315" src="https://www.youtube.com/watch?v=6IgGBG_flno&t=246s" frameborder="0" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/watch?v=6IgGBG_flno&t=246s" frameborder="0" allowfullscreen></iframe>
 
 Remote operation
 =========
@@ -20,7 +20,7 @@ Manual operation
 =========
 .. raw:: html
 
-   <iframe width="560" height="315" src="https://www.youtube.com/watch?v=cA9_ItmdoMk" frameborder="0" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/watch?v=cA9_ItmdoMk" frameborder="0" allowfullscreen></iframe>
 
 .. note::
     
