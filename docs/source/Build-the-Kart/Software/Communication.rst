@@ -58,12 +58,12 @@ As we saw in the PDU/wiring section, we have a contactor to prevent the motor su
 
 Protocols 
 =========
-There are a variety of different protocols being used in the entire system. Here we will give a brief overview of why and where the protocols are used.
-**CAN**
-**I2C**
-**UART**
-**Radio**
-**SPI**
+There are a variety of different protocols being used in the entire system. Here we will give a brief overview of why and where the protocols are used. \
+**CAN** \
+**I2C** \
+**UART** 
+**Radio** \
+**SPI** \
 
 Working tips
 =================

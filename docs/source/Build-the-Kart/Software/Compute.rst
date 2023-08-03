@@ -18,7 +18,7 @@ The Go-Kart project has significant planning and other high level navigation com
 
 Laptop
 =========
-The Laptop is the main compute system for the Go-Kart. It is used for running the high level navigation stack and connects to the Nucleo using a USB interface for low level control stack. The laptop is connected to the Go-Kart via ethernet and is powered by a 12V battery. There is also a provision from the PDU to provide power to the laptop's battery so that it can run on high performance as well as not run out at any given time. We are using the MSI __ with GPU ___. The laptop is mounted on the Go-Kart using a laptop mount. The laptop mount is mounted on the rear shelf of the Go-Kart. Below is the system overview. \\
+The Laptop is the main compute system for the Go-Kart. It is used for running the high level navigation stack and connects to the Nucleo using a USB interface for low level control stack. The laptop is connected to the Go-Kart via ethernet and is powered by a 12V battery. There is also a provision from the PDU to provide power to the laptop's battery so that it can run on high performance as well as not run out at any given time. We are using the MSI __ with GPU ___. The laptop is mounted on the Go-Kart using a laptop mount. The laptop mount is mounted on the rear shelf of the Go-Kart. Below is the system overview. \
 
 .. image:: ../imgs/Software/compute.png
    :width: 600
