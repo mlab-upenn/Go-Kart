@@ -15,7 +15,7 @@ The laptop is mounted on the Go-Kart using a laptop mount. The laptop mount is m
 
 .. image:: ../imgs/Software/compute.png
    :width: 600
-   
+
 Sensors
 =========
 The Go-Kart has a variety of sensors which are used for navigation, control and perception. This section will describe the sensors specifically used for navigation and perception. They are : 
@@ -63,7 +63,7 @@ Working tips
 Github
 ==========
 
-Here you can find information about the pre-developed algorithms for the navigation of the Go-kart by the mlab at the University of Pennsylvania:
+Here you can find information about the pre-developed algorithms for the navigation of the Go-kart by the mlab at the University of Pennsylvania.
 
 .. |Link1| raw:: html
 

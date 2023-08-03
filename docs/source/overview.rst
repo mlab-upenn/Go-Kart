@@ -39,7 +39,7 @@ The Gokart is a complex system with many subsystems. The following list gives an
 
 Github
 ==========
-The Gokart is an open source project. The code is hosted on Github. You can find the repositories here:
+The Gokart is an open source project. The code is hosted on Github. You can find the repositories here.
 .. |Link1| raw:: html
 
    <a href="https://github.com/mlab-upenn/gokart-sensor/tree/ros2_foxy_purepursuit">ROS2 Foxy setup and autonomous code</a>
