@@ -12,9 +12,10 @@ Laptop
 The Laptop is the main compute system for the Go-Kart. It is used for running the high level navigation stack and connects to the Nucleo using a USB interface for low level control stack. The laptop is connected to the Go-Kart via ethernet and is powered by a 12V battery. There is also a provision from the PDU to provide power to the laptop's battery so that it can run on high performance as well as not run out at any given time. We are using the MSI __ 
 
 The laptop is mounted on the Go-Kart using a laptop mount. The laptop mount is mounted on the rear shelf of the Go-Kart. 
+
 .. image:: ../imgs/Software/compute.png
    :width: 600
-
+   
 Sensors
 =========
 The Go-Kart has a variety of sensors which are used for navigation, control and perception. This section will describe the sensors specifically used for navigation and perception. They are : 
