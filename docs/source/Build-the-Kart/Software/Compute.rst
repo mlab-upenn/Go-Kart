@@ -2,6 +2,15 @@
 Compute
 ==================================
 
+.. |Link1| raw:: html
+
+   <a href="https://github.com/mlab-upenn/gokart-sensor/tree/ros2_foxy_purepursuit">ROS2 Foxy setup and autonomous code</a>
+
+.. |Link2| raw:: html
+
+   <a href="https://github.com/mlab-upenn/gokart-sensor/tree/ros2_humble_purepursuit">ROS2 Humble setup and autonomous code</a>
+
+
 Introduction
 ============
 
@@ -64,14 +73,6 @@ Github
 ==========
 
 Here you can find information about the pre-developed algorithms for the navigation of the Go-kart by the mlab at the University of Pennsylvania.
-
-.. |Link1| raw:: html
-
-   <a href="https://github.com/mlab-upenn/gokart-sensor/tree/ros2_foxy_purepursuit">ROS2 Foxy setup and autonomous code</a>
-
-.. |Link2| raw:: html
-
-   <a href="https://github.com/mlab-upenn/gokart-sensor/tree/ros2_humble_purepursuit">ROS2 Humble setup and autonomous code</a>
 
 * |Link1|
 * |Link2|

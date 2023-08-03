@@ -2,6 +2,10 @@
 MCU
 ==================================
 
+.. |Link1| raw:: html
+
+   <a href="https://github.com/mlab-upenn/gokart-mechatronics/tree/main/STM32%20Control">STM32 nucleo controller code</a>
+
 Introduction
 ============
 
@@ -34,9 +38,5 @@ Github
 ==========
 All the code required to be flashed on each nucleo is available on our mlab github repository and is maintained by the AVEV team at the University of Pennsylvania.
 
-
-.. |Link1| raw:: html
-
-   <a href="https://github.com/mlab-upenn/gokart-mechatronics/tree/main/STM32%20Control">STM32 nucleo controller code</a>
 
 * |Link1|
