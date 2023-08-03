@@ -37,3 +37,11 @@ The Gokart is a complex system with many subsystems. The following list gives an
 * Brake-by-Wire
 * Throttle-by-Wire
 
+Github
+==========
+The Gokart is an open source project. The code is hosted on Github. You can find the repositories here:
+* `Link STM32 nucleo controller code <https://github.com/mlab-upenn/gokart-mechatronics/tree/main/STM32%20Control>`_
+* `Link ROS2 Foxy setup <https://github.com/mlab-upenn/gokart-sensor/tree/ros2_foxy_purepursuit>`_
+* `Link ROS2 Foxy setup <https://github.com/mlab-upenn/gokart-sensor/tree/ros2_humble_purepursuit>`_
+
+

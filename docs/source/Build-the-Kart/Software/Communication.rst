@@ -46,15 +46,25 @@ Radio
 
 Transmitter-Reciever link
 --------------
-Add data here
+We add a 2.4Ghz Radio link between the remote and the reciever. This is used to control the speed of the go-kart. The remote has a joystick which is used to control the speed of the go-kart. The reciever is connected to the main nucleo F439ZI which then relays the information to the TBW Nucleo sends the information to the motor controller. The motor controller here VESC75/300 then controls the speed of the go-kart. 
+
+.. image:: ../imgs/Software/wifilink.png
+   :width: 600
 
 Safety switch link
 --------------
-Add data here
+As we saw in the PDU/wiring section, we have a contactor to prevent the motor subsystem from getting power. Thus, this safety switch link (also called the Estop) is used to switch the power on/off to the system. There are 2 other switches on the car itself which are a part of this system. However, the Estop supercedes them all. 
+
+**ADD IMAGE HERE**
 
 Protocols 
 =========
 There are a variety of different protocols being used in the entire system. Here we will give a brief overview of why and where the protocols are used.
+**CAN**
+**I2C**
+**UART**
+**Radio**
+**SPI**
 
 Working tips
 =================
@@ -62,8 +72,3 @@ Working tips
 .. warning::
 
    We shall ensure to test communication between each module before we integrate them together. This will ensure that we do not have to debug the entire system at once.
-
-Conclusion
-==========
-
-Add conclusion/ links to other important information here

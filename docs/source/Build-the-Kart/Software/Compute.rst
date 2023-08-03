@@ -9,19 +9,27 @@ The Go-Kart project has significant planning and other high level navigation com
 
 Laptop
 =========
-Add data here
+The Laptop is the main compute system for the Go-Kart. It is used for running the high level navigation stack and connects to the Nucleo using a USB interface for low level control stack. The laptop is connected to the Go-Kart via ethernet and is powered by a 12V battery. There is also a provision from the PDU to provide power to the laptop's battery so that it can run on high performance as well as not run out at any given time. We are using the MSI __ 
+
+The laptop is mounted on the Go-Kart using a laptop mount. The laptop mount is mounted on the rear shelf of the Go-Kart. 
+.. image:: ../imgs/Software/compute.png
+   :width: 600
 
 Sensors
 =========
-Add data here
+The Go-Kart has a variety of sensors which are used for navigation, control and perception. This section will describe the sensors specifically used for navigation and perception. They are : 
 
 LIDAR
 --------------
-Add data here
+The Go-Kart system has an Ouster LIDAR which is used for perception and navigation. The LIDAR is mounted on the rear shelf of the Go-Kart and is used for obstacle detection and avoidance. The LIDAR is also used for localizing the Go-kart on the track by working with SLAM algorithms such as EKF SLAM, GRAPH SLAM and more. The LIDAR is connected to the compute system (aka Laptop) via ethernet.
 
 Camera
 --------------
-Add data here
+We use the OAK-D camera to run perception related tasks on the Go-Kart. It connects to the main compute system using USB.
+GNSS
+--------------
+The Go-Kart system has a GNSS system which is used for localization. The GNSS system is mounted on the rear shelf of the Go-Kart and is used for localization of the Go-Kart on the track. The GNSS system is connected to the compute system (aka Laptop) via USB. The interface and how to setup the communication is described in the readme of the github. Please find the links at the bottom of this page.
+
 
 Software system
 ===============
@@ -54,4 +62,6 @@ Working tips
 Github
 ==========
 
-Here you can find information about the pre-developed algorithms for the navigation of the Go-kart by the mlab at the University of Pennsylvania
+Here you can find information about the pre-developed algorithms for the navigation of the Go-kart by the mlab at the University of Pennsylvania:
+* `Link ROS2 Foxy setup <https://github.com/mlab-upenn/gokart-sensor/tree/ros2_foxy_purepursuit>`_
+* `Link ROS2 Foxy setup <https://github.com/mlab-upenn/gokart-sensor/tree/ros2_humble_purepursuit>`_

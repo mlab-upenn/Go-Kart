@@ -8,7 +8,6 @@ Introduction
 The Go-Kart project involved a bunch of different microcontrollers. Majority of them are from the family of NUCLEO boards.
 
 
-
 Architecture
 =========
 The whole microcontroller architecture is setup using CAN bus communication. There is a main nucleo which communicates with all the other nucleos and relays data according to the high level planning algorithms running on the laptop as well as decisions based on the High level sensors such as the LIDAR and the camera.
@@ -33,4 +32,5 @@ Working tips
 
 Github
 ==========
-All the code required to be flashed on each nucleo is available on our mlab github repository and is maintained by the AVEV team at the University of Pennsylvania.
+All the code required to be flashed on each nucleo is available on our mlab github repository and is maintained by the AVEV team at the University of Pennsylvania:
+* `Link STM32 nucleo controller code <https://github.com/mlab-upenn/gokart-mechatronics/tree/main/STM32%20Control>`_
