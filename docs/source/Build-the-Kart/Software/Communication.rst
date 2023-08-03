@@ -40,8 +40,7 @@ UART is a straightforward serial communication protocol that requires two wires:
 
 Wireless comms
 =========
-Wireless communications are useful for the system in a variety of ways. We have 2 types of wireless communications:
-Radio
+Wireless communications are useful for the system in a variety of ways. We have 2 types of wireless communications.
 
 
 Transmitter-Reciever link

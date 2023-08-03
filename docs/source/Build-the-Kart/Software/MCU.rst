@@ -38,5 +38,4 @@ Github
 ==========
 All the code required to be flashed on each nucleo is available on our mlab github repository and is maintained by the AVEV team at the University of Pennsylvania.
 
-
 * |Link1|
