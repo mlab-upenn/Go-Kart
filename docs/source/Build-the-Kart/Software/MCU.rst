@@ -19,11 +19,13 @@ The whole microcontroller architecture is setup using CAN bus communication. The
 NUCELO F439ZI
 --------------
 The following file has in depth discussion about the NUCELOF439ZI board.
+
 .. include:: NUCELOF439ZI.rst
 
 NUCLEO L423KC
 --------------
 The following file has in depth discussion about the NUCLEOL423KC board.
+
 .. include:: NUCLEOL423KC.rst
 
 

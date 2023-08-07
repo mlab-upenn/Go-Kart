@@ -21,4 +21,5 @@ Contents
 
    overview
    api
+   tutorial
    Build-the-Kart/index
