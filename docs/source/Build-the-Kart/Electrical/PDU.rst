@@ -296,7 +296,7 @@ through a USB to TTL communication.
                     
  
 User Interface Subsystem
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
                     The UI is a customized PCB mounted on the side of the driver’s seat. 
                     It allows the user to select the desired operating mode using the toggle switches. 
@@ -305,7 +305,7 @@ User Interface Subsystem
                     used for user monitoring and interaction.
 
 Throttle-by-Wire Subsystem
----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
                     The UI is a customized PCB mounted on the side of the driver’s seat. 
                     The TBW controls the go-kart’s main drive motor. The TBW’s Nucleo receives 
@@ -322,7 +322,7 @@ Throttle-by-Wire Subsystem
                     in a worst-case system failure.
 
 Steer-by-Wire Subsystem
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~
 
                     The original unmodified go-kart platform uses an alloy shaft to connect the steering wheel 
                     and the front wheel. Steering is made possible entirely through the driver’s torque input. 
