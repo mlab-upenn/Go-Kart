@@ -5,9 +5,9 @@ In this page, we will document the whole process on how to build the Gokart proj
 The tutorial is structured such that the researcher/student looking to build this platform has an overview of the whole system and at the same time deep dive into any particular category of interest at any point in time.
 
 Verions:
-- 1.0: Initial version : Purchased from TopKart [Link]
-- 2.0: 2022 version : Autonomous reactive Gokart 
-- 3.0: 2023 version : Autonomous Gokart 
+* 1.0: Initial version : Purchased from TopKart [Link]
+* 2.0: 2022 version : Autonomous reactive Gokart 
+* 3.0: 2023 version : Autonomous Gokart 
 
 Following steps take you to individual sections of the tutorial:
 
@@ -27,22 +27,28 @@ Following steps take you to individual sections of the tutorial:
     a. Throttle-by-Wire (TBW)
         * Mechanical assembly
         * Electrical assembly
+        * Unit testing
     b. Brake-by-Wire (BBW)
         * Mechanical assembly
         * Electrical assembly
+        * Unit testing
     c. Steering-by-Wire (SBW)
         * Upper Steer Assembly 
             + Mechanical assembly
             + Electrical assembly
+            + Unit testing
         * Lower Steer Assembly
             + Mechanical assembly
             + Electrical assembly
+            + Unit testing
     e. Battery pack
     f. Power Distribution Unit (PDU)
         * Electrical assembly
+        * Unit testing
     g. Rear shelf design (RSD)
         * Mechanical assembly
         * Electrical assembly
+        * Unit testing
 
 5. High level system design
     a. Sensor Assembly
