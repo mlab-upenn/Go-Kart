@@ -1,6 +1,3 @@
-Mechatronics 
-=====
-
 
 The go-kart mechatronics system is designed as a modular
 system, consisting of several subsystems that are responsible
@@ -18,8 +15,8 @@ controller area network (CAN) to allow efficient information
 exchange between nodes. These modular control systems
 are integrated with the original go-kart chassis in a nonintrusive manner and are easy to understand, build, and modify.
 
-Power Distribution Subsystem
------------------------------
+Power Distribution System
+=========================
 
 1. Feature
 ~~~~~~~~~~~~~~~~~~~~~~
