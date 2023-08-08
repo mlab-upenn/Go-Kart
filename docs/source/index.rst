@@ -23,3 +23,4 @@ Contents
    api
    tutorial
    Build-the-Kart/index
+   contact
