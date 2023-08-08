@@ -5,7 +5,6 @@ The Main Control Unit (MCU) stands as the central nerve of the go-kart's electro
 
 
 .. cvs-table:: Bill of Materials for the MCU
-   :header-rows: 1
    :file: cvs/BOM_MCU.csv
    
 .. image:: sch/MCU_sche.png
