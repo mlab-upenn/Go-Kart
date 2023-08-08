@@ -1,0 +1,12 @@
+Comment,Description,Designator,Quantity,Man. Part Number
+
+"282836-3","TERM BLOCK 3POS SIDE ENTRY 5MM","J1, J2","2",""
+"B3B-PH-K","Connector Header Through Hole 3 position 0.079 (2.00mm)","J3","1",""
+"A-DF_09_A_KG-T2S","9 Position D-Sub Receptacle, Female Sockets Connector","J4, J5","2",""
+"66K","","R1","1",""
+"2.5K","","R2","1",""
+"10K","","R3","1",""
+"120","","R4","1",""
+"EG1218","<b>SLIDING SWITCH</b><p> 0.1"" spacing through hole, vertical SPDT slide switch <p>http://www.ladyada.net/library/pcb/eaglelibrary.html</p>","S1","1",""
+"NUCLEO-L432KC","STM32 Nucleo-32 development board with STM32L432KC MCU, supports Arduino connectivity","U1","1",""
+"SN65HVD230QDR","3.3-V CAN Transceiver with Standby Mode 8-SOIC -40 to 125","U2","1",""

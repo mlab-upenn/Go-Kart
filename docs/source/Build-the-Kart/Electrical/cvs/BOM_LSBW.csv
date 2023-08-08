@@ -1,0 +1,10 @@
+Comment,Description,Designator,Quantity,Man. Part Number
+
+"A-DF_09_A_KG-T2S","9 Position D-Sub Receptacle, Female Sockets Connector","J1, J2","2",""
+"826629-8","Conn Unshrouded Header HDR 8 POS 2.54mm Solder ST Thru-Hole Automotive Box","J3","1",""
+"B8B-PH-K-S(LF)(SN)","Connector Header Through Hole 8 position 0.079 _2.00mm_","J4","1",""
+"120","","R1","1",""
+"10K","","R2","1",""
+"EG1218","<b>SLIDING SWITCH</b><p> 0.1"" spacing through hole, vertical SPDT slide switch <p>http://www.ladyada.net/library/pcb/eaglelibrary.html</p>","S1","1",""
+"NUCLEO-L432KC","STM32 Nucleo-32 development board with STM32L432KC MCU, supports Arduino connectivity","U1","1",""
+"SN65HVD230QDR","3.3-V CAN Transceiver with Standby Mode 8-SOIC -40 to 125","U2","1",""

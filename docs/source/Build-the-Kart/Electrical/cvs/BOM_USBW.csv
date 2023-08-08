@@ -1,0 +1,12 @@
+Comment,Description,Designator,Quantity,Man. Part Number
+
+"XT30-M","Plug; DC supply; XT60; male; PIN: 2; for cable; soldered; 30A; 500V","J1","1",""
+"A-DF_09_A_KG-T2S","9 Position D-Sub Receptacle, Female Sockets Connector","J2, J3","2",""
+"Motor Connect","Conn Unshrouded Header HDR 6 POS 2.54mm Solder ST Thru-Hole Automotive Carton","J4","1",""
+"10K","","R1","1",""
+"120","","R2","1",""
+"EG1218","<b>SLIDING SWITCH</b><p> 0.1"" spacing through hole, vertical SPDT slide switch <p>http://www.ladyada.net/library/pcb/eaglelibrary.html</p>","S1","1",""
+"NUCLEO-L432KC","STM32 Nucleo-32 development board with STM32L432KC MCU, supports Arduino connectivity","U1","1",""
+"SN65HVD230QDR","3.3-V CAN Transceiver with Standby Mode 8-SOIC -40 to 125","U2","1",""
+"Motor Driver","Conn Unshrouded Header HDR 8 POS 2.54mm Solder ST Thru-Hole Automotive Box","U3","1",""
+"826629-6","Conn Unshrouded Header HDR 6 POS 2.54mm Solder ST Thru-Hole Automotive Carton","U4","1",""
