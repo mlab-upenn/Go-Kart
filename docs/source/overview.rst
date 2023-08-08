@@ -52,15 +52,10 @@ AV4EV
 As a solution to the above problem, we propose an open design of a one-third scale autonomous go-kart platform based on an existing chassis provided by the company Topkart USA. Our modified go-kart platform supports a flexible range of sensing and computing, is capable of carrying a human driver, and is technically and financially friendly to universities and research institutions. This platform fills the gap between RC cars and full scale vehicular platforms,  while extending the research scope from modular pipeline development in racing competitions to end-to-end sensing and control outputs. In addition, it is paramount to provide not only a physical platform but also a development workflow that bridges this same gap. If a bridge platform’s software and workflow is too far removed from its full scale counterpart, the resources necessary vis-`a-vis developer effort, porting time, testing overhead, etc. can reduce inherent value provided by the bridge platform. As such, this work focuses on supporting repeatable development, testing, and deployment workflows for the go-kart platform software, including the base sys- tem, middleware and packages, the application layers and a simulation environment. This is achieved by focusing on modular containerized solutions which provide rich configu- ration options to citizen developers for a variety of use cases. This software-defined vehicle (SDV) approach is such that an application deployed on the go-kart can be used on another physical platform entirely (e.g. scooter, forklift, automobile) without having to build new applications from the ground up. 
 
 This works makes the following contributions -
-1. It is the first attempt in an effort of establishing a
-standardized open design for modular electrical vehicle
-platforms.
-2. It provides a complete sensing solution and open-source
-software to perform autonomous vehicle related percep-
-tion, localization, planning, and control tasks.
-3. It provides an open-standard hardware solution to adapt a
-one-third scale go-kart chassis to fulfill the gap between
-autonomous RC cars and full size vehicles.
+
+1. It is the first attempt in an effort of establishing a standardized open design for modular electrical vehicle platforms. 
+2. It provides a complete sensing solution and open-source software to perform autonomous vehicle related perception, localization, planning, and control tasks.
+3. It provides an open-standard hardware solution to adapt a one-third scale go-kart chassis to fulfill the gap between autonomous RC cars and full size vehicles.
 
 Overview
 =========

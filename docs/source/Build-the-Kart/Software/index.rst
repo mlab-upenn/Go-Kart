@@ -8,4 +8,5 @@ Software
 
    MCU
    Compute
+   Control
    Communication
