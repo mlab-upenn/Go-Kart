@@ -4,12 +4,11 @@ Main Control Subsystem
 The Main Control Unit (MCU) stands as the central nerve of the go-kart's electronic framework. Its primary function is to coordinate all sub-systems, ensuring smooth and cohesive operations. The MCU's processor interfaces directly with the CAN bus, serving as the hub for both incoming and outgoing data transmissions. Notably, it collects, processes, and disseminates a multitude of data points, ranging from throttle input to motor parameters and speed sensor feedback. This data is crucial for the calibration and adjustment of several control algorithms, including the PID control for speed regulation. Furthermore, the MCU regulates power distribution across the kart, ensuring optimal energy management. An intrinsic safety feature within the MCU is its capability to detect anomalies in real-time and engage contingency measures. For instance, it can autonomously cut off power or apply brakes under predefined risk scenarios. Beyond real-time operations, the MCU also stores data logs for post-operation analysis, facilitating continuous improvement and troubleshooting.
 
 
-.. cvs-table::
+.. cvs-table::Bill of Materials for the MCU
    :header-rows: 1
    :file: cvs/BOM_MCU.csv
    :widths: 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
    :align: center
-   table1: Bill of Materials for the MCU
    
 .. image:: sch/MCU_sche.png
     :width: 6.53267in
