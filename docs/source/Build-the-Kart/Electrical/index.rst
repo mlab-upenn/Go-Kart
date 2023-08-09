@@ -30,4 +30,5 @@ are integrated with the original go-kart chassis in a nonintrusive manner and ar
    PDU
    Switch
    sensor
+   Control
    

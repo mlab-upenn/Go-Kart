@@ -50,7 +50,7 @@ Multiple DC-DC Converters:
 
 The Power Distribution Unit (PDU) V3, designed for the Autoware Autonomous Gokart Team at the University of Pennsylvania, is a highly efficient and versatile power distribution board. The PDU V3 takes input from two 12V batteries and distributes power through various voltage outputs to various devices. The board features a combination of external and in-board isolated DC-DC converters, fuses for overcurrent protection, and XT60 connectors for secure power distribution.
 
-.. image:: vertopal_89473492f87843d38ce69ba576e4f6e0/media/Gokart_Control_Power_V3.png
+.. image:: img/Gokart_Control_Power_V3.png
 
 3. Specification of Board
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -82,7 +82,7 @@ The Power Distribution Unit (PDU) V3, designed for the Autoware Autonomous Gokar
 4. Layout
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: vertopal_89473492f87843d38ce69ba576e4f6e0/media/image2.png
+.. image:: img/image2.png
    :width: 7.5in
    :height: 4.89583in
 Figure 1. Layout of Power Distrubution Board
@@ -214,7 +214,7 @@ Input Voltage: Dual 12V batteries
 
 ..
 
-   .. image:: vertopal_89473492f87843d38ce69ba576e4f6e0/media/image3.png
+   .. image:: img/image3.png
       :width: 5.9887in
       :height: 4.07145in
       :scale: 50%
@@ -222,7 +222,7 @@ Input Voltage: Dual 12V batteries
    Figure 2. External non-isolated DC-DC converter (24V, 10A) with 4
    ports for Peplink LTE and three additional unused ports
 
-   .. image:: vertopal_89473492f87843d38ce69ba576e4f6e0/media/image4.png
+   .. image:: im g/image4.png
       :width: 6.46011in
       :height: 1.89552in
       :scale: 50%
@@ -230,7 +230,7 @@ Input Voltage: Dual 12V batteries
    Figure 3. External non-isolated DC-DC converter (19V, 15A) with 1
    port for Laptop Charger.
 
-   .. image:: vertopal_89473492f87843d38ce69ba576e4f6e0/media/image5.png
+   .. image:: img/image5.png
       :width: 6.53267in
       :height: 4.30461in
       :scale: 50%
@@ -239,7 +239,7 @@ Input Voltage: Dual 12V batteries
    ports for PWM-VCC Converter, Brake Pressure Sensor, and two unused
    ports.
 
-   .. image:: vertopal_89473492f87843d38ce69ba576e4f6e0/media/image6.png
+   .. image:: img/image6.png
       :width: 6.52378in
       :height: 5.58831in
       :scale: 50%
@@ -247,7 +247,7 @@ Input Voltage: Dual 12V batteries
    Figure 5. In-board isolated DC-DC converter (5V, 4A) with 6 ports for
    MC, USBW, LSBW, BBW, UI, and Ethernet Switch.
 
-   .. image:: vertopal_89473492f87843d38ce69ba576e4f6e0/media/image7.png
+   .. image:: img/image7.png
       :alt: Diagram Description automatically generated
       :width: 6.5202in
       :height: 2.53233in
@@ -256,7 +256,7 @@ Input Voltage: Dual 12V batteries
    Figure 6. In-board isolated DC-DC converter (24V, 1.25A) with 1 port
    for Ouster LIDAR system.
 
-   .. image:: vertopal_89473492f87843d38ce69ba576e4f6e0/media/image8.png
+   .. image:: img/image8.png
       :alt: Diagram, schematic Description automatically generated
       :width: 7.5in
       :height: 2.84097in
@@ -265,7 +265,7 @@ Input Voltage: Dual 12V batteries
    Figure 7. In-board isolated DC-DC converter (12V, 2.5A) with 1 port
    for Velodyne LIDAR system.
 
-   .. image:: vertopal_89473492f87843d38ce69ba576e4f6e0/media/image9.png
+   .. image:: img/image9.png
       :width: 7.5in
       :height: 4.3375in
       :scale: 50%
