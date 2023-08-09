@@ -9,7 +9,7 @@ Steer-by-Wire Subsystem
 
 Upper Steer-by-Wire 
 ~~~~~~~~~~~~~~~~~~~~
-                    The USbW is a unique PCB mounted near the steering column. This module controls the go-kart's steering mechanism. 
+The USbW is a unique PCB mounted near the steering column. This module controls the go-kart's steering mechanism. 
 The USbW’s Nucleo receives the desired steering angle from the CAN bus and sends out the current steering position. 
 Angle measurement is done using a rotary encoder fitted directly to the steering shaft. Steering control is 
 implemented using a closed-loop PID control. The Nucleo outputs a PWM signal, which is then converted into a 

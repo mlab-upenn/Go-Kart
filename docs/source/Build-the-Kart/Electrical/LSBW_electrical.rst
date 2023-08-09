@@ -1,11 +1,11 @@
 Steer-by-Wire Subsystem
 ---------------------------
 
-                    The original unmodified go-kart platform uses an alloy shaft to connect the steering wheel 
-                    and the front wheel. Steering is made possible entirely through the driver’s torque input. 
-                    In order to provide an autonomous mode, a motor must be added to actuate the steering. Several 
-                    design ideas have been composed: one attempt was to mount the motor parallel to the steering shaft 
-                    and use a belt or chain for motion transmission.
+The original unmodified go-kart platform uses an alloy shaft to connect the steering wheel 
+and the front wheel. Steering is made possible entirely through the driver’s torque input. 
+In order to provide an autonomous mode, a motor must be added to actuate the steering. Several 
+design ideas have been composed: one attempt was to mount the motor parallel to the steering shaft 
+and use a belt or chain for motion transmission.
 
 Lower Steer-by-Wire 
 ~~~~~~~~~~~~~~~~~~~~
