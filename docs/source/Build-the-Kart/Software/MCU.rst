@@ -26,7 +26,7 @@ NUCLEO L423KC
 --------------
 The following file has in depth discussion about the NUCLEOL423KC board.
 
-:doc:`NUCLEOL423KC``
+:doc:`NUCLEOL423KC`
 
 
 Working tips
