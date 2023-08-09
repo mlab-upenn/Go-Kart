@@ -15,7 +15,7 @@ Bill of Materials: https://docs.google.com/spreadsheets/d/1DgbnX_rlhYMLlgsNeylGj
    :align: center
 img1: schematic of the  rake-by-wire subsystem 
 
-.. image:: img/U、BBW_PCB.png
+.. image:: img/BBW_PCB.png
    :scale: 30%
    :align: center
 
