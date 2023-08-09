@@ -4,15 +4,14 @@ Tutorial
 In this page, we will document the whole process on how to build the Gokart project from scratch. We will go through the whole Electrical & Mechanical pipeline and then move on to testing the stack by running pre-build software algorithms.
 The tutorial is structured such that the researcher/student looking to build this platform has an overview of the whole system and at the same time deep dive into any particular category of interest at any point in time.
 
-Verions - 
-
+Versions - 
 * 1.0: Initial version : Purchased from TopKart [Link]
 * 2.0: 2022 version : Autonomous reactive Gokart 
 * 3.0: 2023 version : Autonomous Gokart 
 
 Following steps take you to individual sections of the tutorial:
 
-1. **Step 1 ** :doc:`bom`    
+1. **Step 1** :doc:`Bom`    
     
 2. **Step 2** :doc:`soft_req`
 
@@ -32,15 +31,15 @@ Following steps take you to individual sections of the tutorial:
     e. Remove steering system
 
 4. **Step 4** : Subsystem designs 
-    a. :doc:`TBW` (TBW) 
+    a. :doc:`Build-the-Kart/TBW` (TBW) 
         * Mechanical assembly
         * Electrical assembly
         * Unit testing
-    b. :doc:`BBW` (BBW)
+    b. :doc:`Build-the-Kart/BBW` (BBW)
         * Mechanical assembly
         * Electrical assembly
         * Unit testing
-    c. :doc:`SBW` (SBW)
+    c. :doc:`Build-the-Kart/SBW` (SBW)
         * Upper Steer Assembly 
             + Mechanical assembly
             + Electrical assembly
@@ -59,9 +58,9 @@ Following steps take you to individual sections of the tutorial:
         * Unit testing
 
 5. **Step 5** : Vehicle System Integration - Putting it all together!
-    a. :doc:`Compute`
-    b. :doc:`Communication`
-    c. :doc:`MCU`
-    d. :doc:`Control`
+    a. :doc:`Build-the-Kart/Software/Compute`
+    b. :doc:`Build-the-Kart/Software/Communication`
+    c. :doc:`Build-the-Kart/Software/MCU`
+    d. :doc:`Build-the-Kart/Software/Control`
 
 6. **Step 6 : Testing**
