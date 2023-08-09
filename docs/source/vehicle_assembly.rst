@@ -8,8 +8,8 @@ The document describes the assembly of the TopKart vehicle. The assembly is divi
 -------------------
 The main chassis that we will be using will be from TopKart. You can find additional data and which compenents you would be needing in the BOM section. The assembly of the chassis is pretty straight forward and can be done by following the instructions in the manual. There are also videos from the manufacturer and it is advised that you watch them before starting the assembly.
 
-[TopKart setup guide](topkartusa.net/adult-setup-guide/)
-[How to videos](https://www.youtube.com/playlist?list=PLrHWloGpgEJ33L9B9TJtqOFAmeYjiv5M-)
+`TopKart setup guide<topkartusa.net/adult-setup-guide/>`_
+`How to videos<https://www.youtube.com/playlist?list=PLrHWloGpgEJ33L9B9TJtqOFAmeYjiv5M->`_
 
 2. Test manual control
 -------------------
