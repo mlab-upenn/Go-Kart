@@ -54,16 +54,15 @@ Safety switch link
 --------------
 As we saw in the PDU/wiring section, we have a contactor to prevent the motor subsystem from getting power. Thus, this safety switch link (also called the Estop) is used to switch the power on/off to the system. There are 2 other switches on the car itself which are a part of this system. However, the Estop supercedes them all. 
 
-**ADD IMAGE HERE**
-
 Protocols 
 =========
 There are a variety of different protocols being used in the entire system. Here we will give a brief overview of why and where the protocols are used. \
-**CAN** \
-**I2C** \
-**UART** 
-**Radio** \
-**SPI** \
+
+* **CAN** \
+* **I2C** \
+* **UART** 
+* **Radio** \
+* **SPI** \
 
 Working tips
 =================
