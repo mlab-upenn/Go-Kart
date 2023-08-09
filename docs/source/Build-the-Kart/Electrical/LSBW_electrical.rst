@@ -18,7 +18,6 @@ The LSBW is an advanced steering control mechanism, devoid of any mechanical lin
    :scale: 50%
    :align: center
 
-.. class:: center
 
 img1: schematic of the lower steer-by-wire subsystem   
    
@@ -26,7 +25,7 @@ img1: schematic of the lower steer-by-wire subsystem
    :scale: 50%
    :align: center
 
-.. class:: center
+ 
 
 img2: PCB of the lower steer-by-wire subsystem 
 

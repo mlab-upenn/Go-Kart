@@ -83,7 +83,7 @@ The Power Distribution Unit (PDU) V3, designed for the Autoware Autonomous Gokar
    :height: 4.89583in
 
    
-.. class:: center
+ 
 
 Figure 1. Layout of Power Distrubution Board
 

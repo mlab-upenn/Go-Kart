@@ -24,7 +24,7 @@ an electronic malfunction.
       :scale: 30%
       :align: center
 
-.. class:: center
+ 
 
 img1: schematic of upper-steer-by-wire
 
@@ -32,7 +32,7 @@ img1: schematic of upper-steer-by-wire
       :scale: 30%
       :align: center
 
-.. class:: center
+ 
 
 img2: PCB of upper-steer-by-wire
 

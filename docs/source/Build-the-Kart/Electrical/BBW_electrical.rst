@@ -14,15 +14,15 @@ The UBBW is a sophisticated braking control system without any mechanical connec
    :scale: 30%
    :align: center
 
-.. class:: center
+ 
    
-img1: schematic of the  rake-by-wire subsystem 
+img1: schematic of the Brake-by-wire subsystem 
 
 .. image:: img/BBW_PCB.png
    :scale: 30%
    :align: center
 
-.. class:: center
+ 
 
 img2: PCB of the brake-by-wire subsystem 
 

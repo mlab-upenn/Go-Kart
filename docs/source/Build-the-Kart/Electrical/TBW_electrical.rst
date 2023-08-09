@@ -9,7 +9,7 @@ The TBW is a specially-designed PCB mounted on the side of the driver’s seat, 
    :scale: 50%
    :align: center
 
-.. class::center
+ 
 
 Figure 1: Schematic of Throttle by Wire
 
@@ -18,7 +18,7 @@ Figure 1: Schematic of Throttle by Wire
    :scale: 50%
    :align: center
 
-.. class::center
+ 
 
 Figure 2: PCB of Throttle by Wire
 
