@@ -19,4 +19,5 @@ Link mechanical
 
 Electrical Assembly
 =========
-Link electrical
+
+:doc:`Build-the-Kart/Electrical/TBW_electrical`
