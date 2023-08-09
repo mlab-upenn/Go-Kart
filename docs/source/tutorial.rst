@@ -7,7 +7,12 @@ The tutorial is structured such that the researcher/student looking to build thi
 Versions 
 -----------------
 
-* 1.0: Initial version : Purchased from TopKart [Link]
+* 1.0: Initial version : Purchased from TopKart 
+
+.. image:: Build-the-Kart/imgs/topkart.png
+   :width: 400
+   :alt: TopKart
+   
 * 2.0: 2022 version : Autonomous reactive Gokart 
 * 3.0: 2023 version : Autonomous Gokart 
 
