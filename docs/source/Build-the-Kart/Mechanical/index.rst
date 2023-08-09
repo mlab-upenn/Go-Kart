@@ -9,7 +9,7 @@ Mechanical
    BBW
    TBW
    SBW
-   power
+   power_mechanical
    Rear shelf
    Chasis
    Tires
