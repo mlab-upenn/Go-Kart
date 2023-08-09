@@ -34,7 +34,11 @@ DX6 2.4GHz radio to send the driving commands, which are received by the MC usin
 autonomous mode, the command is transmitted from a highlevel computing unit such as a laptop or a specialized onboard computer, 
 through a USB to TTL communication. 
                                         
-                 
+Switches
+------------------
+
+.. image:: img/switch.png
+   :align: center
 
 
 .. toctree::
