@@ -24,6 +24,7 @@ are integrated with the original go-kart chassis in a nonintrusive manner and ar
 All Codes and PCBs are in the Github Link:
 https://github.com/mlab-upenn/gokart-mechatronics
 
+
 The MC handles all the driving requests from the high-level end and sends out those commands (throttle, steering, brake)
 on the CAN bus. It serves as an interface between the go-kart mechatronic system and the end user. Three different operation
 modes are supported: manual, remote, and autonomous. In the manual mode, input is read from the steering wheel, throttle,
