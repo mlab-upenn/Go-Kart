@@ -6,6 +6,7 @@ The Main Control Unit (MCU) stands as the central nerve of the go-kart's electro
 
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRZZDkJWJ2AVeK2zfZGB6nN9OaczO2R5U1_POuPbJ8A-rC85YGT6YFQpldQqzQJK7CeOg0jZNNDzFv4/pubhtml?gid=93120902&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
+=======
 .. image:: sch/MCU_sche.png
     :width: 6.53267in
     :height: 4.30461in
