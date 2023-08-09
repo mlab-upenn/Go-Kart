@@ -1,4 +1,7 @@
 
+Power Distribution System
+=========================
+
 The go-kart mechatronics system is designed as a modular
 system, consisting of several subsystems that are responsible
 for different tasks. There are six major subsystems: Power
@@ -14,9 +17,6 @@ modern vehicle design, communication is achieved using the
 controller area network (CAN) to allow efficient information
 exchange between nodes. These modular control systems
 are integrated with the original go-kart chassis in a nonintrusive manner and are easy to understand, build, and modify.
-
-Power Distribution System
-=========================
 
 1. Feature
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -42,7 +42,7 @@ Multiple DC-DC Converters:
 | Isolated LIDAR 24V       | Isolated LIDAR 12V     |
 | Converter                | Converter              |
 +--------------------------+------------------------+
-| Isolated 3.3V Converter  |                        |
+| Isolated 3.3V Converter  |        -               |
 +--------------------------+------------------------+
 
 2. Description
@@ -57,13 +57,9 @@ The Power Distribution Unit (PDU) V3, designed for the Autoware Autonomous Gokar
 
 
 +------------------------+-------------------+
-|               General                      |
-+------------------------+-------------------+
 | Board Size             |230.00mmx150.00mm  |
 +------------------------+-------------------+
 | Components on board    | 78                |
-+------------------------+-------------------+
-|             Routing Information            |
 +------------------------+-------------------+
 | Routing completion     | 100.00%           |
 +------------------------+-------------------+
@@ -71,7 +67,7 @@ The Power Distribution Unit (PDU) V3, designed for the Autoware Autonomous Gokar
 +------------------------+-------------------+
 | Connections routed     | 163               |
 +------------------------+-------------------+
-|              Layer / Sq.mm                 |
+|              **Layer / Sq.mm**             |
 +------------------------+-------------------+
 | Top Layer              | 9891.453          |
 +------------------------+-------------------+
@@ -85,9 +81,15 @@ The Power Distribution Unit (PDU) V3, designed for the Autoware Autonomous Gokar
 .. image:: img/image2.png
    :width: 7.5in
    :height: 4.89583in
+
+   
+.. class:: center
+
 Figure 1. Layout of Power Distrubution Board
 
-Note: This product should be installed and operated by qualified
+.. note::
+
+This product should be installed and operated by qualified
 personnel only. Ensure proper input voltage is supplied to the board to
 avoid damage to the components. For additional protection, use a
 separate surge protector or voltage regulator. Do not exceed the maximum
@@ -217,7 +219,7 @@ Input Voltage: Dual 12V batteries
    .. image:: img/image3.png
       :width: 5.9887in
       :height: 4.07145in
-      :scale: 50%
+      :scale: 70%
 
    Figure 2. External non-isolated DC-DC converter (24V, 10A) with 4
    ports for Peplink LTE and three additional unused ports
@@ -225,7 +227,7 @@ Input Voltage: Dual 12V batteries
    .. image:: im g/image4.png
       :width: 6.46011in
       :height: 1.89552in
-      :scale: 50%
+      :scale: 70%
 
    Figure 3. External non-isolated DC-DC converter (19V, 15A) with 1
    port for Laptop Charger.
@@ -233,7 +235,7 @@ Input Voltage: Dual 12V batteries
    .. image:: img/image5.png
       :width: 6.53267in
       :height: 4.30461in
-      :scale: 50%
+      :scale: 70%
 
    Figure 4. External non-isolated DC-DC converter (12V, 20A) with 4
    ports for PWM-VCC Converter, Brake Pressure Sensor, and two unused
@@ -242,7 +244,7 @@ Input Voltage: Dual 12V batteries
    .. image:: img/image6.png
       :width: 6.52378in
       :height: 5.58831in
-      :scale: 50%
+      :scale: 70%
 
    Figure 5. In-board isolated DC-DC converter (5V, 4A) with 6 ports for
    MC, USBW, LSBW, BBW, UI, and Ethernet Switch.
@@ -251,7 +253,7 @@ Input Voltage: Dual 12V batteries
       :alt: Diagram Description automatically generated
       :width: 6.5202in
       :height: 2.53233in
-      :scale: 50%
+      :scale: 70%
 
    Figure 6. In-board isolated DC-DC converter (24V, 1.25A) with 1 port
    for Ouster LIDAR system.
@@ -260,7 +262,7 @@ Input Voltage: Dual 12V batteries
       :alt: Diagram, schematic Description automatically generated
       :width: 7.5in
       :height: 2.84097in
-      :scale: 50%
+      :scale: 70%
 
    Figure 7. In-board isolated DC-DC converter (12V, 2.5A) with 1 port
    for Velodyne LIDAR system.
@@ -268,7 +270,7 @@ Input Voltage: Dual 12V batteries
    .. image:: img/image9.png
       :width: 7.5in
       :height: 4.3375in
-      :scale: 50%
+      :scale: 70%
 
    Figure 8. In-board isolated DC-DC converter (3.3V, 2.4A) with 2
    unused ports for future expansion.

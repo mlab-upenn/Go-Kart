@@ -13,16 +13,21 @@ Lower Steer-by-Wire
 
 The LSBW is an advanced steering control mechanism, devoid of any mechanical linkage between the steering wheel and the vehicle's wheels. Instead, it employs electronic controllers, actuators, and sensors to provide the necessary steering feedback and control. The SBW's Nucleo interfaces with the CAN bus to receive desired steering angles and to transmit current steering data. It utilizes the provided configuration settings, especially from SPI1 for external communications and CAN1 for internal communications. An essential design component is the emergency steering mechanism that ensures the driver can override the system manually in case of any malfunction.
 
-Bill of Materials: https://docs.google.com/spreadsheets/d/1CsiUmrrMaJ-pRY2qe5Y_F48-POgX1hK238BuJREWO30/edit?usp=drive_link
+`Bill of Materials <https://docs.google.com/spreadsheets/d/1CsiUmrrMaJ-pRY2qe5Y_F48-POgX1hK238BuJREWO30/edit?usp=drive_link>`_
 
 .. image:: sch/LSBW_sche.png
-   :scale: 30%
+   :scale: 50%
    :align: center
+
+.. class:: center
+
 img1: schematic of the lower steer-by-wire subsystem   
    
 .. image:: img/LSBW_PCB.png
-   :scale: 30%
+   :scale: 50%
    :align: center
+
+.. class:: center
 
 img2: PCB of the lower steer-by-wire subsystem 
 

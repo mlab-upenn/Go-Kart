@@ -18,15 +18,22 @@ steering angle. An additional feature is the manual override, allowing the drive
 instantly. This feature uses a toggle switch and bypasses the electronic system, ensuring safety in the event of 
 an electronic malfunction.
 
-Bill of Materials: https://docs.google.com/spreadsheets/d/1cxs_lTEWQj0czenRu5Ci73MoizaH6_svsTEhqSam2Ew/edit?usp=drive_link
+`Bill of Materials <https://docs.google.com/spreadsheets/d/1cxs_lTEWQj0czenRu5Ci73MoizaH6_svsTEhqSam2Ew/edit?usp=drive_link>`_
 
 .. image:: sch/USBW_sche.png
       :scale: 30%
       :align: center
+
+.. class:: center
+
 img1: schematic of upper-steer-by-wire
+
 .. image:: img/USBW_PCB.png
       :scale: 30%
       :align: center
+
+.. class:: center
+
 img2: PCB of upper-steer-by-wire
 
 Code Structure Overview

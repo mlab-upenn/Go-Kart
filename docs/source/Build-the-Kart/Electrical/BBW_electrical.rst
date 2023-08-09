@@ -8,16 +8,21 @@ Brake-by-Wire
 
 The UBBW is a sophisticated braking control system without any mechanical connection between the brake pedal and the vehicle's braking mechanisms. This system incorporates electronic controllers, actuators, and sensors to give necessary braking feedback and control. The BBW's Nucleo interfaces with the CAN bus to receive desired braking intensities and transmit current braking data. It uses the settings from SPI2 for external communications and CAN2 for internal communications. One of the vital components of this design is the emergency braking mechanism that allows the driver to manually override the system in any failure scenario.
 
-Bill of Materials: https://docs.google.com/spreadsheets/d/1DgbnX_rlhYMLlgsNeylGjvJf8VsjunWTmRLXtc9lVjU/edit?usp=sharing
+`Bill of Materials <https://docs.google.com/spreadsheets/d/1DgbnX_rlhYMLlgsNeylGjvJf8VsjunWTmRLXtc9lVjU/edit?usp=sharing>`_
 
 .. image:: sch/BBW_sche.png
    :scale: 30%
    :align: center
+
+.. class:: center
+   
 img1: schematic of the  rake-by-wire subsystem 
 
 .. image:: img/BBW_PCB.png
    :scale: 30%
    :align: center
+
+.. class:: center
 
 img2: PCB of the brake-by-wire subsystem 
 

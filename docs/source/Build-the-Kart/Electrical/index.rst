@@ -23,8 +23,7 @@ are integrated with the original go-kart chassis in a nonintrusive manner and ar
 .. image:: img/Control_System_Main.png
 
 
-All Codes and PCBs are in the Github Link:
-https://github.com/mlab-upenn/gokart-mechatronics
+All Codes and PCBs are in the `Github Link <https://github.com/mlab-upenn/gokart-mechatronics>`_
 
 
 The MC handles all the driving requests from the high-level end and sends out those commands (throttle, steering, brake)
@@ -41,11 +40,9 @@ through a USB to TTL communication.
 .. toctree::
    :maxdepth: 6
 
-   BBW_electrical
-   TBW_electrical
-   LSBW_electrical
-   USBW_electrical
-   TBW_electrical
-   MCU_electrical
-   Power
    PDU   
+   MCU_electrical
+   TBW_electrical
+   BBW_electrical
+   USBW_electrical
+   LSBW_electrical
