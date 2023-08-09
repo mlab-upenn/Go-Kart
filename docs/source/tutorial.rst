@@ -15,7 +15,7 @@ Versions
    
 * 2.0: 2022 version : Autonomous reactive Gokart 
 
-.. image:: Build-the-Kart/imgs/av_comp.jpeg
+.. image:: Build-the-Kart/imgs/av_comp.png
    :width: 500
    :alt: AVEV
 
