@@ -20,7 +20,6 @@ Contents
 .. toctree::
 
    overview
-   api
    tutorial
    Build-the-Kart/index
    contact

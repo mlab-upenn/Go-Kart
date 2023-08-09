@@ -20,13 +20,13 @@ NUCELO F439ZI
 --------------
 The following file has in depth discussion about the NUCELOF439ZI board.
 
-.. include:: NUCELOF439ZI.rst
+:doc:`NUCELOF439ZI`
 
 NUCLEO L423KC
 --------------
 The following file has in depth discussion about the NUCLEOL423KC board.
 
-.. include:: NUCLEOL423KC.rst
+:doc:`NUCLEOL423KC``
 
 
 Working tips

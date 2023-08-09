@@ -12,30 +12,30 @@ Verions -
 
 Following steps take you to individual sections of the tutorial:
 
-1. **Step 1 : Bill of Materials (BOM)**
-2. **Step 2** : Software Requirements
+1. **Step 1 : Bill of Materials (BOM)** :doc:`bom`.
+2. **Step 2** : Software Requirements :doc:`soft_req`.
     a. SolidWorks
     b. VSCode or editor of your choice
     c. STM32CubeIDE
     d. VESC tool
     e. Altium Designer
     f. 3D printer software like MakerBot
-3. **Step 3** : Vehicle assembly
+3. **Step 3** : Vehicle assembly :doc:`vehicle_assembly`.
     a. Build the TopKart
     b. Test manual control
     c. Remove the motor
     d. Remove the front and rear plastic bumps
     e. Remove steering system
-4. **Step 4** : Subsystem designs
-    a. Throttle-by-Wire (TBW)
+4. **Step 4** : Subsystem designs 
+    a. Throttle-by-Wire (TBW) :doc:`TBW`
         * Mechanical assembly
         * Electrical assembly
         * Unit testing
-    b. Brake-by-Wire (BBW)
+    b. Brake-by-Wire (BBW) :doc:`BBW`
         * Mechanical assembly
         * Electrical assembly
         * Unit testing
-    c. Steering-by-Wire (SBW)
+    c. Steering-by-Wire (SBW) :doc:`SBW`
         * Upper Steer Assembly 
             + Mechanical assembly
             + Electrical assembly
@@ -54,9 +54,9 @@ Following steps take you to individual sections of the tutorial:
         * Unit testing
 
 5. **Step 5** : Vehicle System Integration - Putting it all together!
-    a. Sensor Assembly
-    b. Communication 
-    c. Control System 
-    d. MCU
+    a. Compute and Sensing :doc:`Compute`
+    b. Communication :doc:`Communication`
+    c. MCU :doc:`MCU`
+    d. Controllers  & :doc:`Control`
 
 6. **Step 6 : Testing**
