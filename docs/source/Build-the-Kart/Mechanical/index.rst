@@ -9,8 +9,8 @@ Mechanical
    BBW
    TBW
    SBW
-   Power
+   power
    Rear shelf
    Chasis
    Tires
-   Miscelaneous mounts
+   Miscellaneous mounts
