@@ -35,28 +35,28 @@ Following steps take you to individual sections of the tutorial:
 4. **Step 4** : Subsystem designs 
     a. :doc:`Build-the-Kart/TBW` (TBW) 
         * Mechanical assembly
-        * Electrical assembly
+        * :doc:`Build-the-Kart/Electrical/TBW_electrical`
         * Unit testing
     b. :doc:`Build-the-Kart/BBW` (BBW)
         * Mechanical assembly
-        * Electrical assembly
+        * :doc:`Build-the-Kart/Electrical/BBW_electrical`
         * Unit testing
     c. :doc:`Build-the-Kart/SBW` (SBW)
         * Upper Steer Assembly 
             + Mechanical assembly
-            + Electrical assembly
+            + :doc:`Build-the-Kart/Electrical/USBW_electrical`
             + Unit testing
         * Lower Steer Assembly
             + Mechanical assembly
-            + Electrical assembly
+            + :doc:`Build-the-Kart/Electrical/LSBW_electrical`
             + Unit testing
+    d. :doc:`Build-the-Kart/Electrical/MCU_electrical` (Main Control Unit)
     e. **Battery pack**
     f. Power Distribution Unit (PDU)
-        * Electrical assembly
+        * :doc:`Build-the-Kart/Electrical/PDU`
         * Unit testing
     g. Rear shelf design (RSD)
         * Mechanical assembly
-        * Electrical assembly
         * Unit testing
 
 5. **Step 5** : Vehicle System Integration - Putting it all together!
