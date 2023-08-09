@@ -1,4 +1,4 @@
-Brake-by-Wire Subsystem
+Brake-by-Wire Electrical Subsystem
 -----------------------
 
 Traditional braking systems use a hydraulic mechanism to decelerate a vehicle. The Brake-by-Wire (BBW) system replaces this with electronic controls to provide braking functionalities. This electronic braking mechanism ensures that the braking process is more precise, efficient, and adaptable to various driving conditions.
