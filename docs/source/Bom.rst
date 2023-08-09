@@ -7,4 +7,4 @@ Here you can find detailed information about the components used in the project.
 
 .. raw:: html
 
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vThDq15NFFCPsW7wSXZIDBVcDGm32J687Vo4Zo9CLA4P5X7qVhGmaOgos5Gkoe0JIUVcRPlUYsKZ4vx/pubhtml?widget=true&amp;headers=false"></iframe>
+    <iframe width="560" height="315" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vThDq15NFFCPsW7wSXZIDBVcDGm32J687Vo4Zo9CLA4P5X7qVhGmaOgos5Gkoe0JIUVcRPlUYsKZ4vx/pubhtml?widget=true&amp;headers=false"></iframe>
