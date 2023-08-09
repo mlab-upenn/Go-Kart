@@ -14,7 +14,16 @@ Versions
    :alt: TopKart
    
 * 2.0: 2022 version : Autonomous reactive Gokart 
+
+.. image:: Build-the-Kart/imgs/av_comp.jpeg
+   :width: 400
+   :alt: AVEV
+
 * 3.0: 2023 version : Autonomous Gokart 
+
+.. image:: Build-the-Kart/imgs/avev_gokart.png
+   :width: 400
+   :alt: AVEV
 
 Following steps take you to individual sections of the tutorial:
 

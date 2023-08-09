@@ -3,16 +3,12 @@ Welcome to XLAB's documentation!
 
 Autonomous Go-Kart Project under Autoware Foundation
 
-We have our documentation hosted on Read the Docs.
-
-.. image:: Build-the-Kart/imgs/Go-Kart_overview.png
-   :width: 600
-
-Check out the :ref:`Mechatronics` section for further information related to Mechatronics of the project.
+.. image:: Build-the-Kart/imgs/avev_gokart.png
+   :width: 700
 
 .. note::
 
-   This project is under active development.
+   This project is under active development. Check out the Overview section
 
 Contents
 --------
