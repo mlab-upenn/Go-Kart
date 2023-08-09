@@ -5,6 +5,7 @@ The Main Control Unit (MCU) stands as the central nerve of the go-kart's electro
 
 Bill of Matreials: https://docs.google.com/spreadsheets/d/1RsJtWkHKiKtcIdIF5GS_IMLmA9pXeHQMcQNAkUHgcUQ/edit?usp=drive_link
 
+
 .. image:: sch/MCU_sche.png
     :scale: 30%
     :align: center
@@ -48,5 +49,5 @@ Code Structure Overview
    For external control or monitoring, the ``ExternalCommInterface`` function facilitates communication, be it via Bluetooth, Wi-Fi, or any other mode.
 
 10. **System Shutdown and Reset**
-   At the end of an operation or in case of critical failures, the ``SystemShutdown`` function ensures a safe and controlled shutdown. If necessary, the ``SystemReset`` function can reboot the system, restoring default settings.
+   At the end of an operation or in case of critical failures, the ``SystemShutdown`` function ensures a safe and controlled shutdown. If necessary, the      ``SystemReset`` function can reboot the system, restoring default settings.
 
