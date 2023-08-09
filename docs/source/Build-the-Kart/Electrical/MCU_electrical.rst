@@ -56,5 +56,5 @@ Code Structure Overview
    For external control or monitoring, the ``ExternalCommInterface`` function facilitates communication, be it via Bluetooth, Wi-Fi, or any other mode.
 
 10. **System Shutdown and Reset**
-   At the end of an operation or in case of critical failures, the ``SystemShutdown`` function ensures a safe and controlled shutdown. If necessary, the ``SystemReset`` function can reboot the system, restoring default settings.
+   At the end of an operation or in case of critical failures, the ``SystemShutdown`` function ensures a safe and controlled shutdown. If necessary, the      ``SystemReset`` function can reboot the system, restoring default settings.
 
