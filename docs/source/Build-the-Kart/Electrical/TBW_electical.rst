@@ -4,14 +4,17 @@ Throttle-by-Wire Subsystem
 The TBW is a specially-designed PCB mounted on the side of the driver’s seat, controlling the go-kart’s main drive motor. The TBW’s Nucleo interfaces with the CAN bus to receive desired speed values and to transmit measured speeds. The speed measurement utilizes a hall effect wheel speed sensor positioned near the go-kart’s rear shaft. Speed modulation is facilitated through a closed-loop PID mechanism. The Nucleo emits a PWM signal of variable duty cycle, which is then converted to a 0-5V analog signal. This analog signal is channeled to the Alltrax SR48300 DC Motor Controller, governing speed control. Another noteworthy design element is the remote kill switch. This allows the operator to remotely halt power in emergencies. Realized through a remote relay, this switch can interrupt power delivery to the main motor, serving as an independent safety feature even in the event of a worst-case system malfunction.
 
 .. image:: sch/TBW_sche.png
-      :width: 6.53267in
-      :height: 4.30461in
-      :scale: 50%
+            :width: 6.53267in
+            :height: 4.30461in
+            :scale: 50%
+      img1: Schematic of Throttle by Wire
+
 
 .. image:: img/TBW_PCB.png
         :width: 6.53267in
         :height: 4.30461in
         :scale: 50%
+      img2: PCB of Throttle by Wire
 
 
 Code Structure Overview
