@@ -21,14 +21,14 @@ The system's actuator is a Linear Electric Actuator DC Motor (clean up link, pas
 
 You can also view the exploded video view of the Assembly `here <https://drive.google.com/file/d/13RS9c54bLUqEbxeHZ715SWqoizlZVylu/view?usp=sharing>`_
 
-Please open this SolidWorks assembly to follow along with the instructions below (https://drive.google.com/file/d/1D94OQcvckCQK6pkSvAfoiwdd8uzogu2v/view?usp=drive_link), containing all necessary components for the BBW subsystem. Note that some parts were purchased off-the-shelf, some were designed in-house and sent out for professional machining (mostly via PCBWay), and some were designed in-house and 3D printed in-house. All purchases are documented with a purchase link, all custom machined parts have an engineering drawing, and all custom 3D printed parts have an STL file. Some drawings and STL files will be attached within the next few days, we thank you for your patience.
+Please open this SolidWorks assembly to follow along with the `instructions <https://drive.google.com/file/d/1D94OQcvckCQK6pkSvAfoiwdd8uzogu2v/view?usp=drive_link>`_, containing all necessary components for the BBW subsystem. Note that some parts were purchased off-the-shelf, some were designed in-house and sent out for professional machining (mostly via PCBWay), and some were designed in-house and 3D printed in-house. All purchases are documented with a purchase link, all custom machined parts have an engineering drawing, and all custom 3D printed parts have an STL file. Some drawings and STL files will be attached within the next few days, we thank you for your patience.
 
 .. image:: ../imgs/Mechanical/BBW_CAD_Overview.png
     :width: 100%
     :align: center
     :alt: Brake By Wire Assembly Overview
 
-Step 1: Locate the following four components: (1) “LA steel frame,” 2x custom machined, link coming shortly; (3) “back link,” custom 3D printed, link coming shortly; and (4) “mid link,” custom 3D prints, link coming shortly. Assemble them as shown in the images below. Note that you will need five Hex Socket Head Machine Screws (link https://www.amazon.com/METALLIXITY-Socket-Machine-Screws-M8x120mm/dp/B09YNLHP5Q/ref=sr_1_1_sspa?crid=1Y5MZ0CQAXP77&keywords=m8x120mm%2Bscrews&qid=1664676687&qu=eyJxc2MiOiIxLjg1IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=m8x100mm%2Bscrews%2Caps%2C55&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExNVpFRkJKTThZSzgmZW5jcnlwdGVkSWQ9QTA1MjAwMThNVjY3U0tSSDA4UDEmZW5jcnlwdGVkQWRJZD1BMDQ3MzYwODJEM01HVksxRk5WWFMmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1), nuts, and washers.
+Step 1: Locate the following four components: (1) “LA steel frame,” 2x custom machined, link coming shortly; (3) “back link,” custom 3D printed, link coming shortly; and (4) “mid link,” custom 3D prints, link coming shortly. Assemble them as shown in the images below. Note that you will need five `Hex Socket Head Machine Screws <https://www.amazon.com/METALLIXITY-Socket-Machine-Screws-M8x120mm/dp/B09YNLHP5Q/ref=sr_1_1_sspa?crid=1Y5MZ0CQAXP77&keywords=m8x120mm%2Bscrews&qid=1664676687&qu=eyJxc2MiOiIxLjg1IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=m8x100mm%2Bscrews%2Caps%2C55&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExNVpFRkJKTThZSzgmZW5jcnlwdGVkSWQ9QTA1MjAwMThNVjY3U0tSSDA4UDEmZW5jcnlwdGVkQWRJZD1BMDQ3MzYwODJEM01HVksxRk5WWFMmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1>`_, nuts, and washers.
 
 .. image:: ../imgs/Mechanical/BBW_CAD_Step_1.png
     :width: 100%
@@ -51,7 +51,7 @@ Step 2: Separately, locate the following four components: (1) “PA-14P motor,�
     :align: center
     :alt: Brake By Wire Assembly Step 2
 
-Step 3: At this point, you are ready to connect the two sub-assemblies from previous steps. To do so, locate a long M6 screw (https://www.amazon.com/uxcell-Threaded-Pitch-Socket-Screws/dp/B012THHR1G/ref=sr_1_5?crid=2S9ZIW0Q60Q2M&keywords=M6%2B*%2B70&qid=1668200774&sprefix=m6%2B70%2Caps%2C86&sr=8-5&th=1) and nut, as well as some washers. In addition, locate two copies of the “sleeve 15mm” part, 3D printed or machined, and place one on either side of the motor connection terminal, as shown in the image below. We also used some large rubber washers, the combination of which ensures a tight fit between motor and steel mount.
+Step 3: At this point, you are ready to connect the two sub-assemblies from previous steps. To do so, locate a long `M6 screw <https://www.amazon.com/uxcell-Threaded-Pitch-Socket-Screws/dp/B012THHR1G/ref=sr_1_5?crid=2S9ZIW0Q60Q2M&keywords=M6%2B*%2B70&qid=1668200774&sprefix=m6%2B70%2Caps%2C86&sr=8-5&th=1>`_ and nut, as well as some washers. In addition, locate two copies of the “sleeve 15mm” part, 3D printed or machined, and place one on either side of the motor connection terminal, as shown in the image below. We also used some large rubber washers, the combination of which ensures a tight fit between motor and steel mount.
 
 .. image:: ../imgs/Mechanical/BBW_CAD_Step_3.png
     :width: 100%

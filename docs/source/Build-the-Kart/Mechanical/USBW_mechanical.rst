@@ -13,12 +13,12 @@ You can also view the exploded video view of the Assembly `here <https://drive.g
 
 
 This is the real life assembly of the L-SBW Assembly:
-.. image:: ../imgs/Mechanical/SBW_3.png
+.. image:: ../imgs/Mechanical/SBW_3.jpg
     :width: 100%
     :align: center
     :alt: Upper Steer By Wire Assembly
 
-.. image:: ../imgs/Mechanical/SBW_4.png
+.. image:: ../imgs/Mechanical/SBW_4.jpg
     :width: 100%
     :align: center
     :alt: Upper Steer By Wire Assembly

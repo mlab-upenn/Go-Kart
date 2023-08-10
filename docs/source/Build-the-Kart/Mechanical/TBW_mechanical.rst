@@ -6,7 +6,7 @@ Motor
 
 We started working with the Brushed DC motor and it worked well for the intial 2 version of our Gokart. However, it lacked the capacity of reverse and was also very inefficient. To combat this the team took the decision to pivot to a Brushless DC motor for the next version of the Gokart.
 
-.. image:: ../imgs/Mechanical/TBW_left.jpeg
+.. image:: ../imgs/Mechanical/TBW_left.jpg
     :width: 400
     :align: center
     :alt: Motor
@@ -25,8 +25,6 @@ VESC Controller
 In the :doc:`../../soft_req` section, we mention that we use the VESC controller to tune the motor and configure the settings. It is pretty easy to configure once the user is used to it. Here are some videos that will help you setup- 
 
 .. image:: ../imgs/Mechanical/vesc.png
-
-- `VESC Setup <>`_
 
 
 Motor mount

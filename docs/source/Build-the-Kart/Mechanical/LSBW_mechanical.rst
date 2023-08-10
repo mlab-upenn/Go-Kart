@@ -9,12 +9,12 @@ This is the assembly of the Lower Steer By Wire (L-SBW) Assembly in CAD. The ass
 
 
 This is the real life assembly of the L-SBW Assembly:
-.. image:: ../imgs/Mechanical/SBW_1.png
+.. image:: ../imgs/Mechanical/SBW_1.jpg
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly
 
-.. image:: ../imgs/Mechanical/SBW_2.png
+.. image:: ../imgs/Mechanical/SBW_2.jpg
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly
