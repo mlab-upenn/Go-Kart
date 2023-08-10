@@ -19,7 +19,7 @@ The system's actuator is a Linear Electric Actuator DC Motor (clean up link, pas
 <https://www.amazon.com/PROGRESSIVE-AUTOMATIONS-Electric-Actuator-PA-14P-4-35/dp/B00Q74I8TI/ref=sr_1_2?keywords=PA-14P-4-35%2Blinear%2Bactuator&qid=1662603873&sr=8-2&ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0&th=1>`_
 
 
-You can also view the exploded video view of the Assembly `here <>`_
+You can also view the exploded video view of the Assembly `here <https://drive.google.com/file/d/13RS9c54bLUqEbxeHZ715SWqoizlZVylu/view?usp=sharing>`_
 
 Please open this SolidWorks assembly to follow along with the instructions below (https://drive.google.com/file/d/1D94OQcvckCQK6pkSvAfoiwdd8uzogu2v/view?usp=drive_link), containing all necessary components for the BBW subsystem. Note that some parts were purchased off-the-shelf, some were designed in-house and sent out for professional machining (mostly via PCBWay), and some were designed in-house and 3D printed in-house. All purchases are documented with a purchase link, all custom machined parts have an engineering drawing, and all custom 3D printed parts have an STL file. Some drawings and STL files will be attached within the next few days, we thank you for your patience.
 

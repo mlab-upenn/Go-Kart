@@ -6,14 +6,14 @@ Motor
 
 We started working with the Brushed DC motor and it worked well for the intial 2 version of our Gokart. However, it lacked the capacity of reverse and was also very inefficient. To combat this the team took the decision to pivot to a Brushless DC motor for the next version of the Gokart.
 
-.. image:: ../imgs/Mechanical/TBW_side.jpeg
+.. image:: ../imgs/Mechanical/TBW_left.jpeg
     :width: 400
     :align: center
     :alt: Motor
 
 We chose the ME1716 BLDC for that. This motor comes with the sin cosin encoder. We are still trying to tune this sensor and will be sure to update the settings quite soon. In essence, if you find a motor which takes in 48V as the input, it can very easily be integrated with the setup.
 
-.. image:: ../imgs/Mechanical/ME1716.jpeg
+.. image:: ../imgs/Mechanical/ME1716.png
     :width: 400
     :align: center
     :alt: Motor
@@ -43,6 +43,7 @@ Chain
 --------
 
 Chain is used to transfer the power from the motor to the rear axle. The chain is connected to the motor using a sprocket and then to the rear axle using another sprocket. The chain rests on the sproket and can be tightened or loosened by removing individual links using a specific tool. The chain should be tight enough so that it doesn't fall off the sprocket but not too tight that it puts a lot of stress on the motor. The chain should be lubricated regularly to avoid any friction at all times.
+
 .. note:: 
 
     It's important to lubricate the motor as we found that it has significant effects on performance.

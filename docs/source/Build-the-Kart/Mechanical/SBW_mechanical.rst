@@ -1,10 +1,12 @@
 Steer-by-Wire Mechanical assembly
 ==================================
 
-This repository contains the mechanical assembly of the steer-by-wire system.
+This document contains the mechanical assembly of the steer-by-wire system.
 
-TODO : Write a description of the old mechanical and new electrical approaches.
-
+.. image:: ../imgs/Mechanical/SBW_5.png
+    :width: 100%
+    :align: center
+    :alt: Steer By Wire Assembly
 
 Upper Steer-by-Wire Assembly
 -----------------------------
