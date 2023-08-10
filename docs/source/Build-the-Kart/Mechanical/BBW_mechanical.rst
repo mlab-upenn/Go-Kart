@@ -1,8 +1,13 @@
 Brake By Wire (BBW) Assembly
 ==================================
 
+Here is how the brake-by-wire system looks in CAD:
 
-TODO Insert image here: BBW_labelled.png
+.. image:: ../imgs/Mechanical/bbw.png
+    :width: 100%
+    :align: center
+    :alt: Brake By Wire Assembly
+
 
 The brake-by-wire subsystem builds upon TopKart's original manual braking, by enabling the car to brake whenever necessary from autonomous mode. The higher level controller always sends some braking signal downstream to the BBW nucleo, which then runs a PID controller to quickly achieve the desired value. The system's sensor is a M3041-000006-500PG Pressure Sensor, which closes the loop enabling PID feedback control to take place.
 
@@ -13,14 +18,10 @@ The system's actuator is a Linear Electric Actuator DC Motor (clean up link, pas
 `Linear Electric Actuator DC Motor:
 <https://www.amazon.com/PROGRESSIVE-AUTOMATIONS-Electric-Actuator-PA-14P-4-35/dp/B00Q74I8TI/ref=sr_1_2?keywords=PA-14P-4-35%2Blinear%2Bactuator&qid=1662603873&sr=8-2&ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0&th=1>`_
 
+
+You can also view the exploded video view of the Assembly `here <>`_
+
 This motor gets mounted 
-
-
-
-
-
-
-
 TODO Insert paragraphs here
 
 Reference the driver and nucleo, which are mounted onto the other things, as described in the "Miscellaneous" section.
