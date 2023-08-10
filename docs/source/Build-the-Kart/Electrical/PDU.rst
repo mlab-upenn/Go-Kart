@@ -5,7 +5,7 @@ Power Distribution System
 The go-kart mechatronics system is designed as a modular
 system, consisting of several subsystems that are responsible
 for different tasks. There are six major subsystems: Power
-Distribution (PD), Main Control (MC), User Interface (UI),
+Distribution (PD), Main Control (MC),
 Throttle-by-Wire (TBW), Brake-by-Wire (BBW), and Steerby-Wire (SBW). The “x-by-wire” system design approach has
 been gaining popularity in the automotive industry which is to
 replace conventional mechanical and hydraulic control systems
@@ -186,20 +186,9 @@ Table 2. PDU Device and Purchasing Link
 
 6. Battery Recommendation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 Input Voltage: Dual 12V batteries
 
--  Interstate Batteries SLA1155
-
--  Capacity: 12V, 35Ah
-
--  Weight: 10.97 kg
-
--  Dimension: 7.76 x 5.16 x 6.26 inches
-
--  Price: $89.99
-
--  Nerwak Model 1250 LIFEP04
+Nerwak Model 1250 LIFEP04
 
 -  Capacity: 12V, 50Ah
 
@@ -210,6 +199,18 @@ Input Voltage: Dual 12V batteries
 -  Price: $169.99
 
 -  Power Connectors: XT90
+
+
+Interstate Batteries SLA1155
+
+-  Capacity: 12V, 35Ah
+
+-  Weight: 10.97 kg
+
+-  Dimension: 7.76 x 5.16 x 6.26 inches
+
+-  Price: $89.99
+
 
 7. Schematic
 ~~~~~~~~~~~~~~~~~~~~~~

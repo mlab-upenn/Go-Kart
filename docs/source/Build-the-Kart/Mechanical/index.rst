@@ -14,4 +14,3 @@ Mechanical
    USBW_mechanical
    LSBW_mechanical
    Chasis
-   Miscellaneous
