@@ -14,9 +14,9 @@ failure.
 
 Mechanical Assembly
 =========
-:doc:`Build-the-Kart/Mechanical/TBW_mechanical`
+:doc:`Mechanical/TBW_mechanical`
 
 Electrical Assembly
 =========
 
-:doc:`Build-the-Kart/Electrical/TBW_electrical`
+:doc:`Electrical/TBW_electrical`
