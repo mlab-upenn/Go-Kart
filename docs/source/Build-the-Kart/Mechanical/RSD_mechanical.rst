@@ -2,7 +2,7 @@
 Rear Shelf Assembly
 ==================================
 
-The rear shelf is critical for housing several of the system's various electrical components, as well as mounting some sensors (namely LiDAR, camera, and GNSS) high enough to obtain useful data. Each of these components is discussed elsewhere in this documentation (link here), so this section will discuss solely the mechanical processes for mounting everything securely. The step-by-step process is as follows:
+The rear shelf is critical for housing several of the system's various electrical components, as well as mounting some sensors (namely LiDAR, camera, and GNSS) high enough to obtain useful data. Each of these components is discussed elsewhere in this documentation (link here), so this section will discuss solely the mechanical processes for mounting everything securely. The full CAD assembly can be found at this link (find this!!) The step-by-step process is as follows:
 
 TODO Insert image here: RSD_CAD_full
 TODO Insert image here: RSD_IRL_full
@@ -26,8 +26,40 @@ Step 2: Cut two t-slots to ~420mm, and attach each horizontally to the three t-s
 TODO Insert image RSD_IRL_2
 TODO Insert image RSD_CAD_2
 
-Step 3: Cut two t-slots to 656mm, and attach as shown
+Step 3: Cut two t-slots to 656mm, and attach as shown by some combination of t-slot connectors
+
+TODO Insert image RSD_CAD_3
+
+Step 4: Cut four t-slots to 140mm, and attach them vertically in all four corners, two of which are shown below.
+
+TODO Insert image RSD_IRL_4
+
+Step 5: Cut two t-slots to 696mm, and attach horizontally on top of the t-slots from Step 4. 
+
+TODO Insert image RSD_CAD_5
+
+Step 6: Cuts four t-slots to 140mm, and cut two t-slots to 284mm. These will compose the left and right GNSS tower. Assemble them as shown in the image below
+
+TODO Insert image RSD_CAD_6
+TODO Insert image RSD_IRL_6
+
+Step 7: Cut two t-slots to 610mm, and attach them vertically as shown below. Note that they connect flat on top of the t-slots from Step 3, as well as adjacent to the t-slots from Step 5; this second connection provided extra stability. Note that a height of 610mm worked for us given our requirements from the LiDAR and camera on top, but different applications might call for different heights.
+
+TODO Insert image RSD_CAD_7
+
+Step 8: Cut two t-slots to 304mm and 160mm (respectively), and assemble them horizontally in the T-shaped configuration shown below, on top of the tall t-slots from Step 7.
+
+TODO Insert image RSD_CAD_8
+
+Step 9 (optional): Attach the Ouster LiDAR (link coming shortly) 
+
+TODO Insert image RSD_CAD_9
+
+Step 9a: Cut and assemble two more t-slots, to the lengths and orientations laid out in the CAD. You may wish to insert the M5 nuts for Step 9b as you do this, since they will be harder to insert later. 
+
+Step 9b: Using M5 screw, nuts, and washers, screw in the "Ouster Mount" part (custom machined, link coming shortly) in the 12 locations as indicated below
 
 
 
+Step 9c: Screw in the Ouster LiDAR itself, in the four holes around the corners of the Ouster Mount
 
