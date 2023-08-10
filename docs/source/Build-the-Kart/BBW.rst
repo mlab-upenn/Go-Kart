@@ -25,7 +25,7 @@ motor.
 
 Mechanical Assembly
 =========
-Link mechanical
+:doc:`Build-the-Kart/Mechanical/BBW_mechanical`
 
 
 Electrical Assembly

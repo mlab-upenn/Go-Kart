@@ -1,3 +1,5 @@
+Throttle-by-Wire Mechanical assembly
+====================================
 
 Motor
 --------

@@ -13,7 +13,7 @@ sent on the CAN bus, captured by MC, and forwarded to the RW. In the autonomous 
 
 Mechanical Assembly
 =========
-Link mechanical
+:doc:`Build-the-Kart/Mechanical/USBW_mechanical`
 
 
 Electrical Assembly
@@ -29,7 +29,7 @@ The RW module is designed to drag or push the steering tie rods to drive the fro
 
 Mechanical Assembly
 =========
-Link mechanical
+:doc:`Build-the-Kart/Mechanical/LSBW_mechanical`
 
 
 Electrical Assembly
