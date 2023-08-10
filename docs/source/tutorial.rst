@@ -25,6 +25,9 @@ Versions
    :width: 500
    :alt: AVEV
 
+Make your own Autonomous Go-kart (Steps)
+-----------------
+
 Following steps take you to individual sections of the tutorial:
 
 1. **Step 1** :doc:`Bom`    
@@ -65,7 +68,7 @@ Following steps take you to individual sections of the tutorial:
             + :doc:`Build-the-Kart/Electrical/LSBW_electrical`
             + Unit testing
     d. :doc:`Build-the-Kart/Electrical/MCU_electrical` (Main Control Unit)
-    e. :doc:`Build-the-Kart/Electrical/Power_mechanical` 
+    e. :doc:`Build-the-Kart/Mechanical/Power_mechanical` 
     f. Power Distribution Unit (PDU)
         * :doc:`Build-the-Kart/Electrical/PDU`
         * Unit testing
