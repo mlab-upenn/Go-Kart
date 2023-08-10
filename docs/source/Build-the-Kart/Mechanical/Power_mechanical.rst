@@ -3,7 +3,10 @@ Battery Assembly
 ==================================
 
 
-TODO Insert image power_both_sides
+.. image:: ../imgs/Mechanical/power_both_sides.jpeg
+   :width: 100%
+   :align: center
+   :alt: power_both_sides.jpeg
 
 Safety disclaimer:  
 =================
@@ -28,13 +31,20 @@ Step 3: Cut two t-slots to 10" each, and attach them horizontally to the t-slots
 
 Step 4: Locate two "vertical sheet front and back" sheet metal parts, and screw them in to the t-slots from Step 3, as shown in the image below. You should then apply a layer of duct tape over the top of the sheet, to ensure it doesn't create electrical interference later on. At this point, your assembly should look exactly like the image below.
 
-TODO insert image power_left_1
+
+.. image:: ../imgs/Mechanical/power_left_1.jpeg
+   :width: 100%
+   :align: center
+
 
 Step 5: Cut two t-slots to 19" each, and attach them horizontally to the t-slots from Step 3, as shown in the image below.
 
 Step 6: Locate two "vertical sheet sides" sheet metal parts, and screw them in to the t-slots from Step 5, as shown in the image below. You should then apply a layer of duct tape, just like before. At this point, your assembly should look exactly like the image below.
 
-TODO insert image power_left_2
+
+.. image:: ../imgs/Mechanical/power_left_2.jpeg
+   :width: 100%
+   :align: center
 
 
 LEFT SIDE: LIPO BATTERIES
@@ -48,21 +58,29 @@ Before assembling the six batteries themselves, make sure its sensible given you
 
 Step 1: Locate one LiPo battery, and using its rubber handle, place it with the red terminal in the very back left corner, as shown in the image below.
 
-TODO insert image power_left_3
+.. image:: ../imgs/Mechanical/power_left_3.jpeg
+   :width: 100%
+   :align: center
 
 Step 2: Locate two more batteries, and while still offboard, connect them as shown in the image below. Simply screw that battery terminal's screw back in, over the corresponding wire's circular terminal, ideally with a washer in between. You can keep this very short connection forever moving forward, besides while charging individual batteries, which saves one step during all subsequent battery installation/removal processes.
 
-TODO insert image power_left_4
+.. image:: ../imgs/Mechanical/power_left_4.jpeg
+   :width: 100%
+   :align: center
 
 Step 3: Place these two batteries (while still connected) into the battery box, as shown in the image below. Make sure the available terminals are on the right (inner) side, for smoother in-series connection with the right side batteries.
 
-TODO insert image power_left_5
+.. image:: ../imgs/Mechanical/power_left_5.jpeg
+   :width: 100%
+   :align: center
 
 Step 4: For the top two batteries, connect each one's remaining terminal to its corresponding wire, as laid out in the Electric section of this documentation (TODO Insert link here). Note that the voltages shown below will be generated as a result, so be very careful. Namely, remember to connect from high to low voltage, meaning the left side Step 4 should actually occur after the right side step 4. Within the left side Step 4, the 24V (middle battery, red terminal) connection should come first, then the 0 V ground connection (top battery, black terminal). Also, note that in order to constrain these wires and prevent loose or cluttered regions, we passed the wires through the battery handles.
 
 Step 5: Connect the two terminals from the bottom battery, to their corresponding wires.
 
-TODO insert image power_left_6
+.. image:: ../imgs/Mechanical/power_left_6.jpeg
+   :width: 100%
+   :align: center
 
 
 RIGHT SIDE: BATTERY BOX
