@@ -21,13 +21,17 @@ LEFT SIDE: BATTERY BOX
 ---------------
 
 Step 1: Locate the "floor sheet left" sheet metal part. Oriented flat, attach it to the corresponding chassis component on the left side of the gokart, using four standard M5 nuts and screws.
+
 Step 2: Cut four t-slots to 6" each, and attach them vertically to the floor sheet left, as shown in the image below. Only two t-slots are visible, but the other two follow trivially by symmetry.
+
 Step 3: Cut two t-slots to 10" each, and attach them horizontally to the t-slots from Step 2, as shown in the image below. Note that each t-slot should be roughly centered, but this need not be perfect, and can be easily tuned later as necessary.
+
 Step 4: Locate two "vertical sheet front and back" sheet metal parts, and screw them in to the t-slots from Step 3, as shown in the image below. You should then apply a layer of duct tape over the top of the sheet, to ensure it doesn't create electrical interference later on. At this point, your assembly should look exactly like the image below.
 
 TODO insert image power_left_1
 
 Step 5: Cut two t-slots to 19" each, and attach them horizontally to the t-slots from Step 3, as shown in the image below.
+
 Step 6: Locate two "vertical sheet sides" sheet metal parts, and screw them in to the t-slots from Step 5, as shown in the image below. You should then apply a layer of duct tape, just like before. At this point, your assembly should look exactly like the image below.
 
 TODO insert image power_left_2
@@ -65,7 +69,9 @@ RIGHT SIDE: BATTERY BOX
 ----------------
 
 Step 1: Locate the "floor sheet right" sheet metal part. Note that this is different from the floor sheet left part, specifically in its hole locations. Attach it to the corresponding chassis component, on the right side of the gokart.
+
 Steps 2-6: Copy Steps 2-6 from the "LEFT SIDE: BATTERY BOX" section above. Note that all vertical sheets are identical to those from the left side battery box. Note also that the horizontal t-slots, specifically at the subassembly's back left corner, might be within 1cm of the Throttle By Wire assembly (namely the chain). This is okay, but you might want to do some stress testing to ensure that interference does not occur even when the motor is running. You might need to slide the battery box or the TBW assembly over to avoid interference.
+
 Step 7 (optional): Cut another t-slot, to ~7", and attach it vertically somewhere near the back left corner. As shown in the image below, you can route the back-most battery's positive (red) connection straight up through this t-slots's pocket, to ensure that it stays above and thus clears the entire throttle by wire assembly, minimizing the likelihood of electromegnetic interference (EMI) as this wire travels to the rear shelf subassembly.
 
 RIGHT SIDE: LIPO BATTERIES
