@@ -186,9 +186,10 @@ Table 2. PDU Device and Purchasing Link
 
 6. Battery Recommendation
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Input Voltage: Dual 12V batteries
 
-Nerwak Model 1250 LIFEP04
+`Nerwak Model 1250 LIFEP04 <https://www.amazon.com/dp/B09Y3DNKB2?psc=1&ref=ppx_yo2ov_dt_b_product_details>`_
 
 -  Capacity: 12V, 50Ah
 
@@ -199,18 +200,6 @@ Nerwak Model 1250 LIFEP04
 -  Price: $169.99
 
 -  Power Connectors: XT90
-
-
-Interstate Batteries SLA1155
-
--  Capacity: 12V, 35Ah
-
--  Weight: 10.97 kg
-
--  Dimension: 7.76 x 5.16 x 6.26 inches
-
--  Price: $89.99
-
 
 7. Schematic
 ~~~~~~~~~~~~~~~~~~~~~~

@@ -6,7 +6,7 @@ Traditional braking systems use a hydraulic mechanism to decelerate a vehicle. T
 Brake-by-Wire
 ~~~~~~~~~~~~~~~~~~~
 
-The UBBW is a sophisticated braking control system without any mechanical connection between the brake pedal and the vehicle's braking mechanisms. This system incorporates electronic controllers, actuators, and sensors to give necessary braking feedback and control. The BBW's Nucleo interfaces with the CAN bus to receive desired braking intensities and transmit current braking data. It uses the settings from SPI2 for external communications and CAN2 for internal communications. One of the vital components of this design is the emergency braking mechanism that allows the driver to manually override the system in any failure scenario.
+The UBBW is a sophisticated braking control system without any mechanical connection between the brake pedal and the vehicle's braking mechanisms. This system incorporates electronic controllers, actuators, and sensors to give necessary braking feedback and control. The BBW's Nucleo interfaces with the CAN bus to receive desired braking intensities and transmit current braking data. One of the vital components of this design is the emergency braking mechanism that allows the driver to manually override the system in any failure scenario.
 
 `Bill of Materials <https://docs.google.com/spreadsheets/d/1DgbnX_rlhYMLlgsNeylGjvJf8VsjunWTmRLXtc9lVjU/edit?usp=sharing>`_
 

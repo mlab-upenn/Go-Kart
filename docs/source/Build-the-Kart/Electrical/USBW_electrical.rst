@@ -12,9 +12,7 @@ Upper Steer-by-Wire
 The USbW is a unique PCB mounted near the steering column. This module controls the go-kart's steering mechanism. 
 The USbW’s Nucleo receives the desired steering angle from the CAN bus and sends out the current steering position. 
 Angle measurement is done using a rotary encoder fitted directly to the steering shaft. Steering control is 
-implemented using a closed-loop PID control. The Nucleo outputs a PWM signal, which is then converted into a 
-0-5V analog voltage. This voltage is fed into the AdvancedSteer SR50x00 DC Motor Controller to adjust the 
-steering angle. An additional feature is the manual override, allowing the driver to take over steering control 
+implemented using a closed-loop PID control. The Nucleo outputs a PWM signal to the motor controller. An additional feature is the manual override, allowing the driver to take over steering control 
 instantly. This feature uses a toggle switch and bypasses the electronic system, ensuring safety in the event of 
 an electronic malfunction.
 

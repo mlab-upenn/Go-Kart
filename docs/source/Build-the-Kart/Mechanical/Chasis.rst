@@ -1,2 +1,4 @@
+Chassis
+====================
 
-No changes from TopKart car really, just removed the front and rear bumper, and attached various mounts throughout the chassis (discussed in "Miscellaneous" section), and have various wires dangling around with zipties used wherever possible to secure the wires 
+The chassis that we used for this system was the TopKart Gokart Chassis. The buying details can be found in :doc:`../../bom`. The changes done to the kart are mentioned in :doc:`../../vehicle_assembly`.
