@@ -6,13 +6,12 @@ Mechanical
 .. toctree::
    :maxdepth: 8
 
+   rear_shelf_mechanical
    BBW_mechanical
-   TBW_mechanical
    SBW_mechanical
    USBW_mechanical
    LSBW_mechanical
+   TBW_mechanical
    power_mechanical
-   rear_shelf_mechanical
    Chasis
-   Tires
    Miscellaneous
