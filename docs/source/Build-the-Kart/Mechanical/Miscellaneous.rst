@@ -5,3 +5,5 @@ Talk about all the various mounts that we glued in various spots, and include pi
 Include BBW driver and nucleo mount
 
 TODO
+
+Mention IMU!!
