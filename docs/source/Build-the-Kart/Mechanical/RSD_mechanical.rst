@@ -2,7 +2,8 @@
 Rear Shelf Assembly
 ==================================
 
-The rear shelf is critical for housing several of the system's various electrical components, as well as mounting some sensors (namely LiDAR, camera, and GNSS) high enough to obtain useful data. Each of these components is discussed elsewhere in this documentation (link here), so this section will discuss solely the mechanical processes for mounting everything securely. The full CAD assembly can be found at this link (find this!!) The step-by-step process is as follows:
+The rear shelf is critical for housing several of the system's various electrical components, as well as mounting some sensors (namely LiDAR, camera, and GNSS) high enough to obtain useful data. Each of these components is discussed elsewhere in this documentation (link here), so this section will discuss solely the mechanical processes for mounting everything securely. Please open `the full CAD assembly
+<https://drive.google.com/drive/folders/1LDYO9l7htm_2q24RGqo3cVYqLVSxcw3b?usp=sharing>`_ and follow the step-by-step process as follows:
 
 .. image:: ../imgs/Mechanical/RSD_CAD_full
    :width: 100%
