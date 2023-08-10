@@ -11,4 +11,4 @@ Here you can find detailed information about the components used in the project.
 
 .. raw:: html
 
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTigUyIBaxHLPy78s3wjiZz7neGhEE6B_NWVwNvuS0OGUeLpB1nI_kQEah8M5MTGniahjfxVMf5ZdhZ/pubhtml?widget=true&amp;headers=false"></iframe>
+    <iframe width="600" height="800" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTigUyIBaxHLPy78s3wjiZz7neGhEE6B_NWVwNvuS0OGUeLpB1nI_kQEah8M5MTGniahjfxVMf5ZdhZ/pubhtml?widget=true&amp;headers=false"></iframe>
