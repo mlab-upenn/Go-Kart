@@ -27,6 +27,8 @@ The Lower Steer-By-Wire subsystem is critical since it solely holds the power to
 
 You can view the full CAD assembly at this link: (TODO Insert Drive link with CAD)
 
+https://drive.google.com/file/d/1bHC2BbAlqdqfvbhz8IPRuZGqOGFy7LD8/view?usp=drive_link
+
 BOTTOM HALF ASSEMBLY
 
 Step 1: Build the base level of the mount. This consists of four t-slots: x length and y length of z quantity
