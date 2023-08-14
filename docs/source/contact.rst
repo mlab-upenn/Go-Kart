@@ -28,7 +28,6 @@ The CAD files and the PCB designs can be found scattered throughout the Build-th
 
 All the code is organized into 2 main repositories. The first is the firmware code i.e. the controller code as well as CAD files for the systems hosted on github. Second one being the high level controller code i.e. the code that drives the Gokart such as Pure Pursuit controller, SLAM and more. They are given below for convenience.
 
-* |Link1|
 * |Link2|
 * |Link3|
 
