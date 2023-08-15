@@ -1,20 +1,20 @@
 FAQ
 ============
 
-.. |Link1| raw:: html
+.. .. |Link1| raw:: html
 
-   <a href="https://github.com/mlab-upenn/gokart-sensor/tree/ros2_foxy_purepursuit">ROS2 Foxy setup and autonomous code</a>
+..    <a href="https://github.com/mlab-upenn/gokart-sensor/tree/ros2_foxy_purepursuit">ROS2 Foxy setup and autonomous code</a>
 
-.. |Link2| raw:: html
+.. .. |Link2| raw:: html
 
-   <a href="https://github.com/mlab-upenn/gokart-sensor/tree/ros2_humble_purepursuit">ROS2 Humble setup and autonomous code</a>
+..    <a href="https://github.com/mlab-upenn/gokart-sensor/tree/ros2_humble_purepursuit">ROS2 Humble setup and autonomous code</a>
 
-.. |Link3| raw:: html
+.. .. |Link3| raw:: html
 
-   <a href="https://github.com/mlab-upenn/gokart-mechatronics/tree/main/STM32%20Control">STM32 nucleo controller code</a>
+..    <a href="https://github.com/mlab-upenn/gokart-mechatronics/tree/main/STM32%20Control">STM32 nucleo controller code</a>
+
 
 This section contains commonly asked questions about the Gokart project.
-
 1. Where can i find the Bill of Materials?
 
 The Bill of Materials(BOM) with all it's links can be found in :doc:`Bom`. This has all the parts that are required to build the Gokart and is divided into different sheets. So make sure that you check out all of them before delving deep into building the kart.
@@ -28,8 +28,8 @@ The CAD files and the PCB designs can be found scattered throughout the Build-th
 
 All the code is organized into 2 main repositories. The first is the firmware code i.e. the controller code as well as CAD files for the systems hosted on github. Second one being the high level controller code i.e. the code that drives the Gokart such as Pure Pursuit controller, SLAM and more. They are given below for convenience.
 
-* |Link2|
-* |Link3|
+.. * |Link2|
+.. * |Link3|
 
 4. What parts can I replace and build my own custom design?
 
