@@ -1,6 +1,8 @@
 Tutorial
 ==============
 
+In this page, we will document the whole process on how to build the Gokart project from scratch. We will go through the whole Electrical & Mechanical pipeline and then move on to testing the stack by running pre-build software algorithms.
+The tutorial is structured such that the researcher/student looking to build this platform has an overview of the whole system and at the same time deep dive into any particular category of interest at any point in time.
 
 Versions 
 -----------------
