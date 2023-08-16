@@ -48,7 +48,7 @@ Step 5: Connect the two subassemblies from the previous steps. This can be done 
 
 TODO Insert USBW_IRL_5.HEIC
 
-Step 6: Locate the "shaft mount" part (3D printed, STL coming soon), and using a single (TODO) screw and nut with several spacing features, attach it in between the two beam mounts, via their back top hole. Note that the shaft mount still has 1 degree of freedom; don't worry, this will be removed shortly.
+Step 6: Locate the "shaft mount" part (3D printed, STL coming soon), and using a single (TODO) screw and nut with several spacing features, attach it in between the two beam mounts, via their back top hole. Note that the shaft mount still has 1 degree of freedom; don't worry, this will be resolved shortly.
 
 Step 7: Locate the "sw shaft" part (metal pipe, engineering drawing coming soon), and connect it into the assembly. Slide it first into the shaft mount, then into the coupler. Next, use a (TODO) screw and nut to attach the coupler and pipe.
 
@@ -66,8 +66,13 @@ TODO: Insert image USBW_IRL_11.jpeg
 
 Step 12: Now you're ready to connect the full USBW assembly into the preexistent GoKart assembly. This will require three final connections to be made
 
-Step 12a: Place 
+Step 12a: Place the USBW subassembly's shaft mount inside the blue TopKart chassis's upper steering wheel tabs, with the two beam links just outside of those tabs. Then, insert a black rubber washer in between each tab and its corresponding beam link, so that the full sequence (from beam link to beam link) is very tight. Then, using a screw (TODO get screw type), nut, and washer, tighten this sequence permanently. At this point, the entire USBW subsystem should be attached to the GoKart, even though the bottom is loose.
 
-Steps 12b and 12c:
+TODO insert image USBW_IRL_12a.jpeg
+
+Step 12b: Locate four identical "rounded spacer" parts, 3d printed, STL coming soon, and two U-bolts, 2 rectangular plates (TODO get link, correct the name), and four nuts. First, coat the U-bolt's rounded edge with a few layers of Gaffer's tape (or a similar material). Then near the bottom of the beam, attach the components to either side as shown below, tightening them with the four nuts. Note that the spacers need not all be perfectly tight.
+
+TODO insert image USBW_IRL_12b_1.jpeg
+TODO insert image USBW_IRL_12b_2.jpeg
 
 
