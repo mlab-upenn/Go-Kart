@@ -1,6 +1,8 @@
 Throttle-by-Wire Mechanical assembly
 ====================================
 
+TODO Add more detail to this section, double check everything
+
 Motor
 --------
 

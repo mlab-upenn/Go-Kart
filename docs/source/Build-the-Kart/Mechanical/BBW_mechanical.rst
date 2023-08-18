@@ -88,7 +88,7 @@ Step 5: At this point, you are ready to connect the full BBW assembly with the T
     :align: center
     :alt: Brake By Wire Assembly Step 5
 
-Step 6: Locate the “lever arm” part, custom machined. Attach it tightly to the protruding cylindrical end of the motor, using a pin, as shown in the image below. Make sure that the other side is co-axial with the cylindrical extensions from Step 4, to ensure smooth contact when BBW is actuated.
+Step 6: Locate the “lever arm” part, custom machined (CAD coming soon). Attach it tightly to the protruding cylindrical end of the motor, using a pin, as shown in the image below. Make sure that the other side is co-axial with the cylindrical extensions from Step 4, to ensure smooth contact when BBW is actuated.
 
 .. image:: ../imgs/Mechanical/BBW_CAD_Step_6.png
     :width: 100%

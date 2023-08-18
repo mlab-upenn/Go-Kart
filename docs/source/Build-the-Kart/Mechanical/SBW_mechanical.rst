@@ -3,6 +3,8 @@ Steer-by-Wire Mechanical assembly
 
 This document contains the mechanical assembly of the steer-by-wire system.
 
+TODO Write up this section
+
 .. image:: ../imgs/Mechanical/SBW_5.jpg
     :width: 100%
     :align: center
