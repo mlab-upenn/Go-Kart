@@ -28,7 +28,7 @@ Please open this SolidWorks assembly to follow along with the `instructions <htt
     :align: center
     :alt: Brake By Wire Assembly Overview
 
-Step 1: Locate the following four components: (1) “LA steel frame,” 2x custom machined, link coming shortly; (3) “back link,” custom 3D printed, link coming shortly; and (4) “mid link,” custom 3D prints, link coming shortly. Assemble them as shown in the images below. Note that you will need five `Hex Socket Head Machine Screws <https://www.amazon.com/METALLIXITY-Socket-Machine-Screws-M8x120mm/dp/B09YNLHP5Q/ref=sr_1_1_sspa?crid=1Y5MZ0CQAXP77&keywords=m8x120mm%2Bscrews&qid=1664676687&qu=eyJxc2MiOiIxLjg1IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=m8x100mm%2Bscrews%2Caps%2C55&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExNVpFRkJKTThZSzgmZW5jcnlwdGVkSWQ9QTA1MjAwMThNVjY3U0tSSDA4UDEmZW5jcnlwdGVkQWRJZD1BMDQ3MzYwODJEM01HVksxRk5WWFMmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1>`_, nuts, and washers.
+Step 1: Locate the following four components: (1) “LA [Linear Actuator] steel frame,” 2x custom machined, link coming shortly; (3) “back link,” custom 3D printed, link coming shortly; and (4) “mid link,” custom 3D prints, link coming shortly. Assemble them as shown in the images below. Note that you will need five `Hex Socket Head Machine Screws <https://www.amazon.com/METALLIXITY-Socket-Machine-Screws-M8x120mm/dp/B09YNLHP5Q/ref=sr_1_1_sspa?crid=1Y5MZ0CQAXP77&keywords=m8x120mm%2Bscrews&qid=1664676687&qu=eyJxc2MiOiIxLjg1IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=m8x100mm%2Bscrews%2Caps%2C55&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExNVpFRkJKTThZSzgmZW5jcnlwdGVkSWQ9QTA1MjAwMThNVjY3U0tSSDA4UDEmZW5jcnlwdGVkQWRJZD1BMDQ3MzYwODJEM01HVksxRk5WWFMmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1>`_, nuts, and washers.
 
 .. image:: ../imgs/Mechanical/BBW_CAD_Step_1.png
     :width: 100%
@@ -39,7 +39,7 @@ Step 1: Locate the following four components: (1) “LA steel frame,” 2x custo
     :align: center
     :alt: Brake By Wire Assembly Step 1
 
-Step 2: Separately, locate the following four components: (1) “PA-14P motor,” purchased; (2) “LA [Linear Actuator] top mount,” purchased, link coming shortly, (3) “LA side mount,” 2x, custom machined. Assemble them as shown in the images below. Note that you will need a single M5 screw and nut, which will tighten around the three mounts in series, in the process tightening the top mount around the motor.
+Step 2: Separately, locate the following four components: (1) “PA-14P motor,” purchased; (2) “LA top mount,” purchased, link coming shortly, (3) “LA side mount,” 2x, custom machined. Assemble them as shown in the images below. Note that you will need a single M5 screw and nut, which will tighten around the three mounts in series, in the process tightening the top mount around the motor.
 
 .. image:: ../imgs/Mechanical/BBW_CAD_Step_2.png
     :width: 100%

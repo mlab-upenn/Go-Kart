@@ -63,7 +63,7 @@ Step 5: Connect the two subassemblies from the previous steps. This can be done 
     :align: center
     :alt: Upper Steer By Wire Assembly Step 5
 
-Step 6: Locate the "shaft mount" part (3D printed, STL coming soon), and using a single (TODO) screw and nut with several spacing features, attach it in between the two beam mounts, via their back top hole. Note that the shaft mount still has 1 degree of freedom; don't worry, this will be resolved shortly.
+Step 6: Locate the "shaft mount" part (3D printed, STL coming soon). Then use a single (TODO) screw and nut, two copies of the 3D printed "ABS washer" (one per side, STL coming soon), and several washers, to attach the shaft mount in between the two beam mounts, via their back top hole. Note that the shaft mount still has 1 degree of freedom; don't worry, this will be resolved shortly.
 
 TODO Insert image, CAD after first taking it
 
@@ -74,14 +74,14 @@ Step 7: Locate the "sw shaft" part (metal pipe, engineering drawing coming soon)
     :align: center
     :alt: Upper Steer By Wire Assembly Step 7
 
-Step 8: In a new subassembly, connect the "steering wheel" to the "steering wheel mount," both parts provided by TopKart (TODO check they're both provided, and check the material). This can be done using three (TODO) screws and nuts.
+Step 8: In a new subassembly, connect the "steering wheel" to the "sw mount," both parts provided by TopKart (TODO check they're both provided, and check the material). This can be done using three (TODO) screws and nuts.
 
 .. image:: ../imgs/Mechanical/USBW_IRL_8.jpeg
     :width: 100%
     :align: center
     :alt: Upper Steer By Wire Assembly Step 8
 
-Step 9: Connect this new steering wheel assembly to the remaining assembly by passing the steering wheel mount around the sw shaft, and connecting them via a single screw and nut (TODO).
+Step 9: Connect this new steering wheel assembly to the remaining assembly by passing the sw mount around the sw shaft, and connecting them via a single screw and nut (TODO).
 
 .. image:: ../imgs/Mechanical/USBW_IRL_9.jpeg
     :width: 100%
@@ -104,7 +104,7 @@ Step 11: Connect this new PCB subassembly with the remaining assembly using 4 sc
 
 Step 12: Now you're ready to connect the full USBW assembly into the preexistent GoKart assembly. This will require three final connections to be made
 
-Step 12a: Place the USBW subassembly's shaft mount inside the blue TopKart chassis's upper steering wheel tabs, with the two beam links just outside of those tabs. Then, insert a black rubber washer in between each tab and its corresponding beam link, so that the full sequence (from beam link to beam link) is very tight. Then, using a screw (TODO get screw type), nut, and washer, tighten this sequence permanently. At this point, the entire USBW subsystem should be attached to the GoKart, even though the bottom is loose.
+Step 12a: Place the USBW subassembly's shaft mount inside the blue TopKart chassis's upper steering wheel tabs, with the two beam links just outside of those tabs. Then, insert two more copies of "ABS washer," namely one in between each tab and its corresponding beam link, so that the full sequence (from beam link to beam link) is very tight. Then, using a screw (TODO get screw type), nut, and washer, tighten this sequence permanently. At this point, the entire USBW subsystem should be attached to the GoKart, even though the bottom is loose.
 
 .. image:: ../imgs/Mechanical/USBW_IRL_12a.jpeg
     :width: 100%
