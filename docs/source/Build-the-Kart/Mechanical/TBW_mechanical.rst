@@ -61,9 +61,9 @@ Connect the three phases ensuring proper insulation. It's essential to verify th
     :alt: Vesc connection
 
 here is the connector that we use: 
-``75 Amp Red/Black/Blue Anderson Powerpole Housing <https://powerwerx.com/5916g4-bk-anderson-power-black>``_.
-``75 Amp White/Green Anderson Powerpole Housing <xhttps://powerwerx.com/5916g4-bk-anderson-power-black>``_.
-``SB50/PP75 SB Series Powerpole Loose Piece Contact <https://powerwerx.com/5900-bk-anderson-power-6awg>``_.
+`75 Amp Red/Black/Blue Anderson Powerpole Housing <https://powerwerx.com/5916g4-bk-anderson-power-black>`_
+`75 Amp White/Green Anderson Powerpole Housing <xhttps://powerwerx.com/5916g4-bk-anderson-power-black>`_
+`SB50/PP75 SB Series Powerpole Loose Piece Contact <https://powerwerx.com/5900-bk-anderson-power-6awg>`_
 
 **3. Monitoring**:
 
