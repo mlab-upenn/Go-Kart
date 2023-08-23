@@ -6,9 +6,6 @@ TODO Add more detail to this section, double check everything
 Motor
 --------
 
-Introduction
-------------
-
 ME1717 is a three-phase permanent magnet synchronous motor. Designed with an axial air gap, this motor stands out with its maintenance-free brushless design. 
 
 Specifications
@@ -62,10 +59,11 @@ Connect the three phases ensuring proper insulation. It's essential to verify th
     :width: 400
     :align: center
     :alt: Vesc connection
+
 here is the connector that we use: 
-``75 Amp Red/Black/Blue Anderson Powerpole Housing <https://powerwerx.com/5916g4-bk-anderson-power-black>``_
-``75 Amp White/Green Anderson Powerpole Housing <xhttps://powerwerx.com/5916g4-bk-anderson-power-black>``_
-``SB50/PP75 SB Series Powerpole Loose Piece Contact <https://powerwerx.com/5900-bk-anderson-power-6awg>``_
+- `75 Amp Red/Black/Blue Anderson Powerpole Housing <https://powerwerx.com/5916g4-bk-anderson-power-black>`_
+- `75 Amp White/Green Anderson Powerpole Housing <xhttps://powerwerx.com/5916g4-bk-anderson-power-black>`_
+- `SB50/PP75 SB Series Powerpole Loose Piece Contact <https://powerwerx.com/5900-bk-anderson-power-6awg>`_
 
 **3. Monitoring**:
 
@@ -79,20 +77,15 @@ Given its brushless design, the ME1717 requires minimal maintenance. Regularly c
 
 Always disconnect power when making any adjustments or checks. Use protective gear when necessary.
 
-Conclusion
-----------
-
-Understanding the specifications and features of the ME1717 motor will enable you to integrate it seamlessly into your applications. Its high efficiency and reliable design make it suitable for a wide range of industrial tasks. Ensure proper care and regular monitoring for optimum performance.
-
 
 .. image:: ../imgs/Mechanical/TBW_left.jpg
     :width: 400
     :align: center
     :alt: Motor
 
+Here is the motor manual. The sensor pin color and loction is at the bottom of this img!
 
 .. image:: ../imgs/Mechanical/ME1717.png
-    :width: 400
     :align: center
     :alt: Motor
 
