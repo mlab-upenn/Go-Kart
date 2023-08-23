@@ -6,9 +6,6 @@ TODO Add more detail to this section, double check everything
 Motor
 --------
 
-Introduction
-------------
-
 ME1717 is a three-phase permanent magnet synchronous motor. Designed with an axial air gap, this motor stands out with its maintenance-free brushless design. 
 
 Specifications
@@ -62,10 +59,11 @@ Connect the three phases ensuring proper insulation. It's essential to verify th
     :width: 400
     :align: center
     :alt: Vesc connection
+
 here is the connector that we use: 
-``75 Amp Red/Black/Blue Anderson Powerpole Housing <https://powerwerx.com/5916g4-bk-anderson-power-black>``_
-``75 Amp White/Green Anderson Powerpole Housing <xhttps://powerwerx.com/5916g4-bk-anderson-power-black>``_
-``SB50/PP75 SB Series Powerpole Loose Piece Contact <https://powerwerx.com/5900-bk-anderson-power-6awg>``_
+``75 Amp Red/Black/Blue Anderson Powerpole Housing <https://powerwerx.com/5916g4-bk-anderson-power-black>``_.
+``75 Amp White/Green Anderson Powerpole Housing <xhttps://powerwerx.com/5916g4-bk-anderson-power-black>``_.
+``SB50/PP75 SB Series Powerpole Loose Piece Contact <https://powerwerx.com/5900-bk-anderson-power-6awg>``_.
 
 **3. Monitoring**:
 
