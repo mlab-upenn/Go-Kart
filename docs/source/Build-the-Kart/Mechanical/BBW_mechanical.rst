@@ -9,26 +9,21 @@ Here is how the brake-by-wire system looks in CAD:
     :alt: Brake By Wire Assembly
 
 
-The brake-by-wire subsystem builds upon TopKart's original manual braking, by enabling the car to brake whenever necessary from autonomous mode. The higher level controller always sends some braking signal downstream to the BBW nucleo, which then runs a PID controller to quickly achieve the desired value. The system's sensor is a M3041-000006-500PG Pressure Sensor, which closes the loop enabling PID feedback control to take place.
+The brake-by-wire subsystem builds upon TopKart's original manual braking, by enabling the car to brake whenever necessary from autonomous mode. The higher level controller always sends some braking signal downstream to the BBW nucleo, which then runs a PID controller to quickly achieve the desired value. The system's sensor is a `M3041-000006-500PG Pressure Sensor: <https://www.digikey.com/en/products/detail/te-connectivity-measurement-specialties/M3041-000006-500PG/274609>`_, which closes the loop enabling PID feedback control to take place.
 
-`M3041-000006-500PG Pressure Sensor: <https://www.digikey.com/en/products/detail/te-connectivity-measurement-specialties/M3041-000006-500PG/274609>`_
-
-The system's actuator is a Linear Electric Actuator DC Motor (clean up link, pasted below), which transmits motion via direct contact with the braking fluid reservoir lever, displacing it just as the left foot brake pedal would. The original TopKart braking mechanism then transfers (via the original braking fluid pipe) this hydraulic pressure to the rear axle, compressing its brake calipers and decelerating the car.
-
-`Linear Electric Actuator DC Motor:
-<https://www.amazon.com/PROGRESSIVE-AUTOMATIONS-Electric-Actuator-PA-14P-4-35/dp/B00Q74I8TI/ref=sr_1_2?keywords=PA-14P-4-35%2Blinear%2Bactuator&qid=1662603873&sr=8-2&ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0&th=1>`_
-
+The system's actuator is a `PA-14P Linear Electric Actuator DC Motor:
+<https://www.amazon.com/PROGRESSIVE-AUTOMATIONS-Electric-Actuator-PA-14P-4-35/dp/B00Q74I8TI/ref=sr_1_2?keywords=PA-14P-4-35%2Blinear%2Bactuator&qid=1662603873&sr=8-2&ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0&th=1>`_, which transmits motion via direct contact with the braking fluid reservoir lever, displacing it just as the left foot brake pedal would. The original TopKart braking mechanism then transfers (via the original braking fluid pipe) this hydraulic pressure to the rear axle, compressing its brake calipers and decelerating the car.
 
 You can also view the exploded video view of the Assembly `here <https://drive.google.com/file/d/13RS9c54bLUqEbxeHZ715SWqoizlZVylu/view?usp=sharing>`_
 
-Please open this SolidWorks assembly to follow along with the `instructions <https://drive.google.com/file/d/1D94OQcvckCQK6pkSvAfoiwdd8uzogu2v/view?usp=drive_link>`_, containing all necessary components for the BBW subsystem. Note that some parts were purchased off-the-shelf, some were designed in-house and sent out for professional machining (mostly via PCBWay), and some were designed in-house and 3D printed in-house. All purchases are documented with a purchase link, all custom machined parts have an engineering drawing, and all custom 3D printed parts have an STL file. Some drawings and STL files will be attached within the next few days, we thank you for your patience.
+Please open this SolidWorks assembly to follow along with the `instructions <https://drive.google.com/file/d/1IdENzNiHq1fnZjjWKZQ7fjXOBJEmkhhs/view?usp=drive_link>`_, containing all necessary components for the BBW subsystem. If the link is dead then  Note that some parts were purchased off-the-shelf, some were designed in-house and sent out for professional machining (mostly via PCBWay), and some were designed in-house and 3D printed in-house. All purchases are documented with a purchase link, all custom machined parts have an engineering drawing, and all custom 3D printed parts have an STL file. Some drawings and STL files will be attached within the next few days, we thank you for your patience.
 
 .. image:: ../imgs/Mechanical/BBW_CAD_Overview.png
     :width: 100%
     :align: center
     :alt: Brake By Wire Assembly Overview
 
-Step 1: Locate the following four components: (1) “LA [Linear Actuator] steel frame,” 2x custom machined, link coming shortly; (3) “back link,” custom 3D printed, link coming shortly; and (4) “mid link,” custom 3D prints, link coming shortly. Assemble them as shown in the images below. Note that you will need five `Hex Socket Head Machine Screws <https://www.amazon.com/METALLIXITY-Socket-Machine-Screws-M8x120mm/dp/B09YNLHP5Q/ref=sr_1_1_sspa?crid=1Y5MZ0CQAXP77&keywords=m8x120mm%2Bscrews&qid=1664676687&qu=eyJxc2MiOiIxLjg1IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=m8x100mm%2Bscrews%2Caps%2C55&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExNVpFRkJKTThZSzgmZW5jcnlwdGVkSWQ9QTA1MjAwMThNVjY3U0tSSDA4UDEmZW5jcnlwdGVkQWRJZD1BMDQ3MzYwODJEM01HVksxRk5WWFMmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1>`_, nuts, and washers.
+Step 1: Locate the following four components: (1) “LA [Linear Actuator] steel frame,” 2x `custom machined <https://drive.google.com/file/d/1fTu_rr1bpT9ckSYAy7-TcmhFtkEncEsn/view?usp=drive_link>`_; (3) “back link,” `custom 3D printed <https://drive.google.com/file/d/1bDNUPBusR4XNovDWsKIRq6mPwZ91q93i/view?usp=drive_link>`_; and (4) “mid link,” `custom 3D printed <https://drive.google.com/file/d/1V8WUnsEd3MZl3BU2TNIRN4l-cY2MyDO3/view?usp=drive_link>`_. Assemble them as shown in the images below. Note that you will need five `M8 Hex Socket Head Machine Screws <https://www.amazon.com/METALLIXITY-Socket-Machine-Screws-M8x120mm/dp/B09YNLHP5Q/ref=sr_1_1_sspa?crid=1Y5MZ0CQAXP77&keywords=m8x120mm%2Bscrews&qid=1664676687&qu=eyJxc2MiOiIxLjg1IiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=m8x100mm%2Bscrews%2Caps%2C55&sr=8-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExNVpFRkJKTThZSzgmZW5jcnlwdGVkSWQ9QTA1MjAwMThNVjY3U0tSSDA4UDEmZW5jcnlwdGVkQWRJZD1BMDQ3MzYwODJEM01HVksxRk5WWFMmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1>`_ and nuts, and 10 M8 washers.
 
 .. image:: ../imgs/Mechanical/BBW_CAD_Step_1.png
     :width: 100%
@@ -39,7 +34,7 @@ Step 1: Locate the following four components: (1) “LA [Linear Actuator] steel 
     :align: center
     :alt: Brake By Wire Assembly Step 1
 
-Step 2: Separately, locate the following four components: (1) “PA-14P motor,” purchased; (2) “LA top mount,” purchased, link coming shortly, (3) “LA side mount,” 2x, custom machined. Assemble them as shown in the images below. Note that you will need a single M5 screw and nut, which will tighten around the three mounts in series, in the process tightening the top mount around the motor.
+Step 2: Separately, locate the following four components: (1) ` "PA-14P motor," <https://www.amazon.com/PROGRESSIVE-AUTOMATIONS-Electric-Actuator-PA-14P-4-35/dp/B00Q74I8TI/ref=sr_1_2?keywords=PA-14P-4-35%2Blinear%2Bactuator&qid=1662603873&sr=8-2&ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0&th=1>`_; (2) “LA top mount,” `purchased <https://www.progressiveautomations.com/products/brk-03>`_; (3) “LA side mount,” 2x, `custom machined <https://drive.google.com/file/d/1TaT70M0LAvO5cSvIbiwVBQpHcoHnRBYK/view>`_. Assemble them as shown in the images below. Note that you will need a single M5 screw and nut (both included with "top mount" purchase), which will tighten around the three mounts in series, in the process tightening the top mount around the motor.
 
 .. image:: ../imgs/Mechanical/BBW_CAD_Step_2.png
     :width: 100%
