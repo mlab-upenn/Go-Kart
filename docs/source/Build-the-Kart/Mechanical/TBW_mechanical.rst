@@ -6,19 +6,97 @@ TODO Add more detail to this section, double check everything
 Motor
 --------
 
-We started working with the Brushed DC motor and it worked well for the intial 2 version of our Gokart. However, it lacked the capacity of reverse and was also very inefficient. To combat this the team took the decision to pivot to a Brushless DC motor for the next version of the Gokart.
+Introduction
+------------
+
+ME1717 is a three-phase permanent magnet synchronous motor. Designed with an axial air gap, this motor stands out with its maintenance-free brushless design. 
+
+Specifications
+--------------
+
+**Basic Features**:
+
+- **Voltage**: 24-48V
+- **Current**: 100A
+- **Power**: 4 kW (Continuous)
+
+**Performance Metrics**:
+
+- **Speed**: 5000 RPM (can peak up to 5500 RPM)
+- **Torque**: 9.55 Nm
+- **Efficiency**: 88%
+
+**Design and Build**:
+
+- **Ingress Protection**: IP65 - ensures the motor is dust-tight and protected against water jets.
+- **Sensor**: Hall Effect sensors for reliable performance monitoring.
+- **Poles**: Designed with 5-poles (comprising 10 magnets).
+- **Weight**: 20.5 lbs (equivalent to 9.3 kg) 
+
+**Electrical Properties**:
+
+- **Resistance (between phases)**: 4.9 milli Ohms
+- **Inductance (between phases at 1000 Hz)**: Values range between 39 and 43.5 micro Henry.
+
+Additional Features:
+
+- **Temperature Sensor**: Yes, it's installed to monitor and ensure optimal performance. But we didn't test it yet.
+
+Tutorial
+--------
+
+**1. Installation**:
+
+Before installing, ensure the location chosen is free of excessive moisture and dust to take full advantage of the IP65 protection.
+
+**2. Connections**:
+
+Connect the three phases ensuring proper insulation. It's essential to verify the connections with the Hall Effect sensors for accurate performance metrics. For our design, we use SB50/PP75 SB Series Powerpole Loose Piece Contact and Anderson Powerpole Housing from Powerwerx to represent A, B, and C phases in three different color. 
+
+.. image:: ../imgs/Mechanical/motor_connector.png
+    :width: 400
+    :align: center
+    :alt: Motor connector
+
+.. image:: ../imgs/Mechanical/vesc_connect.png
+    :width: 400
+    :align: center
+    :alt: Vesc connection
+here is the connector that we use: 
+``75 Amp Red/Black/Blue Anderson Powerpole Housing <https://powerwerx.com/5916g4-bk-anderson-power-black>``_
+``75 Amp White/Green Anderson Powerpole Housing <xhttps://powerwerx.com/5916g4-bk-anderson-power-black>``_
+``SB50/PP75 SB Series Powerpole Loose Piece Contact <https://powerwerx.com/5900-bk-anderson-power-6awg>``_
+
+**3. Monitoring**:
+
+Utilize the in-built temperature sensor to regularly check the motor's temperature during operation. Overheating can reduce efficiency and motor lifespan.
+
+**4. Maintenance**:
+
+Given its brushless design, the ME1717 requires minimal maintenance. Regularly check for any visible damage or wear.
+
+**5. Safety**:
+
+Always disconnect power when making any adjustments or checks. Use protective gear when necessary.
+
+Conclusion
+----------
+
+Understanding the specifications and features of the ME1717 motor will enable you to integrate it seamlessly into your applications. Its high efficiency and reliable design make it suitable for a wide range of industrial tasks. Ensure proper care and regular monitoring for optimum performance.
+
 
 .. image:: ../imgs/Mechanical/TBW_left.jpg
     :width: 400
     :align: center
     :alt: Motor
 
-We chose the ME1716 BLDC for that. This motor comes with the sin cosin encoder. We are still trying to tune this sensor and will be sure to update the settings quite soon. In essence, if you find a motor which takes in 48V as the input, it can very easily be integrated with the setup.
 
-.. image:: ../imgs/Mechanical/ME1716.png
+.. image:: ../imgs/Mechanical/ME1717.png
     :width: 400
     :align: center
     :alt: Motor
+
+
 
 
 VESC Controller
