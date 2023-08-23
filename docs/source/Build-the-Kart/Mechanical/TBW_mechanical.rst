@@ -77,20 +77,15 @@ Given its brushless design, the ME1717 requires minimal maintenance. Regularly c
 
 Always disconnect power when making any adjustments or checks. Use protective gear when necessary.
 
-Conclusion
-----------
-
-Understanding the specifications and features of the ME1717 motor will enable you to integrate it seamlessly into your applications. Its high efficiency and reliable design make it suitable for a wide range of industrial tasks. Ensure proper care and regular monitoring for optimum performance.
-
 
 .. image:: ../imgs/Mechanical/TBW_left.jpg
     :width: 400
     :align: center
     :alt: Motor
 
+Here is the motor manual. The sensor pin color and loction is at the bottom of this img!
 
 .. image:: ../imgs/Mechanical/ME1717.png
-    :width: 400
     :align: center
     :alt: Motor
 
