@@ -31,43 +31,35 @@ TODO Update this after making some necessary changes!
 
 BOTTOM HALF ASSEMBLY
 
-Step B1: First, build the base level of the mount. You'll have to cut four t-slots, two of length X and two of length Y, and arrange them horizontally as shown in the image below. This subassembly allows for the active components above to connect to the provided blue TopKart chassis on either side; although this connection itself will take place in a later step.
-
-TODO Copy this from CAD, dimensions and screenshots
+Step B1: First, build the base level of the mount. You'll have to cut four t-slots, two of length 165mm and two of length 56mm, and arrange them horizontally as shown in the image below. This subassembly allows for the active components above to connect to the provided blue TopKart chassis on either side; although this connection itself will take place in a later step.
 
 .. image:: ../imgs/Mechanical/LSBW_CAD_B1
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step B1
 
-Step B2: Next, cut six t-slots of length X, and attach them vertically around the outer perimeter of the base. Specific position dimensions can be found in the assembly linked above, although they're easily adjustable later and imprecision is fine.
-
-TODO Copy this from CAD, dimensions and screenshots
+Step B2: Next, cut six t-slots of length 60mm, and attach them vertically around the outer perimeter of the base. Specific position dimensions can be found in the assembly linked above, although they're easily adjustable later and imprecision is fine.
 
 .. image:: ../imgs/Mechanical/LSBW_CAD_B2
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step B2
 
-Step B3: Now cut four more t-slots, two of length X and two of length Y, and assemble them as shown below. Note that the X are on the GoKart's left and right (i.e. touching the vertical t-slots from Step 2), and the Y are in between them in the front and back. Note also that the backmost t-slot is not a critical component, so you can bypass this if assembly proves too difficult. Once you have this subassembly complete, attach it just inside of the vertical t-slots.
-
-TODO Copy this from CAD, dimensions and screenshots
+Step B3: Now cut four more t-slots, two of length 70mm and two of length 56mm, and assemble them as shown below. Note that the 70mm t-slots are on the GoKart's left and right (i.e. touching the vertical t-slots from Step 2), and the 55mm t-slots are in between them in the front and back. Note also that the backmost t-slot is not a critical component, so you can bypass this if assembly proves too difficult. Once you have this subassembly complete, attach it just inside of the vertical t-slots.
 
 .. image:: ../imgs/Mechanical/LSBW_CAD_B3
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step B3
 
-Step B4: Cut four more 4 t-slots, two of length X and two of length Y, then arrange them in a rectangle as shown below. Then attach them to the four vertical t-slots near the front. For now, ignore the U-bolts shown in the CAD, unless this long rectangle starts to act as a bending cantilever, in which case you should skip to steps 5 and 6 (bottom half) and step 2 (full assembly) to attach the complete LSBW bottom half to the blue TopKart chassis frame.
-
-TODO Copy this from CAD, dimensions and screenshots
+Step B4: Cut four more 4 t-slots, two of length 260mm and two of length 56mm, then arrange them in a rectangle as shown below. Then attach them to the four vertical t-slots near the front. For now, ignore the U-bolts shown in the CAD, unless this long rectangle starts to act as a bending cantilever, in which case you should skip to steps 5 and 6 (bottom half) and step 2 (full assembly) to attach the complete LSBW bottom half to the blue TopKart chassis frame.
 
 .. image:: ../imgs/Mechanical/LSBW_CAD_B4
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step B4
 
-Step B5: Cut four more t-slots, two of length X and two of length Y, and assemble them as two "L" pairs, as shown below. Then using four 3D printed (or better yet, custom machined?) t-slot brackets, (two copies of A, STL coming soon, and two copies of B, STL coming soon) attach both L pairs to the t-slot base from Step 1.
+Step B5: Cut four more t-slots, each of length 60mm, and assemble them as two "L" pairs, as shown below. Then using four 3D printed (or better yet, custom machined?) t-slot brackets, (two copies of A, STL coming soon, and two copies of B, STL coming soon) attach both L pairs to the t-slot base from Step 1.
 
 TODO Copy this from CAD, dimensions and screenshots
 TODO Attach this CAD, and merge it into the assembly
