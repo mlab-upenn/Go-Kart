@@ -42,14 +42,14 @@ Step 2: Locate the Pololu DC motor (TODO attach link), and attach it to the Polo
     :align: center
     :alt: Upper Steer By Wire Assembly Step 2
 
-Step 3: Locate the two identical "beam link" parts, 3D printed with STL coming soon, and attach them to the beam using four screws (two per side), TODO determine screw type. Note that the other, larger three holes are still vacant, these will be connected at a later step.
+Step 3: Locate the two identical "beam link" parts, `3D printed <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20upper/STL/beam%20link.STL>`_, and attach them to the beam using four screws (two per side), TODO determine screw type. Note that the other, larger three holes are still vacant, these will be connected at a later step.
 
 .. image:: ../imgs/Mechanical/USBW_CAD_3
     :width: 100%
     :align: center
     :alt: Upper Steer By Wire Assembly Step 3
 
-Step 4: In a separate subassembly, connect the "coupler" (3D printed, STL coming soon) and the "D-shaft hub" (purchased, link coming soon). This can be done using four screws (type TBD, TODO). Note that you will have to thread the 3D printed coupler part, which can simply be done using the screw itself, after 3D printing a slightly undersized hole (TODO confirm this, check CAD for the part)
+Step 4: In a separate subassembly, connect the "coupler," `3D printed <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20upper/STL/coupler.STL>`_ and the "D-shaft hub" (purchased, link coming soon). This can be done using four screws (type TBD, TODO). Note that you will have to thread the 3D printed coupler part, which can simply be done using the screw itself, after 3D printing a slightly undersized hole (TODO confirm this, check CAD for the part)
 
 .. image:: ../imgs/Mechanical/USBW_IRL_4.jpeg
     :width: 100%
@@ -63,7 +63,7 @@ Step 5: Connect the two subassemblies from the previous steps. This can be done 
     :align: center
     :alt: Upper Steer By Wire Assembly Step 5
 
-Step 6: Locate the "shaft mount" part (3D printed, STL coming soon). Then use a single (TODO) screw and nut, two copies of the 3D printed "ABS washer" (one per side, STL coming soon), and several washers, to attach the shaft mount in between the two beam mounts, via their back top hole. Note that the shaft mount still has 1 degree of freedom; don't worry, this will be resolved in the next step.
+Step 6: Locate the "shaft mount" part, `3D printed <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20upper/STL/shaft%20mount.STL>`_. Then use a single (TODO) screw and nut, two copies of the "ABS washer" (one per side, `3d printed <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20upper/STL/ABS%20washer.STL>`_), and several washers, to attach the shaft mount in between the two beam mounts, via their back top hole. Note that the shaft mount still has 1 degree of freedom; don't worry, this will be resolved in the next step.
 
 TODO Insert image, CAD after first taking it
 
@@ -88,7 +88,7 @@ Step 9: Connect this new steering wheel assembly to the remaining assembly by pa
     :align: center
     :alt: Upper Steer By Wire Assembly Step 9
 
-Step 10: Create a new subassembly for the boards. For this, you'll need the USBW PCB (custom designed, see Electrical section of documentation), the Pololu motor driver (comes with motor purchase), and the "USBW PCB mount" (custom, 3D printed, STL link coming soon). First, make sure all components necessary are soldered to the PCB. Note that the Pololu driver is soldered to the back, but everything else (including nucleo, CAN bus ports, etc) is on the front. It is recommended that you use some black solder elevation/bridge parts in between parallel components, as we did. After the electronics are all assembled, attach them (via the USBW PCB) to the PCB mount, via 4 screws, nuts, and standoffs (TODO figure out which type). The motor driver will fit nicely into the mount's large rectangular pocket. Your result should look similar to the next two images below.
+Step 10: Create a new subassembly for the boards. For this, you'll need the USBW PCB (custom designed, see Electrical section of documentation), the Pololu motor driver (comes with motor purchase), and the "USBW PCB mount," `custom 3D printed <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20upper/STL/USBW%20PCB%20mount.STL>`_. First, make sure all components necessary are soldered to the PCB. Note that the Pololu driver is soldered to the back, but everything else (including nucleo, CAN bus ports, etc) is on the front. It is recommended that you use some black solder elevation/bridge parts in between parallel components, as we did. After the electronics are all assembled, attach them (via the USBW PCB) to the PCB mount, via 4 screws, nuts, and standoffs (TODO figure out which type). The motor driver will fit nicely into the mount's large rectangular pocket. Your result should look similar to the next two images below.
 
 .. image:: ../imgs/Mechanical/USBW_IRL_10.jpeg
     :width: 100%
@@ -111,7 +111,7 @@ Step 12a: Place the USBW subassembly's shaft mount inside the blue TopKart chass
     :align: center
     :alt: Upper Steer By Wire Assembly Step 12a
 
-Step 12b: Locate four identical "rounded spacer" parts, 3d printed, STL coming soon, and two U-bolts, 2 rectangular plates (TODO get link, correct the name), and four nuts. First, coat the U-bolt's rounded edge with a few layers of Gaffer's tape (or a similar material). Then near the bottom of the beam, attach the components to either side as shown below, tightening them with the four nuts. Note that the spacers need not all be perfectly tight.
+Step 12b: Locate four identical "rounded spacer" parts, `3d printed <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20upper/STL/rounded%20spacer.STL>`_, and two U-bolts, 2 rectangular plates (TODO get link, correct the name), and four nuts. First, coat the U-bolt's rounded edge with a few layers of Gaffer's tape (or a similar material). Then near the bottom of the beam, attach the components to either side as shown below, tightening them with the four nuts. Note that the spacers need not all be perfectly tight.
 
 .. image:: ../imgs/Mechanical/USBW_IRL_12b_1.jpeg
     :width: 100%
