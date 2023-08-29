@@ -28,7 +28,7 @@ This features creates potential for future "hybrid-autonomy" mode implementation
 
 Note that almost all components of this subsystem are 3D printed from plastic; Strong metal materials are unnecessary since this components carries a very small load, plus this subassembly is hanging in the air, so we prioritized weight reduction. In terms of assembly, it's most convenient to almost-entirely assemble this component first offboard, then attach it together to the existing GoKart. The steps can be laid out as follows:
 
-Step 1: First, you will assemble the two primary structural components. These are called "beam" and "Pololu mount," both 3D printed, STL files coming soon, and both are circled in red and highlighted in light blue below. To attach them, simply use 8 screws (TODO figure out screw type) and nuts, fixturing through the provided 8 holes.
+Step 1: First, you will assemble the two primary structural components. These are called "beam" (`STL here <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20upper/STL/beam.STL>`_) and "Pololu mount" (`STL here <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20upper/STL/Pololu%20mount.STL>`_) both 3D printed, and both are circled in red and highlighted in light blue below. To attach them, simply use 8 screws (TODO figure out screw type) and nuts, fixturing through the provided 8 holes.
 
 .. image:: ../imgs/Mechanical/USBW_CAD_1
     :width: 100%
@@ -63,7 +63,7 @@ Step 5: Connect the two subassemblies from the previous steps. This can be done 
     :align: center
     :alt: Upper Steer By Wire Assembly Step 5
 
-Step 6: Locate the "shaft mount" part (3D printed, STL coming soon). Then use a single (TODO) screw and nut, two copies of the 3D printed "ABS washer" (one per side, STL coming soon), and several washers, to attach the shaft mount in between the two beam mounts, via their back top hole. Note that the shaft mount still has 1 degree of freedom; don't worry, this will be resolved shortly.
+Step 6: Locate the "shaft mount" part (3D printed, STL coming soon). Then use a single (TODO) screw and nut, two copies of the 3D printed "ABS washer" (one per side, STL coming soon), and several washers, to attach the shaft mount in between the two beam mounts, via their back top hole. Note that the shaft mount still has 1 degree of freedom; don't worry, this will be resolved in the next step.
 
 TODO Insert image, CAD after first taking it
 
@@ -88,7 +88,7 @@ Step 9: Connect this new steering wheel assembly to the remaining assembly by pa
     :align: center
     :alt: Upper Steer By Wire Assembly Step 9
 
-Step 10: Create a new subassembly for the boards. For this, you'll need the USBW PCB (custom designed, see Electrical section of documentation), the Pololu motor driver (comes with motor purchase), and the "PCB mount" (custom, 3D printed, STL link coming soon). First, make sure all components necessary are soldered to the PCB. Note that the Pololu driver is soldered to the back, but everything else (including nucleo, CAN bus ports, etc) is on the front. It is recommended that you use some black solder elevation/bridge parts in between parallel components, as we did. After the electronics are all assembled, attach them (via the USBW PCB) to the PCB mount, via 4 screws, nuts, and standoffs (TODO figure out which type). The motor driver will fit nicely into the mount's large rectangular pocket. Your result should look similar to the next two images below.
+Step 10: Create a new subassembly for the boards. For this, you'll need the USBW PCB (custom designed, see Electrical section of documentation), the Pololu motor driver (comes with motor purchase), and the "USBW PCB mount" (custom, 3D printed, STL link coming soon). First, make sure all components necessary are soldered to the PCB. Note that the Pololu driver is soldered to the back, but everything else (including nucleo, CAN bus ports, etc) is on the front. It is recommended that you use some black solder elevation/bridge parts in between parallel components, as we did. After the electronics are all assembled, attach them (via the USBW PCB) to the PCB mount, via 4 screws, nuts, and standoffs (TODO figure out which type). The motor driver will fit nicely into the mount's large rectangular pocket. Your result should look similar to the next two images below.
 
 .. image:: ../imgs/Mechanical/USBW_IRL_10.jpeg
     :width: 100%
