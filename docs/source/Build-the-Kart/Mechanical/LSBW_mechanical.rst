@@ -59,7 +59,7 @@ Step B4: Cut four more 4 t-slots, two of length 260mm and two of length 56mm, th
     :align: center
     :alt: Lower Steer By Wire Assembly Step B4
 
-Step B5: Cut four more t-slots, each of length 60mm, and assemble them as two "L" pairs, as shown below. Then using four custom machined t-slot brackets, `two copies <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/L_Pair_Bottom_Mount.pdf>`_ of "L-Pair Bottom Mount" and `two copies <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/L_Pair_Top_Mount.pdf>`_ of "L-Pair Top Mount," attach both L pairs to the t-slot base from Step 1. You will also need five M5 nuts and bolts per bracket for t-slot mounting, and the left and right sides are perfectly symmetric.
+Step B5: Cut four more t-slots, each of length 60mm, and assemble them as two "L" pairs, as shown below. Then using four custom machined t-slot brackets, `two copies <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/L_Pair_Bottom_Mount.pdf>`_ of "L-Pair Bottom Mount" and `two copies <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/L_Pair_Top_Mount.pdf>`_ of "L-Pair Top Mount," attach both L pairs to the t-slot base from Step 1. You will also need five M5 nuts and bolts per bracket for t-slot mounting. Also, the left and right sides are perfectly symmetric.
 
 .. image:: ../imgs/Mechanical/LSBW_CAD_B5a
     :width: 100%
@@ -74,10 +74,16 @@ Step B5: Cut four more t-slots, each of length 60mm, and assemble them as two "L
     :align: center
     :alt: Lower Steer By Wire Assembly Step B5
 
-Step B6: Also, you should add an extra support for the BLCD near its front, namely a long t-slot connector screwed in with two M5 screws. We used a rectangular t-slot connector, similar to `these from Amazon <https://www.amazon.com/4040-Aluminum-Extrusion-Connector-Included/dp/B09Y1PC4FN/ref=sr_1_1_sspa?crid=3PMOGEU95L2V2&keywords=t-slot%2Bbracket&qid=1692302964&sprefix=t-slot%2Bbracket%2Caps%2C94&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1>`_ except for the shape, but unfortunately cannot find these of precise dimensions anywhere online, so you might have to custom machine it, using this engineering drawing. However this part is purely a safety measure which isn't strictly necessary, so you can optionally skip it entirely.
+Step B6: Also, you should add an extra support for the BLCD near its front, namely a long t-slot connector screwed in with two M5 screws and nuts. You can either get this rectangular part custom machined using `our design <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/LSBW_Motor_Front_Support.pdf>`_, or find some pre-existent part off-the-shelf, maybe similar to `these from Amazon <https://www.amazon.com/4040-Aluminum-Extrusion-Connector-Included/dp/B09Y1PC4FN/ref=sr_1_1_sspa?crid=3PMOGEU95L2V2&keywords=t-slot%2Bbracket&qid=1692302964&sprefix=t-slot%2Bbracket%2Caps%2C94&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1>`_ except for in shape; unfortunately we cannot right now find the right shape and dimensions anywhere online, but it might become available. Regardless, this part is purely a safety measure which isn't strictly necessary, so you can optionally skip it entirely.
 
-TODO Mock up some CAD, and link from here and within assembly, 100mm by 22.3mm, with spacing of 25mm between holes, 4 holes in total, 5mm thick material, copy the material from the other t-slot brackets
-TODO Get a picture of this!
+.. image:: ../imgs/Mechanical/LSBW_IRL_B6a
+    :width: 100%
+    :align: center
+    :alt: Lower Steer By Wire Assembly Step B6
+.. image:: ../imgs/Mechanical/LSBW_IRL_B6b
+    :width: 100%
+    :align: center
+    :alt: Lower Steer By Wire Assembly Step B6
 
 
 
