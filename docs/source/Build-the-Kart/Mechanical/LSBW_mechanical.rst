@@ -59,13 +59,17 @@ Step B4: Cut four more 4 t-slots, two of length 260mm and two of length 56mm, th
     :align: center
     :alt: Lower Steer By Wire Assembly Step B4
 
-Step B5: Cut four more t-slots, each of length 60mm, and assemble them as two "L" pairs, as shown below. Then using four 3D printed (or better yet, custom machined?) t-slot brackets, (two copies of A, STL coming soon, and two copies of B, STL coming soon) attach both L pairs to the t-slot base from Step 1.
+Step B5: Cut four more t-slots, each of length 60mm, and assemble them as two "L" pairs, as shown below. Then using four custom machined t-slot brackets, `two copies <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/L_Pair_Bottom_Mount.pdf>`_ of "L-Pair Bottom Mount" and `two copies <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/L_Pair_Top_Mount.pdf>`_ of "L-Pair Top Mount," attach both L pairs to the t-slot base from Step 1. You will also need five M5 nuts and bolts per bracket for t-slot mounting, and the left and right sides are perfectly symmetric.
 
-TODO Copy this from CAD, dimensions and screenshots
-TODO Attach this CAD, and merge it into the assembly
-TODO Insert image LSBW_CAD_B5, after editing it with new parts!
-
-.. image:: ../imgs/Mechanical/LSBW_CAD_B5
+.. image:: ../imgs/Mechanical/LSBW_CAD_B5a
+    :width: 100%
+    :align: center
+    :alt: Lower Steer By Wire Assembly Step B5
+.. image:: ../imgs/Mechanical/LSBW_CAD_B5b
+    :width: 100%
+    :align: center
+    :alt: Lower Steer By Wire Assembly Step B5
+.. image:: ../imgs/Mechanical/LSBW_CAD_B5c
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step B5
