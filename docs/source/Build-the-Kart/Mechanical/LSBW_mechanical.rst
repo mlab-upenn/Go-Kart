@@ -89,62 +89,69 @@ Step B6: Also, you should add an extra support for the BLCD near its front, name
 
 TOP HALF ASSEMBLY
 
-Step T1: Attain welded shalf, see subassembly (TODO add CAD link). This consists of four metal parts: (1) "steering shaft," a hollow metal pipe, (2) "tie_rod_turner," 2x, provided by TopKart (TODO double check this, and think about shaft assembly), and (4) "hexagonal shaft" (provided by motor company, TODO double check this). You can probably get a local machine shop to weld these parts for you.
+Step T1: First, you must refine the "TopKart Shaft," `drawing shown here <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/TopKart_Shaft.pdf>`_ and image below consisting of 1 long hollow rod and 2 tie_rod_turners welded together. Although this part is initially provided and welded by TopKart, two more changes must be made manually: (1) Cut the shaft to length on either side of the tie_rod_turners, and (2): Drill a hole in the middle. Both changes are quantified in the drawing linked above.
 
-.. image:: ../imgs/Mechanical/Welded_part
+.. image:: ../imgs/Mechanical/TopKart_shaft
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step T1
 
-Step T2: Locate 2 `heim joints <https://shop.topkartusa.net/products/heim-joints>`_, two screws (link coming shortly) and several spacing features such as washers. Separately on both sides of the LSBW assembly, attach one heim join right in between, with the nut facing out. To do so, get it in position, surrounded by all necessary spacing features, then pass the screw in from one end, then tighten it from the other with a nut.
+Step T2: Next, you must build the "Pinned Shaft" subassembly, shown below and included in the full LSBW CAD assembly linked above. This subassembly consists of three parts: "TopKart Shaft," from the previous step, "hexagonal shaft," `custom machined <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/hexagonal%20shaft.pdf>`_, and "hexagonal shaft pin," `custom machined <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/Hexagonal_shaft_pin.pdf>`_. You must simply insert the hexagonal shaft's cylindrical portion into the TopKart shaft's shorter end, until you see the pin holes align. This will likely require non-negligible force. Then, connect them together using the pin and a hammer. Note that the hexagonal shaft will transmit motion from motor to TopKart shaft (and indirectly, everything else), and is very long to ensure stability.
 
-.. image:: ../imgs/Mechanical/Heim_connection
+.. image:: ../imgs/Mechanical/Pinned_shaft
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step T2
 
-Step T3: Press fit the "sleeve front" and "sleeve back," both 3D printed, STL coming soon, from either end of the shaft, so each is flush with the tie_rod_turners.
+Step T3: Locate 2 `heim joints <https://shop.topkartusa.net/products/heim-joints>`_, two screws (link coming shortly) and several spacing features such as washers. Separately on both sides of the LSBW assembly, attach one heim join right in between, with the nut facing out. To do so, get it in position, surrounded by all necessary spacing features, then pass the screw in from one end, then tighten it from the other with a nut.
 
-Step T4: Attain four parts: two copies of "deep groove bearing" (purchased, link coming soon), and two copies of "bearing mount," a custom metal part. Then press fit the bearings into the bearing mounts, separately.
-
-Step T5: Press fit the bearing pockets around the welded shalf, until they're touching the 3d printed sleeves.
-
-.. image:: ../imgs/Mechanical/LSBW_IRL_T5.jpeg
+.. image:: ../imgs/Mechanical/Heim_connection
     :width: 100%
     :align: center
-    :alt: Lower Steer By Wire Assembly Step T5
+    :alt: Lower Steer By Wire Assembly Step T3
 
-Step T6: From the AS5047P sensor kit, locate the magnet, and also attain the 3d printed (STL coming soon) "magnet mount" part. Insert the magnet into its mount using some tape, then insert its mount into the welded shalf using a pin.
+Step T4: Press fit the "sleeve front" and "sleeve back," both 3D printed, STL coming soon, from either end of the shaft, so each is flush with the tie_rod_turners.
+
+Step T5: Attain four parts: two copies of "deep groove bearing" (purchased, link coming soon), and two copies of "bearing mount," a custom metal part. Then press fit the bearings into the bearing mounts, separately.
+
+Step T6: Press fit the bearing pockets around the welded shalf, until they're touching the 3d printed sleeves.
 
 .. image:: ../imgs/Mechanical/LSBW_IRL_T6.jpeg
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step T6
 
-Step T7: Locate the motor, and attach the welded shaft into it, via its hexagonal shaft. This might require using a pin, and/or temporarily dissembling a portion of the motor. Note that our CAD is slightly off, since it includes only 3 gearboxes, whereas in real life we used 4 gearboxes.
+Step T7: From the AS5047P sensor kit, locate the magnet, and also attain the 3d printed (STL coming soon) "magnet mount" part. Insert the magnet into its mount using some tape, then insert its mount into the welded shalf using a pin.
 
 .. image:: ../imgs/Mechanical/LSBW_IRL_T7.jpeg
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step T7
 
-Step T8: Locate the "LSBW motor mount" custom machined part, engineering drawing coming soon. Then using 3 screws per side, connect it from underneath to the motor.
+Step T8: Locate the motor, and attach the welded shaft into it, via its hexagonal shaft. This might require using a pin, and/or temporarily dissembling a portion of the motor. Note that our CAD is slightly off, since it includes only 3 gearboxes, whereas in real life we used 4 gearboxes.
 
 .. image:: ../imgs/Mechanical/LSBW_IRL_T8.jpeg
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step T8
 
-Step T9: Attain the "AS5047P mount," 3D printed with STL coming soon. Also attain the AS5047P sensor board, and extract whatever wires will connect this to the nucleo, passing them through the mount's rectangular pocket; then screw that sensor onto the outer (i.e. further from the base holes) side of the mount, using 4 small screws. Then attain the LSBW PCB (including its nucleo MCU), and after completing the aforementioned connections, screw this onto the inner side of the mount, using 4 small screws; you might need to leave a small gap for the nuts from the AS5047P mounting, this is fine. Note also that the part from this Step 9 is unconnected to those from Steps 1-8, which are themselves all connected.
+Step T9: Locate the "LSBW motor mount" custom machined part, engineering drawing coming soon. Then using 3 screws per side, connect it from underneath to the motor.
 
-.. image:: ../imgs/Mechanical/LSBW_IRL_T9a.jpeg
+.. image:: ../imgs/Mechanical/LSBW_IRL_T9.jpeg
     :width: 100%
     :align: center
-    :alt: Lower Steer By Wire Assembly Step 
-.. image:: ../imgs/Mechanical/LSBW_IRL_T9b.jpeg
+    :alt: Lower Steer By Wire Assembly Step T9
+
+Step T10: Attain the "AS5047P mount," 3D printed with STL coming soon. Also attain the AS5047P sensor board, and extract whatever wires will connect this to the nucleo, passing them through the mount's rectangular pocket; then screw that sensor onto the outer (i.e. further from the base holes) side of the mount, using 4 small screws. Then attain the LSBW PCB (including its nucleo MCU), and after completing the aforementioned connections, screw this onto the inner side of the mount, using 4 small screws; you might need to leave a small gap for the nuts from the AS5047P mounting, this is fine. Note also that the part from this Step 9 is unconnected to those from Steps 1-8, which are themselves all connected.
+
+.. image:: ../imgs/Mechanical/LSBW_IRL_T10a.jpeg
     :width: 100%
     :align: center
-    :alt: Lower Steer By Wire Assembly Step 
+    :alt: Lower Steer By Wire Assembly Step T10
+.. image:: ../imgs/Mechanical/LSBW_IRL_T10b.jpeg
+    :width: 100%
+    :align: center
+    :alt: Lower Steer By Wire Assembly Step Step T10
 
 FULL ASSEMBLY
 
