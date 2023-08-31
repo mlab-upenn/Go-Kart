@@ -29,7 +29,7 @@ Step 1: Locate the following four components: (1) “LA [Linear Actuator] steel 
     :width: 100%
     :align: center
     :alt: Brake By Wire Assembly Step 1
-.. image:: ../imgs/Mechanical/BBW_IRL_Step_1.png
+.. image:: ../imgs/Mechanical/BBW_IRL_Step_1.jpeg
     :width: 100%
     :align: center
     :alt: Brake By Wire Assembly Step 1
@@ -41,7 +41,7 @@ Step 2: Separately, locate the following four components: (1) `"PA-14P motor,"<h
     :align: center
     :alt: Brake By Wire Assembly Step 2
 
-.. image:: ../imgs/Mechanical/BBW_IRL_Step_2.png
+.. image:: ../imgs/Mechanical/BBW_IRL_Step_2.jpeg
     :width: 100%
     :align: center
     :alt: Brake By Wire Assembly Step 2
@@ -53,7 +53,7 @@ Step 3: At this point, you are ready to connect the two sub-assemblies from prev
     :align: center
     :alt: Brake By Wire Assembly Step 3
 
-.. image:: ../imgs/Mechanical/BBW_IRL_Step_3.png
+.. image:: ../imgs/Mechanical/BBW_IRL_Step_3.jpeg
     :width: 100%
     :align: center
     :alt: Brake By Wire Assembly Step 3
@@ -81,7 +81,7 @@ Step 5: At this point, you are ready to connect the full BBW assembly with the T
     :align: center
     :alt: Brake By Wire Assembly Step 5
 
-.. image:: ../imgs/Mechanical/BBW_IRL_Step_5.png
+.. image:: ../imgs/Mechanical/BBW_IRL_Step_5.jpeg
     :width: 100%
     :align: center
     :alt: Brake By Wire Assembly Step 5
@@ -93,7 +93,7 @@ Step 6: Locate the “lever arm” part, `custom machined <https://github.com/ml
     :align: center
     :alt: Brake By Wire Assembly Step 6
 
-.. image:: ../imgs/Mechanical/BBW_IRL_Step_6.png
+.. image:: ../imgs/Mechanical/BBW_IRL_Step_6.jpeg
     :width: 100%
     :align: center
     :alt: Brake By Wire Assembly Step 6

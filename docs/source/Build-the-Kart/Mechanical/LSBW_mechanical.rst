@@ -59,7 +59,7 @@ Step B4: Cut four more 4 t-slots, two of length 260mm and two of length 56mm, th
     :align: center
     :alt: Lower Steer By Wire Assembly Step B4
 
-Step B5: Cut four more t-slots, each of length 60mm, and assemble them as two "L" pairs, as shown below. Then using four custom machined t-slot brackets, `two copies <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/L_Pair_Bottom_Mount.pdf>`_ of "L-Pair Bottom Mount" and `two copies <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/L_Pair_Top_Mount.pdf>`_ of "L-Pair Top Mount," attach both L pairs to the t-slot base from Step 1. You will also need five M5 nuts and bolts per bracket for t-slot mounting. Also, the left and right sides are perfectly symmetric.
+Step B5: Cut four more t-slots, each of length 60mm, and assemble them as two "L-pairs," as shown below. Then using four custom machined t-slot brackets, `two copies <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/L_Pair_Bottom_Mount.pdf>`_ of "L-Pair Bottom Mount" and `two copies <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/L_Pair_Top_Mount.pdf>`_ of "L-Pair Top Mount," attach both L pairs to the t-slot base from Step 1. You will also need five M5 nuts and bolts per bracket for t-slot mounting. Also, the left and right sides are perfectly symmetric.
 
 .. image:: ../imgs/Mechanical/LSBW_CAD_B5a
     :width: 100%
@@ -76,11 +76,11 @@ Step B5: Cut four more t-slots, each of length 60mm, and assemble them as two "L
 
 Step B6: Also, you should add an extra support for the BLCD near its front, namely a long t-slot connector screwed in with two M5 screws and nuts. You can either get this rectangular part custom machined using `our design <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/LSBW_Motor_Front_Support.pdf>`_, or find some pre-existent part off-the-shelf, maybe similar to `these from Amazon <https://www.amazon.com/4040-Aluminum-Extrusion-Connector-Included/dp/B09Y1PC4FN/ref=sr_1_1_sspa?crid=3PMOGEU95L2V2&keywords=t-slot%2Bbracket&qid=1692302964&sprefix=t-slot%2Bbracket%2Caps%2C94&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1>`_ except for in shape; unfortunately we cannot right now find the right shape and dimensions anywhere online, but it might become available. Regardless, this part is purely a safety measure which isn't strictly necessary, so you can optionally skip it entirely.
 
-.. image:: ../imgs/Mechanical/LSBW_IRL_B6a
+.. image:: ../imgs/Mechanical/LSBW_IRL_B6a.jpeg
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step B6
-.. image:: ../imgs/Mechanical/LSBW_IRL_B6b
+.. image:: ../imgs/Mechanical/LSBW_IRL_B6b.jpeg
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step B6
@@ -105,7 +105,7 @@ Step T2: Locate 2 `heim joints <https://shop.topkartusa.net/products/heim-joints
 
 Step T3: Press fit the "sleeve front" and "sleeve back," both 3D printed, STL coming soon, from either end of the shaft, so each is flush with the tie_rod_turners.
 
-Step T4: Attain four parts: two bearings (purchased, link coming soon), and two copies of "bearing mount," a custom metal part. Then press fit the bearings into the bearing mounts, separately.
+Step T4: Attain four parts: two copies of "deep groove bearing" (purchased, link coming soon), and two copies of "bearing mount," a custom metal part. Then press fit the bearings into the bearing mounts, separately.
 
 Step T5: Press fit the bearing pockets around the welded shalf, until they're touching the 3d printed sleeves.
 
@@ -128,7 +128,7 @@ Step T7: Locate the motor, and attach the welded shaft into it, via its hexagona
     :align: center
     :alt: Lower Steer By Wire Assembly Step T7
 
-Step T8: Locate the "BLDC Mount - V9" custom machined part, engineering drawing coming soon. Then using 3 screws per side, connect it from underneath to the motor.
+Step T8: Locate the "LSBW motor mount" custom machined part, engineering drawing coming soon. Then using 3 screws per side, connect it from underneath to the motor.
 
 .. image:: ../imgs/Mechanical/LSBW_IRL_T8.jpeg
     :width: 100%
@@ -162,7 +162,7 @@ Step F2: To attach the entire LSBW assembly to the GoKart chassis in the front, 
     :align: center
     :alt: Lower Steer By Wire Assembly Step F2
 
-Step F3: To attach the entire LSBW assembly to the GoKart chassis in the back, recreate the connection circled in the image below (and its mirror image), involving press fitting the LSBW system into the chassis via these two t-slot "arms" so to speak. We also used a large black rubber washer on either tight, to deform and facilitate tight connection. Assembly might require some wiggling around, and/or temporary removal of some t-slot connections.
+Step F3: To attach the entire LSBW assembly to the GoKart chassis in the back, recreate the connection circled in the image below (and its mirror image), involving press fitting the LSBW system into the chassis via these two t-slot L-pairs. We also used a large black rubber washer on either tight, to deform and facilitate tight connection. Assembly might require some wiggling around, and/or temporary removal of some t-slot connections.
 
 .. image:: ../imgs/Mechanical/LSBW_IRL_F3.jpeg
     :width: 100%
