@@ -3,10 +3,10 @@ Upper Steer By Wire (U-SBW) Assembly
 
 This is the assembly of the Upper Steer By Wire (U-SBW) Assembly in CAD. The assembly is shown below:
 
-.. image:: ../imgs/Mechanical/usbw.png
+.. image:: ../imgs/Mechanical/USBW_ASM.gif
     :width: 100%
     :align: center
-    :alt: Upper Steer By Wire Assembly
+    :alt: Upper Steer By Wire Assembly GIF
 
 You can also view the exploded video view of the Assembly `here <https://drive.google.com/file/d/1NHFZQ1OP3V632oppj7N01TcItQowJsK4/view?usp=sharing>`_
 

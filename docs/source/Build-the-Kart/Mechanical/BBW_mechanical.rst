@@ -3,10 +3,10 @@ Brake By Wire (BBW) Assembly
 
 Here is how the brake-by-wire system looks in CAD:
 
-.. image:: ../imgs/Mechanical/bbw.png
+.. image:: ../imgs/Mechanical/BBW_ASM.gif
     :width: 100%
     :align: center
-    :alt: Brake By Wire Assembly
+    :alt: Brake By Wire Assembly GIF
 
 
 The brake-by-wire subsystem builds upon TopKart's original manual braking, by enabling the car to brake whenever necessary from autonomous mode. The higher level controller always sends some braking signal downstream to the BBW nucleo, which then runs a PID controller to quickly achieve the desired value. The system's sensor is a `M3041-000006-500PG Pressure Sensor: <https://www.digikey.com/en/products/detail/te-connectivity-measurement-specialties/M3041-000006-500PG/274609>`_, which closes the loop enabling PID feedback control to take place.
