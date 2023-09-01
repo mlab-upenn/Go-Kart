@@ -44,7 +44,10 @@ Add steer by wire video here
 
 PDU Subsystem
 --------------
-Add pdu subsystem video here
+
+.. raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/H5VmBPBYV7Y?si=uc1UYxxECK4n1bB6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
