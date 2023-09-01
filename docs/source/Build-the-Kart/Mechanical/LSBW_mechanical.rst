@@ -89,7 +89,7 @@ Step B6: Also, you should add an extra support for the BLCD near its front, name
 
 TOP HALF ASSEMBLY
 
-Step T1: First, you must refine the "TopKart Shaft," `drawing shown here <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/TopKart_Shaft.pdf>`_ and image below consisting of 1 long hollow rod and 2 tie_rod_turners welded together. Although this part is initially provided and welded by TopKart, two more changes must be made manually: (1) Cut the shaft to length on either side of the tie_rod_turners, and (2): Drill a hole in the middle. Both changes are quantified in the drawing linked above.
+Step T1: First, you must modify the "TopKart Shaft," `drawing shown here <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/TopKart_Shaft.pdf>`_ and image below consisting of 1 long hollow rod and 2 tie_rod_turners welded together. Although this part is initially provided and welded by TopKart, two more changes must be made manually: (1) Cut the shaft to length on either side of the tie_rod_turners, and (2): Drill a hole in the middle. Both changes are quantified in the drawing linked above.
 
 .. image:: ../imgs/Mechanical/TopKart_shaft
     :width: 100%
@@ -110,9 +110,9 @@ Step T3: Locate 2 `heim joints <https://shop.topkartusa.net/products/heim-joints
     :align: center
     :alt: Lower Steer By Wire Assembly Step T3
 
-Step T4: Press fit the "sleeve front" and "sleeve back," both 3D printed, STL coming soon, from either end of the shaft, so each is flush with the tie_rod_turners.
+Step T4: Press fit the "sleeve front" and "sleeve back," both 3D printed, ACTUALLY MACHINED!! STL coming soon, from either end of the shaft, so each is flush with the tie_rod_turners.
 
-Step T5: Attain four parts: two copies of "deep groove bearing" (purchased, link coming soon), and two copies of "bearing mount," a custom metal part. Then press fit the bearings into the bearing mounts, separately.
+Step T5: Attain four parts: two copies of "deep groove bearing" (purchased, link coming soon), and two copies of "bearing mount," a custom metal part (E_Draw coming soon). Then press fit the bearings into the bearing mounts, separately.
 
 Step T6: Press fit the bearing pockets around the welded shalf, until they're touching the 3d printed sleeves.
 
