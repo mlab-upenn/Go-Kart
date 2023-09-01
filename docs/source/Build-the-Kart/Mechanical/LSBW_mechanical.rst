@@ -33,43 +33,43 @@ BOTTOM HALF ASSEMBLY
 
 Step B1: First, build the base level of the mount. You'll have to cut four t-slots, two of length 165mm and two of length 56mm, and arrange them horizontally as shown in the image below. This subassembly allows for the active components above to connect to the provided blue TopKart chassis on either side; although this connection itself will take place in a later step.
 
-.. image:: ../imgs/Mechanical/LSBW_CAD_B1
+.. image:: ../imgs/Mechanical/LSBW_CAD_B1.png
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step B1
 
 Step B2: Next, cut six t-slots of length 60mm, and attach them vertically around the outer perimeter of the base. Specific position dimensions can be found in the assembly linked above, although they're easily adjustable later and imprecision is fine.
 
-.. image:: ../imgs/Mechanical/LSBW_CAD_B2
+.. image:: ../imgs/Mechanical/LSBW_CAD_B2.png
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step B2
 
 Step B3: Now cut four more t-slots, two of length 70mm and two of length 56mm, and assemble them as shown below. Note that the 70mm t-slots are on the GoKart's left and right (i.e. touching the vertical t-slots from Step 2), and the 55mm t-slots are in between them in the front and back. Note also that the backmost t-slot is not a critical component, so you can bypass this if assembly proves too difficult. Once you have this subassembly complete, attach it just inside of the vertical t-slots.
 
-.. image:: ../imgs/Mechanical/LSBW_CAD_B3
+.. image:: ../imgs/Mechanical/LSBW_CAD_B3.png
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step B3
 
 Step B4: Cut four more 4 t-slots, two of length 260mm and two of length 56mm, then arrange them in a rectangle as shown below. Then attach them to the four vertical t-slots near the front. For now, ignore the U-bolts shown in the CAD, unless this long rectangle starts to act as a bending cantilever, in which case you should skip to steps 5 and 6 (bottom half) and step 2 (full assembly) to attach the complete LSBW bottom half to the blue TopKart chassis frame.
 
-.. image:: ../imgs/Mechanical/LSBW_CAD_B4
+.. image:: ../imgs/Mechanical/LSBW_CAD_B4.png
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step B4
 
 Step B5: Cut four more t-slots, each of length 60mm, and assemble them as two "L-pairs," as shown below. Then using four custom machined t-slot brackets, `two copies <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/L_Pair_Bottom_Mount.pdf>`_ of "L-Pair Bottom Mount" and `two copies <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/L_Pair_Top_Mount.pdf>`_ of "L-Pair Top Mount," attach both L pairs to the t-slot base from Step 1. You will also need five M5 nuts and bolts per bracket for t-slot mounting. Also, the left and right sides are perfectly symmetric.
 
-.. image:: ../imgs/Mechanical/LSBW_CAD_B5a
+.. image:: ../imgs/Mechanical/LSBW_CAD_B5a.png
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step B5
-.. image:: ../imgs/Mechanical/LSBW_CAD_B5b
+.. image:: ../imgs/Mechanical/LSBW_CAD_B5b.png
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step B5
-.. image:: ../imgs/Mechanical/LSBW_CAD_B5c
+.. image:: ../imgs/Mechanical/LSBW_CAD_B5c.png
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step B5
@@ -91,21 +91,21 @@ TOP HALF ASSEMBLY
 
 Step T1: First, you must modify the "TopKart Shaft," `drawing shown here <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/TopKart_Shaft.pdf>`_ and image below consisting of 1 long hollow rod and 2 tie_rod_turners welded together. Although this part is initially provided and welded by TopKart, two more changes must be made manually: (1) Cut the shaft to length on either side of the tie_rod_turners, and (2): Drill a hole in the middle. Both changes are quantified in the drawing linked above.
 
-.. image:: ../imgs/Mechanical/TopKart_shaft
+.. image:: ../imgs/Mechanical/TopKart_shaft.png
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step T1
 
 Step T2: Next, you must build the "Pinned Shaft" subassembly, shown below and included in the full LSBW CAD assembly linked above. This subassembly consists of three parts: "TopKart Shaft," from the previous step, "hexagonal shaft," `custom machined <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/hexagonal%20shaft.pdf>`_, and "hexagonal shaft pin," `custom machined <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/Hexagonal_shaft_pin.pdf>`_. You must simply insert the hexagonal shaft's cylindrical portion into the TopKart shaft's shorter end, until you see the pin holes align. This will likely require non-negligible force. Then, connect them together using the pin and a hammer. Note that the hexagonal shaft will transmit motion from motor to TopKart shaft (and indirectly, everything else), and is very long to ensure stability.
 
-.. image:: ../imgs/Mechanical/Pinned_shaft
+.. image:: ../imgs/Mechanical/Pinned_shaft.png
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step T2
 
 Step T3: Locate 2 `heim joints <https://shop.topkartusa.net/products/heim-joints>`_, two screws (link coming shortly) and several spacing features such as washers. Separately on both sides of the LSBW assembly, attach one heim join right in between, with the nut facing out. To do so, get it in position, surrounded by all necessary spacing features, then pass the screw in from one end, then tighten it from the other with a nut.
 
-.. image:: ../imgs/Mechanical/Heim_connection
+.. image:: ../imgs/Mechanical/Heim_connection.png
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step T3

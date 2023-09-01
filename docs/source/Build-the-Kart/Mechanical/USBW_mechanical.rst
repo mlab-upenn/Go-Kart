@@ -30,7 +30,7 @@ Note that almost all components of this subsystem are 3D printed from plastic; S
 
 Step 1: First, you will assemble the two primary structural components. These are called "beam" (`STL here <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20upper/STL/beam.STL>`_) and "Pololu mount" (`STL here <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20upper/STL/Pololu%20mount.STL>`_) both 3D printed, and both are circled in red and highlighted in light blue below. To attach them, simply use 8 screws (TODO figure out screw type) and nuts, fixturing through the provided 8 holes.
 
-.. image:: ../imgs/Mechanical/USBW_CAD_1
+.. image:: ../imgs/Mechanical/USBW_CAD_1.png
     :width: 100%
     :align: center
     :alt: Upper Steer By Wire Assembly Step 1
@@ -44,7 +44,7 @@ Step 2: Locate the Pololu DC motor (TODO attach link), and attach it to the Polo
 
 Step 3: Locate the two identical "beam link" parts, `3D printed <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20upper/STL/beam%20link.STL>`_, and attach them to the beam using four screws (two per side), TODO determine screw type. Note that the other, larger three holes are still vacant, these will be connected at a later step.
 
-.. image:: ../imgs/Mechanical/USBW_CAD_3
+.. image:: ../imgs/Mechanical/USBW_CAD_3.png
     :width: 100%
     :align: center
     :alt: Upper Steer By Wire Assembly Step 3
@@ -69,7 +69,7 @@ TODO Insert image, CAD after first taking it
 
 Step 7: Locate the "sw shaft" part (metal pipe, engineering drawing coming soon), and connect it into the assembly. Slide it first into the shaft mount, then into the coupler. Next, use a (TODO) screw and nut to attach the coupler and pipe. Some shaft should remain sticking out the back.
 
-.. image:: ../imgs/Mechanical/USBW_IRL_7
+.. image:: ../imgs/Mechanical/USBW_IRL_7.png
     :width: 100%
     :align: center
     :alt: Upper Steer By Wire Assembly Step 7
