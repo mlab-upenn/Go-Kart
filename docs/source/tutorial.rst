@@ -82,4 +82,5 @@ Following steps take you to individual sections of the tutorial:
     c. :doc:`Build-the-Kart/Software/MCU`
     d. :doc:`Build-the-Kart/Software/Control`
 
-6. **Step 6 : Testing**
+6. **Step 6 : Demo videos**
+    a. :doc:`Build-the-Kart/demos`

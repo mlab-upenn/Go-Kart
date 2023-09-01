@@ -63,6 +63,13 @@ The go-kart mechatronics system is designed as a modular system, consisting of s
 
 As described above the Gokart is a complex system with many subsystems. We will go into detail about the following subsytems in the Build-the-Kart section. We have linked the subsystems to their respective subpages for your convenience. 
 
+Go-Kart Overview
+=========
+
+.. raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Os4d_Iau_Zk?si=7jju5vIN8a8154Zj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 .. note::
     
    The best way to go through the documentation is to read this Overview section first and then go through the Tutorial section. The Tutorial section will guide you through the process of building the Gokart in a step-by-step manner. 

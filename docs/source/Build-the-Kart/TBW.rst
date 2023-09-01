@@ -8,6 +8,13 @@ This is implemented using a remote relay that can disconnect the switch to the m
 delivery to the main power. This part is independent from the MC and will continue functioning in a worst-case system
 failure.
 
+Throttle-by-Wire overview video
+--------------
+
+.. raw:: html 
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rz9nxcHXB8I?si=XC8HYP0hpyG6IS1o" title="YouTube video player"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 .. note::
 
     Assemble the mechanical system first and then the electrical system.    
