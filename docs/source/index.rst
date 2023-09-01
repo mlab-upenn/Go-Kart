@@ -1,14 +1,14 @@
-Welcome to XLAB's documentation!
+Welcome to the Documentation for the Autoware Demonstration Platform (AV4EV)!
 ===================================
 
-Autonomous Go-Kart Project under Autoware Foundation
+This documentation is the main source of information for the Autoware Demonstration Platform (AV4EV). The project was actively developed and being researched upon at the Autoware Center of Excellence (under Prof. Rahul Mangharam). 
 
 .. image:: Build-the-Kart/imgs/avev_gokart.png
    :width: 700
 
 .. note::
 
-   This project is under active development. Check out the Overview section
+   This project documentation is complete. Check out the Overview section for demo videos and the Tutorial section for a step-by-step guide on how to build the kart.
 
 Contents
 --------
