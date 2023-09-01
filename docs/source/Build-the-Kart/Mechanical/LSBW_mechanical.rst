@@ -110,18 +110,18 @@ Step T3: Locate 2 `heim joints <https://shop.topkartusa.net/products/heim-joints
     :align: center
     :alt: Lower Steer By Wire Assembly Step T3
 
-Step T4: Press fit the "sleeve front" and "sleeve back," both 3D printed, ACTUALLY MACHINED!! STL coming soon, from either end of the shaft, so each is flush with the tie_rod_turners.
+Step T4: Press fit the " `sleeve front <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/sleeve%20front.pdf>`_ ," and " `sleeve back <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/sleeve%20back.pdf>`_ ," both custom machined, from either end of the shaft, so each is flush with the tie_rod_turners. Note that we designed the sleeve front to include a 45° 2mm internal chamfer, to leave space for the tie_rod_turner's welding marks; depending on the quality of your particular parts, you might wish to remove or modify this feature, and/or create a similar one on sleeve back. Note also that our physical GoKart included these parts 3D printed out of black plastic, but we recommend you go one step further and use metal for enhanced strength under high loads.
 
-Step T5: Attain four parts: two copies of "deep groove bearing" (purchased, link coming soon), and two copies of "bearing mount," a custom metal part (E_Draw coming soon). Then press fit the bearings into the bearing mounts, separately.
+Step T5: Attain four parts: two copies of "deep groove bearing," `purchased <https://www.amazon.com/6204-2RS-Sealed-Bearing-20x47x14-Lubricated/dp/B07BN3X9BY?ref_=ast_slp_dp>`_, and two copies of "bearing mount," `custom machined <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/bearing%20mount.pdf>`_. Then press fit the bearings into the bearing mounts, separately.
 
-Step T6: Press fit the bearing pockets around the welded shalf, until they're touching the 3d printed sleeves.
+Step T6: Press fit the bearing pockets around the welded shalf, until they're touching the metal sleeves. At the end of this step, your subassembly should look like the image attached below.
 
 .. image:: ../imgs/Mechanical/LSBW_IRL_T6.jpeg
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step T6
 
-Step T7: From the AS5047P sensor kit, locate the magnet, and also attain the 3d printed (STL coming soon) "magnet mount" part. Insert the magnet into its mount using some tape, then insert its mount into the welded shalf using a pin.
+Step T7: From the AS5047P sensor kit, locate the magnet, and also attain the "magnet mount" part, `3D printed <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/STL/magnet%20mount.STL>`_. Insert the magnet into its mount using some tape, then insert its mount into the welded shalf via press fit. Note that this mount is 3D printed unlike all the metal parts of this LSBW subassembly; plastic is preferably to avoid electromagnetic interference with the sensor.
 
 .. image:: ../imgs/Mechanical/LSBW_IRL_T7.jpeg
     :width: 100%
