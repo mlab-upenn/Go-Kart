@@ -34,13 +34,32 @@ Throttle-by-Wire Subsystem
 
 Brake-by-Wire Subsystem
 --------------
-Add brake by wire video here
+
+.. raw:: html 
+    
+    <iframe width="560" height="315" src="https://youtu.be/waQmejU67jo" title="YouTube video player"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 Steer-by-Wire Subsystem
 --------------
-Add steer by wire video here
 
+.. raw:: html 
+    
+    <iframe width="560" height="315" src="https://youtu.be/nCdZjO_2pxI" title="YouTube video player"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Lower Steer-by-Wire Subsystem
+--------------
+
+.. raw:: html 
+    
+    <iframe width="560" height="315" src="https://youtu.be/Uqq-4NhJrEY" title="YouTube video player"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Upper Steer-by-Wire Subsystem
+--------------
+
+.. raw:: html 
+    
+    <iframe width="560" height="315" src="https://youtu.be/5dmrL_rOtRQ" title="YouTube video player"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 PDU Subsystem
 --------------
