@@ -13,13 +13,13 @@ Steer-by-Wire overview video
     <iframe width="560" height="315" src="https://www.youtube.com/embed/nCdZjO_2pxI?si=AlTs6Dbcry8a-N60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Upper Steer by wire system
-===========
+--------------
 
 The HW module uses a Popolu 12V Brushed DC motor with a built-in quadrature encoder for angle measurement to co- axially drive the steering wheel. In the manual mode, the driver could turn the steering wheel while the position is measured,
 sent on the CAN bus, captured by MC, and forwarded to the RW. In the autonomous mode, the HW receives the steering command from the MC, performs the closed-loop PID control, and sends back the measured data. 
 
 Upper Steer-by-Wire overview video
---------------
+=========
 
 .. raw:: html 
     
@@ -36,12 +36,12 @@ Electrical Assembly
 :doc:`Electrical/USBW_electrical`
 
 Lower Steer by wire system 
-===========
+--------------
 
 The RW module is designed to drag or push the steering tie rods to drive the front wheels. We use a NEO1650 Brushless Motor with a 240:1 ratio gearbox to provide sufficient torque output. The motor is driven by a VESC 6 Controller and takes up to 50 amps. Sensing is implemented using an AP5074 Magnetic Position Sensor mounted at the end of the steering shaft and provides the absolute angle data at a precision of 0.1 degrees. As with the HW module, angle adjustment is achieved using a closed-loop PID controller.
 
 Lower Steer-by-Wire overview video
---------------
+=========
 
 .. raw:: html 
     
