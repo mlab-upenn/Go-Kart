@@ -121,28 +121,32 @@ Step T6: Press fit the bearing pockets around the welded shalf, until they're to
     :align: center
     :alt: Lower Steer By Wire Assembly Step T6
 
-Step T7: From the AS5047P sensor kit, locate the magnet, and also attain the "magnet mount" part, `3D printed <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/STL/magnet%20mount.STL>`_. Insert the magnet into its mount using some tape, then insert its mount into the welded shalf via press fit. Note that this mount is 3D printed unlike all the metal parts of this LSBW subassembly; plastic is preferably to avoid electromagnetic interference with the sensor.
+Step T7: From the AS5047P sensor kit, locate the magnet, and also attain the "magnet mount" part, `3D printed <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/STL/magnet%20mount.STL>`_. Insert the magnet into its mount using some tape, then insert its mount into the welded shalf via press fit. Note that this mount is 3D printed unlike all the metal parts of this LSBW subassembly; plastic is preferable to avoid electromagnetic interference with the sensor.
 
 .. image:: ../imgs/Mechanical/LSBW_IRL_T7.jpeg
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step T7
 
-Step T8: Locate the motor, and attach the welded shaft into it, via its hexagonal shaft. This might require using a pin, and/or temporarily dissembling a portion of the motor. Note that our CAD is slightly off, since it includes only 3 gearboxes, whereas in real life we used 4 gearboxes.
+Step T8: Locate the `BLCD motor <https://www.revrobotics.com/rev-21-2100>`_, and attach it one piece at a time to the Pinned Shaft (namely, its hexagonal shaft). The CAD image below labels each part 1 (back) through 7 (front), in order of attachment. Part 1 is the Shaft Connector, Parts 2 through 5 are (multiplicative) gears, Part 6 is the front gear guard, and Part 7 houses the motor itself i.e. the magnetic components. Much of this assembly is very intuitive, and if necessary, can benefit from the assembly directions provided by the motor manufacturer. Note that the Rev Robotics link above for the motor only includes 3 gear cartridges in series, but you'll need to add a 4th too, namely `this additional 4:1 gear <https://www.revrobotics.com/rev-21-2102/>`_, in order to achieve the necessary force amplification.
 
 .. image:: ../imgs/Mechanical/LSBW_IRL_T8.jpeg
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step T8
+.. image:: ../imgs/Mechanical/LSBW_CAD_T8.png
+    :width: 100%
+    :align: center
+    :alt: Lower Steer By Wire Assembly Step T8
 
-Step T9: Locate the "LSBW motor mount" custom machined part, engineering drawing coming soon. Then using 3 screws per side, connect it from underneath to the motor.
+Step T9: Locate the "LSBW motor mount" custom machined part, `engineering drawing here <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/LSBW%20motor%20mount.pdf>`_. Then using 3 screws (TODO figure out which screws) per side, connect it from underneath to the motor.
 
 .. image:: ../imgs/Mechanical/LSBW_IRL_T9.jpeg
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step T9
 
-Step T10: Attain the "AS5047P mount," 3D printed with STL coming soon. Also attain the AS5047P sensor board, and extract whatever wires will connect this to the nucleo, passing them through the mount's rectangular pocket; then screw that sensor onto the outer (i.e. further from the base holes) side of the mount, using 4 small screws. Then attain the LSBW PCB (including its nucleo MCU), and after completing the aforementioned connections, screw this onto the inner side of the mount, using 4 small screws; you might need to leave a small gap for the nuts from the AS5047P mounting, this is fine. Note also that the part from this Step 9 is unconnected to those from Steps 1-8, which are themselves all connected.
+Step T10: Attain the "AS5047P mount," `3D printed <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/STL/AS5047P%20mount.STL>`_. Note that this part is 3D printed, unlike most other components of the LSBW subsystem, to avoid electromagnetic interference on the sensor. Also attain the AS5047P sensor board (provided with the sensor), and extract whatever (soldered) wires will connect this to the nucleo, passing them backward through the mount's rectangular pocket; then screw that sensor onto the outer (i.e. further from the base holes) side of the mount, using 4 small screws (TODO figure out what screws!). Then attain the LSBW PCB (including its nucleo MCU), and after completing the aforementioned connections, screw this onto the inner side of the mount, using 4 small screws (TODO Figure out screw type); you might need to leave a small gap for the nuts from the AS5047P mounting, this is fine. Note also that the part from this Step 10 is unconnected to those from Steps 1-9, which are themselves all connected.
 
 .. image:: ../imgs/Mechanical/LSBW_IRL_T10a.jpeg
     :width: 100%
@@ -162,21 +166,25 @@ Step F1: To attach the entire top half assembly to the entire bottom half assemb
     :align: center
     :alt: Lower Steer By Wire Assembly Step F1
 
-Step F2: To attach the entire LSBW assembly to the GoKart chassis in the front, recreate the two connection shown in the first image below. The first two are circled near the front, and each contains one U-bolt and one mount plates (links coming shortly), with two nuts for tightening. In accordance with the second image below (but notably missing in our CAD), you should also insert a long t-slot connector (link coming soon) as shown below, below the very front of the LSBW assembly, held in place by the weight on top of it.
+Step F2: To attach the entire LSBW assembly to the GoKart chassis in the front, recreate the two connection shown in the first image below. The first two are circled near the front, and each contains one `U-bolt <https://www.mcmaster.com/3043T629/>`_ and one `U-bolt mount plate <https://www.mcmaster.com/8875T914/>`_, with two nuts for tightening. You should also insert a long t-slot connector, `the same as from Step B6 <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20lower/Drawings/LSBW_Motor_Front_Support.pdf>`_, below the very front of the LSBW assembly, as shown in the 2nd image below, held in place by all the weight on top of it.
 
-.. image:: ../imgs/Mechanical/LSBW_IRL_F2.jpeg
+.. image:: ../imgs/Mechanical/LSBW_IRL_F2a.jpeg
+    :width: 100%
+    :align: center
+    :alt: Lower Steer By Wire Assembly Step F2
+.. image:: ../imgs/Mechanical/LSBW_IRL_F2b.jpeg
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step F2
 
-Step F3: To attach the entire LSBW assembly to the GoKart chassis in the back, recreate the connection circled in the image below (and its mirror image), involving press fitting the LSBW system into the chassis via these two t-slot L-pairs. We also used a large black rubber washer on either tight, to deform and facilitate tight connection. Assembly might require some wiggling around, and/or temporary removal of some t-slot connections.
+Step F3: To attach the entire LSBW assembly to the GoKart chassis in the back, recreate the connection circled in the image below (and its mirror image), involving press fitting the LSBW system into the chassis via these two t-slot L-pairs. We also used a large black rubber washer on either side, to deform and facilitate tight connection. Assembly might require some wiggling around, and/or temporary removal of some t-slot connections.
 
 .. image:: ../imgs/Mechanical/LSBW_IRL_F3.jpeg
     :width: 100%
     :align: center
     :alt: Lower Steer By Wire Assembly Step F3
 
-Step F4: Connect the two `tie rods <https://sharkshifter.com/products/tie-rods-alum-hex-8mm-go-kart?variant=37384922628262>`_ to the heim joins on either side, by simply screwing them in. As the end, screwing in to the wheel connector should notably occur on the outermost of the two holes, as shown below. TODO insert some more tips on calibrating the tie rod length, based on what George taught me.
+Step F4: Connect the two `tie rods <https://sharkshifter.com/products/tie-rods-alum-hex-8mm-go-kart?variant=37384922628262>`_ to the heim joins on either side, by simply screwing (TODO Figure out which screw) them in. At the end, screwing in to the wheel connector should notably occur on the outermost of the two holes, as shown below. TODO insert some more tips on calibrating the tie rod length, based on what George taught me.
 
 .. image:: ../imgs/Mechanical/LSBW_IRL_F4.jpeg
     :width: 100%
