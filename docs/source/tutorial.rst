@@ -17,13 +17,13 @@ Versions
 
 .. image:: av_comp.png
    :width: 500
-   :alt: AVEV
+   :alt: av_comp
 
 * 3.0: 2023 version : Autonomous Gokart 
 
 .. image:: avev_gokart.png
    :width: 500
-   :alt: AVEV
+   :alt: avev_gokart
 
 Make your own Autonomous Go-kart (Steps)
 -----------------
