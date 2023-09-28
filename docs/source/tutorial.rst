@@ -9,19 +9,19 @@ Versions
 
 * 1.0: Initial version : Purchased from TopKart 
 
-.. image:: Build-the-Kart/imgs/topkart.png.icloud
+.. image:: Build-the-Kart/imgs/topkart.png
    :width: 500
    :alt: TopKart
    
 * 2.0: 2022 version : Autonomous reactive Gokart 
 
-.. image:: Build-the-Kart/imgs/av_comp.png.icloud
+.. image:: Build-the-Kart/imgs/av_comp.png
    :width: 500
    :alt: AVEV
 
 * 3.0: 2023 version : Autonomous Gokart 
 
-.. image:: Build-the-Kart/imgs/avev_gokart.png.icloud
+.. image:: Build-the-Kart/imgs/avev_gokart.png
    :width: 500
    :alt: AVEV
 
