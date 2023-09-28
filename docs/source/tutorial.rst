@@ -9,21 +9,21 @@ Versions
 
 * 1.0: Initial version : Purchased from TopKart 
 
-.. image:: Build-the-Kart/imgs/topkart.png
+.. image::topkart.png
    :width: 500
    :alt: TopKart
    
 * 2.0: 2022 version : Autonomous reactive Gokart 
 
-.. image:: Build-the-Kart/imgs/av_comp.png
+.. image:: av_comp.png
    :width: 500
-   :alt: AVEV
+   :alt: av_comp
 
 * 3.0: 2023 version : Autonomous Gokart 
 
-.. image:: Build-the-Kart/imgs/avev_gokart.png
+.. image:: avev_gokart.png
    :width: 500
-   :alt: AVEV
+   :alt: avev_gokart
 
 Make your own Autonomous Go-kart (Steps)
 -----------------

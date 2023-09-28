@@ -3,7 +3,7 @@ Welcome to the Documentation for the Autoware Demonstration Platform (AV4EV)!
 
 This documentation is the main source of information for the Autoware Demonstration Platform (AV4EV). The project was actively developed and being researched upon at the Autoware Center of Excellence (under Prof. Rahul Mangharam). 
 
-.. image:: Build-the-Kart/imgs/avev_gokart.png
+.. image:: avev_gokart.png
    :width: 700
 
 .. note::
