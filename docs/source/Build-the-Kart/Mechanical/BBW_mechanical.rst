@@ -98,5 +98,5 @@ Step 6: Locate the “lever arm” part, `custom machined <https://github.com/ml
     :alt: Brake By Wire Assembly Step 6
 
 
-Note that the BBW motor has its own driver, and the BBW system as a whole has its own nucleo, as mentioned in the Electrical (TODO insert link) documentation. The mounts for these two boards are included nearby, but in a different assembly, so those are documented in the "Miscellaneous" section of this documentation (TODO Insert link)
+Note that the BBW motor has its own driver, and the BBW system as a whole has its own nucleo, as mentioned in the :doc:`../Electrical/BBW_electrical` section. The mounts for these two boards are included nearby, but in a different assembly, so those are documented in the "Miscellaneous" section of this documentation, coming soon.
 
