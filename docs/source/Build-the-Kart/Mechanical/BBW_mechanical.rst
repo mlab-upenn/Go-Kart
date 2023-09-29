@@ -15,7 +15,7 @@ The system's actuator is a PA-14P Linear Electric Actuator DC Motor, `purchased 
 
 You can also view the exploded video view of the Assembly `here <https://drive.google.com/file/d/13RS9c54bLUqEbxeHZ715SWqoizlZVylu/view?usp=sharing>`_
 
-Please open `this SolidWorks assembly <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/BBW/BBW%20ASM.zip>`_ containing all necessary components for the BBW subsystem, to follow along with the instructions. Note that some parts were purchased off-the-shelf, some were designed in-house and sent out for professional machining (mostly via PCBWay), and some were designed in-house and 3D printed in-house. All purchases are documented with a purchase link, all custom machined parts have an engineering drawing, and all custom 3D printed parts have an STL file. Some drawings and STL files will be attached within the next few days, we thank you for your patience.
+Please open `this SolidWorks assembly <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/BBW/BBW%20ASM>`_ containing all necessary components for the BBW subsystem, to follow along with the instructions. Note that some parts were purchased off-the-shelf, some were designed in-house and sent out for professional machining (mostly via PCBWay), and some were designed in-house and 3D printed in-house. All purchases are documented with a purchase link, all custom machined parts have an engineering drawing, and all custom 3D printed parts have an STL file. Some drawings and STL files will be attached within the next few days, we thank you for your patience.
 
 .. image:: ../imgs/Mechanical/BBW_CAD_Overview.png
     :width: 100%
