@@ -28,6 +28,7 @@ Step 1: Locate the following four components: (1,2) “LA [Linear Actuator] stee
     :width: 100%
     :align: center
     :alt: Brake By Wire Assembly Step 1
+    
 .. image:: ../imgs/Mechanical/BBW_IRL_Step_1.jpeg
     :width: 100%
     :align: center
