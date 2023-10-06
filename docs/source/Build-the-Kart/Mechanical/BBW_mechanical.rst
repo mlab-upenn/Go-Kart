@@ -27,36 +27,36 @@ Step 1: Locate the following four components: (1,2) “LA [Linear Actuator] stee
 .. image:: ../imgs/Mechanical/BBW_CAD_Step_1.png
     :width: 100%
     :align: center
-    :alt: Brake By Wire Assembly Step 1
+    :alt: Brake By Wire Assembly Step 1a
     
 .. image:: ../imgs/Mechanical/BBW_IRL_Step_1.jpeg
     :width: 100%
     :align: center
-    :alt: Brake By Wire Assembly Step 1
+    :alt: Brake By Wire Assembly Step 1b
 
 Step 2: Separately, locate the following four components: (1) "PA-14P motor," `purchased from Amazon <https://www.amazon.com/PROGRESSIVE-AUTOMATIONS-Electric-Actuator-PA-14P-4-35/dp/B00Q74I8TI/>`_; (2) “LA top mount,” `purchased <https://www.progressiveautomations.com/products/brk-03>`_; (3,4) “LA side mount,” 2x, `custom machined <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/BBW/Engineering%20drawings/LA%20side%20mount%20Drawing.pdf>`_. Assemble them as shown in the images below. Note that you will need a single M5 screw and nut (both included with "top mount" purchase), which will tighten around the three mounts in series, in the process tightening the top mount around the motor.
 
 .. image:: ../imgs/Mechanical/BBW_CAD_Step_2.png
     :width: 100%
     :align: center
-    :alt: Brake By Wire Assembly Step 2
+    :alt: Brake By Wire Assembly Step 2a
 
 .. image:: ../imgs/Mechanical/BBW_IRL_Step_2.jpeg
     :width: 100%
     :align: center
-    :alt: Brake By Wire Assembly Step 2
+    :alt: Brake By Wire Assembly Step 2b
 
 Step 3: At this point, you are ready to connect the two sub-assemblies from previous steps. To do so, locate a long M6 screw (`purchased from Amazon <https://www.amazon.com/uxcell-Threaded-Pitch-Socket-Screws/dp/B012THHR1G/>`_) and nut (`purchased from McMaster <https://www.mcmaster.com/90592A016/>`_), as well as some washers. In addition, locate two copies of the “M6 x 10mm round connector nut” part, `purchased from Amazon <https://www.amazon.com/MroMax-Stainless-Threaded-Coupling-Connector/dp/B07YXXVC6D/>`_, and screw one on either side of the motor connection terminal, as shown in the image below. We also used some `large rubber washers <https://www.harfington.com/products/p-1054895?variant=42152220492025>`_, the combination of which ensures a tight fit between motor and steel mount.
 
 .. image:: ../imgs/Mechanical/BBW_CAD_Step_3.png
     :width: 100%
     :align: center
-    :alt: Brake By Wire Assembly Step 3
+    :alt: Brake By Wire Assembly Step 3a
 
 .. image:: ../imgs/Mechanical/BBW_IRL_Step_3.jpeg
     :width: 100%
     :align: center
-    :alt: Brake By Wire Assembly Step 3
+    :alt: Brake By Wire Assembly Step 3b
 
 Step 4: Now you are ready to attach the extensions to the TopKart brake fluid reservoir lever, which will let it mate cleanly with the motor. Two new components are necessary here: "Brake rod extender," included from TopKart or `custom machined <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/BBW/Engineering%20drawings/Brake_rod_extender.pdf>`_, and "Brake rod locator," `purchased from Amazon <https://www.amazon.com/MroMax-Stainless-Threaded-Coupling-Connector/dp/B07YXY6RW4/>`_, as well as some more `rubber washers <https://www.harfington.com/products/p-1054895?variant=42152220492025>`_ as used in Step 3. The following 3 steps are shown in the pictures below: First collect as many washers as necessary to make up ~13mm, and place them around the protruding external threading. Second, place the Brake rod extender around the threading, until flush with the washers. Finally, screw the Brake rod locator around the threading, until flush with the extender.
 
@@ -64,10 +64,12 @@ Step 4: Now you are ready to attach the extensions to the TopKart brake fluid re
     :width: 100%
     :align: center
     :alt: Brake By Wire Assembly Step 4a
+    
 .. image:: ../imgs/Mechanical/BBW_IRL_Step_4p2.jpeg
     :width: 100%
     :align: center
     :alt: Brake By Wire Assembly Step 4b
+
 .. image:: ../imgs/Mechanical/BBW_IRL_Step_4p3.jpeg
     :width: 100%
     :align: center
@@ -79,24 +81,24 @@ Step 5: At this point, you are ready to connect the full BBW assembly with the T
 .. image:: ../imgs/Mechanical/BBW_CAD_Step_5.png
     :width: 100%
     :align: center
-    :alt: Brake By Wire Assembly Step 5
+    :alt: Brake By Wire Assembly Step 5a
 
 .. image:: ../imgs/Mechanical/BBW_IRL_Step_5.jpeg
     :width: 100%
     :align: center
-    :alt: Brake By Wire Assembly Step 5
+    :alt: Brake By Wire Assembly Step 5b
 
 Step 6: Locate the “lever arm” part, `custom machined <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/BBW/Engineering%20drawings/Lever%20arm%20Drawing.pdf>`_, and the "lever arm pin" part, `custom machined <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/BBW/Engineering%20drawings/Lever_arm_pin_drawing.pdf>`_. Attach the lever arm tightly to the protruding cylindrical end of the motor, using the lever arm pin, as shown in the image below. Note that the pin is slightly oversized, so you will likely need to use a hammer to get it in, and you might even need to sand it down a bit. Make sure that the lever arm's other side is roughly co-axial with and surrounding the brake rod locator from Step 4, to ensure smooth contact when BBW is actuated.
 
 .. image:: ../imgs/Mechanical/BBW_CAD_Step_6.png
     :width: 100%
     :align: center
-    :alt: Brake By Wire Assembly Step 6
+    :alt: Brake By Wire Assembly Step 6a
 
 .. image:: ../imgs/Mechanical/BBW_IRL_Step_6.jpeg
     :width: 100%
     :align: center
-    :alt: Brake By Wire Assembly Step 6
+    :alt: Brake By Wire Assembly Step 6b
 
 
 Note that the BBW motor has its own driver, and the BBW system as a whole has its own nucleo, as mentioned in the :doc:`../Electrical/BBW_electrical` section. The mounts for these two boards are included nearby, but in a different assembly, so those are documented in the "Miscellaneous" section of this documentation, coming soon.
