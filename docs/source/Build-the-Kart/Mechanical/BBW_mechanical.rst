@@ -28,7 +28,9 @@ Step 1: Locate the following four components: (1,2) “LA [Linear Actuator] stee
     :width: 100%
     :align: center
     :alt: Brake By Wire Assembly Step 1a
-    
+
+this is a test
+
 .. image:: ../imgs/Mechanical/BBW_IRL_Step_1.jpeg
     :width: 100%
     :align: center
@@ -64,7 +66,7 @@ Step 4: Now you are ready to attach the extensions to the TopKart brake fluid re
     :width: 100%
     :align: center
     :alt: Brake By Wire Assembly Step 4a
-    
+
 .. image:: ../imgs/Mechanical/BBW_IRL_Step_4p2.jpeg
     :width: 100%
     :align: center
