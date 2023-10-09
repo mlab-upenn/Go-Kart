@@ -9,7 +9,7 @@ Here is how the brake-by-wire system looks in CAD:
     :alt: Brake By Wire Assembly GIF
 
 
-The brake-by-wire subsystem builds upon TopKart's original manual braking, by enabling the car to brake whenever necessary from autonomous mode. The higher level controller always sends some braking signal downstream to the BBW nucleo, which then runs a PID controller to quickly achieve the desired value. The system's sensor is a `M3041-000006-500PG Pressure Sensor: <https://www.digikey.com/en/products/detail/te-connectivity-measurement-specialties/M3041-000006-500PG/274609>`_, which closes the loop enabling PID feedback control to take place.
+TODO ADD THIS PARAGRAPH BACK WHICH I REMOVED, I CAN GET IT FROM MY LOCAL CLONE
 
 The system's actuator is a PA-14P Linear Electric Actuator DC Motor, `purchased from Amazon <https://www.amazon.com/PROGRESSIVE-AUTOMATIONS-Electric-Actuator-PA-14P-4-35/dp/B00Q74I8TI/>`_, which transmits motion via direct contact with the braking fluid reservoir lever, displacing it just as the left foot brake pedal would. The original TopKart braking mechanism then transfers (via the original braking fluid pipe) this hydraulic pressure to the rear axle, compressing its brake calipers and decelerating the car.
 
