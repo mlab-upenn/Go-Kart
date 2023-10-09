@@ -59,6 +59,7 @@ Following steps take you to individual sections of the tutorial:
         * Unit testing
     b. :doc:`Build-the-Kart/BBW` (BBW)
         * :doc:`Build-the-Kart/Mechanical/BBW_mechanical`
+        * :doc:`Build-the-Kart/Mechanical/BBW_mech_test`
         * :doc:`Build-the-Kart/Electrical/BBW_electrical`
         * Unit testing
     c. :doc:`Build-the-Kart/SBW` (SBW)

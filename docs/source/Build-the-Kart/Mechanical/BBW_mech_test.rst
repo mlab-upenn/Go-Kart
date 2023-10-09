@@ -1,4 +1,4 @@
-Brake By Wire (BBW) Assembly
+Brake By Wire (BBW) Mech Test Assembly
 ==================================
 
 Here is how the brake-by-wire system looks in CAD:
