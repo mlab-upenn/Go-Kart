@@ -14,7 +14,7 @@ FAQ
    <a href="https://github.com/mlab-upenn/gokart-mechatronics/tree/main/STM32%20Control">STM32 nucleo controller code</a>
 
 
-This sectioncontains commonly asked questions about the Gokart project.
+This section contains commonly asked questions about the Gokart project.
 
 1. **Where can i find the Bill of Materials?**
 
