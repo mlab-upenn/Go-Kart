@@ -3,12 +3,10 @@ Lower Steer By Wire (L-SBW) Assembly
 
 This is the assembly of the Lower Steer By Wire (L-SBW) Assembly in CAD. The assembly is shown below:
 
-..
-    Jason tried to comment out the GIF here, to see if that helps the images in this file
-    .. image:: ../imgs/Mechanical/LSBW_ASM.gif
-        :width: 100%
-        :align: center
-        :alt: Lower Steer By Wire Assembly GIF
+.. image:: ../imgs/Mechanical/LSBW_ASM.gif
+    :width: 100%
+    :align: center
+    :alt: Lower Steer By Wire Assembly GIF
 
 
 This is the real life assembly of the L-SBW Assembly:
@@ -23,13 +21,13 @@ This is the real life assembly of the L-SBW Assembly:
     :align: center
     :alt: Lower Steer By Wire Assembly
 
-You can also view the exploded video view of the Assembly `here <https://drive.google.com/file/d/1VRoe71nf696cDpKYZVToyhxTrEUwtiuE/view?usp=sharing>`_
-
 The Lower Steer-By-Wire subsystem is critical since it solely holds the power to redirect the car's motion left or right, in each of the three possible modes: manual, remote, and autonomous. It does so by rotating the rotor of a `BLCD motor <https://www.revrobotics.com/rev-21-2100>`_, which axially translates two tie rods, which simultaneously angles both front wheels left or right. In addition, the LSBW system gathers feedback on its rotation, enabling a PID controller to ensure convergence to the desired angle. The sensor chosen is the `AS5047P Magnetic Rotary Position Sensor <https://www.digikey.com/en/products/detail/ams-osram/AS5047P-TS-EK-AB/5452344>`_, which tracks angular motion of the rotor via a locally fixed magnet, and sends that information by wire directly to the LSBW nucleo. (TODO Insert links here!). In order for all these active components to assemble cleanly with each other, then with the existing GoKart chassis, various mounting components, including several t-slot frames, were designed. Instructions for full assembly of this system can be found below. Note that the entire system is perfectly symmetrical about the vertical front-facing plane of the car. For convenience, I will often simplify explanations by focusing on the right side (from the car's perspective) of the LSBW assembly, with the implication that the left side is a mirror image. I'll first describe assembly of the bottom half, which is composed primarily of t-slot frames and serves mostly as mechanical support for the top half's more active components:
 
 You can view the full CAD assembly at `this link <https://drive.google.com/file/d/1bHC2BbAlqdqfvbhz8IPRuZGqOGFy7LD8/view?usp=drive_link>`_
 
-TODO Update this after making some necessary changes!
+Please open `this SolidWorks assembly <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/BBW/BBW%20ASM>`_ containing all necessary components for the BBW subsystem, to follow along with the instructions. Note that some parts were purchased off-the-shelf, some were designed in-house and sent out for professional machining (mostly via PCBWay), and some were designed in-house and 3D printed in-house. All purchases are documented with a purchase link, all custom machined parts have an engineering drawing, and all custom 3D printed parts have an STL file. Some drawings and STL files will be attached within the next few days, we thank you for your patience.
+
+Please open `this SolidWorks assembly <https://github.com/mlab-upenn/gokart-mechatronics/tree/main/Mechanical/SBW%20-%20lower/LSBW%20ASM>`_ containing all necessary components for the LSBW subsystem, to follow along with the instructions. Note that some parts were purchased off-the-shelf, some were designed in-house and sent out for professional machining (mostly via PCBWay), and some were designed in-house and 3D printed in-house. All purchases are documented with a purchase link, all custom machined parts have an engineering drawing, and all custom 3D printed parts have an STL file. Some drawings and STL files will be attached within the next few days, we thank you for your patience.
 
 BOTTOM HALF ASSEMBLY
 
