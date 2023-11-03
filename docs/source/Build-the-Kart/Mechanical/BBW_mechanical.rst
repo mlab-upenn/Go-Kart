@@ -99,6 +99,12 @@ Step 6: Locate the “lever arm” part, `custom machined <https://github.com/ml
     :align: center
     :alt: Brake By Wire Assembly Step 6b
 
+Step 7: The final assembly step for BBW is to connect the pressure sensor, which enables PID control of braking. This sensor is wired together with the motorized system you just built, yet itself is actually located near the back of the car, reading directly from the brake caliper. As circled in the image below, you will need to purchase and locate a `DriftMotion 3-way connector <https://www.driftmotion.com/1-8-BSP-T-Fitting-1-Male-to-2-Female-p/dm3556.htm>`_, and of course install the `pressure sensor <https://www.digikey.com/en/products/detail/te-connectivity-measurement-specialties/M3041-000006-500PG/274609>`_ itself on top. You'll also need some washers for this installation, and a new M4 screw which is longer than before, to offset the 3-way connector size. Extending from this pressure sensor will be a wire, which must then connect to the BBW nucleo closer to the fronr of the car, where lies the BBW subsystem itself.
+
+.. image:: ../imgs/Mechanical/Brake_calipers.png
+    :width: 100%
+    :align: center
+    :alt: Brake By Wire Assembly Step 7
 
 Note that the BBW motor has its own driver, and the BBW system as a whole has its own nucleo, as mentioned in the :doc:`../Electrical/BBW_electrical` section. The mounts for these two boards are included nearby, but in a different assembly, so those are documented in the "Miscellaneous" section of this documentation, coming soon.
 

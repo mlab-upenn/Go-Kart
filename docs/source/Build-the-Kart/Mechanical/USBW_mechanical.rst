@@ -20,7 +20,7 @@ This is the real life assembly of the L-SBW Assembly:
     :align: center
     :alt: Upper Steer By Wire Assembly
 
-The Upper Steer-By-Wire is critical in order to interface with a human driver. The subsystem relies heavily on its steering wheel, which accepts user rotational input, captured by a quadrature encoder, and subsequently transmitted via the U-SBW Nucleo to the main GoKart nucleo. Within the parallel L-SBW subsystem, this signal then maps to some rotation of the front wheels, steering the car. Importantly, the encoder is actually nested within a Pololu motor (TODO Insert link), allowing the GoKart to actuate steering wheel rotation even without human input.
+The Upper Steer-By-Wire is critical in order to interface with a human driver. The subsystem relies heavily on its steering wheel, which accepts user rotational input, captured by a quadrature encoder, and subsequently transmitted via the U-SBW Nucleo to the main GoKart nucleo. Within the parallel L-SBW subsystem, this signal then maps to some rotation of the front wheels, steering the car. Importantly, the encoder is actually nested within a `Pololu motor <https://www.pololu.com/product/4755>`_, allowing the GoKart to actuate steering wheel rotation even without human input.
 
 These features creates potential for future "hybrid-autonomy" mode implementation, where the GoKart used higher-level sensor input (LiDAR, camera, etc) to perceive its environment then plan and follow a path autonomously, but emply an onboard human driver for assistance. Since the steering wheel movements correspond with the car turns, a human driver can manually override these signals if necessary, for example if their intuition suggests that a more of less aggressive maneuver is necessary. By collecting this data, reinforcement learning can be implemented to teach the GoKart these intuitive maneuvers and improve the fully-autonomous mode moving forward.
 
@@ -28,14 +28,14 @@ Please download `this SolidWorks assembly <https://github.com/mlab-upenn/gokart-
 
 Note that almost all components of this subsystem are 3D printed from plastic; Strong metal materials are unnecessary since this components carries a very small load, plus this subassembly is hanging in the air, so we prioritized weight reduction. In terms of assembly, it's most convenient to almost-entirely assemble this component first offboard, then attach it together to the existing GoKart. The steps can be laid out as follows:
 
-Step 1: First, you will assemble the two primary structural components. These are called "beam" (`STL here <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20upper/STL/beam.STL>`_) and "Pololu mount" (`STL here <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20upper/STL/Pololu%20mount.STL>`_) both 3D printed, and both are circled in red and highlighted in light blue below. To attach them, simply use 8 screws (TODO figure out screw type) and nuts, fixturing through the provided 8 holes.
+Step 1: First, you will assemble the two primary structural components. These are called "beam" (`STL here <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20upper/STL/beam.STL>`_) and "Pololu mount" (`STL here <https://github.com/mlab-upenn/gokart-mechatronics/blob/main/Mechanical/SBW%20-%20upper/STL/Pololu%20mount.STL>`_) both 3D printed, and both are circled in red and highlighted in light blue below. To attach them, simply use eight `M3 x 12mm screws <https://www.mcmaster.com/92095A183/>`_ and nuts, fixturing through the provided 8 holes.
 
 .. image:: ../imgs/Mechanical/USBW_CAD_1.png
     :width: 100%
     :align: center
     :alt: Upper Steer By Wire Assembly Step 1
 
-Step 2: Locate the Pololu DC motor (TODO attach link), and attach it to the Pololu mount using 6 screws (TODO identify screw type). TODO Figure out rotor connection mechanism
+Step 2: Locate the `Pololu DC motor <https://www.pololu.com/product/4755>`_, and attach it to the Pololu mount using six `M3 x 8mm screws <https://www.mcmaster.com/92095A181/>`_. TODO Figure out rotor connection mechanism
 
 .. image:: ../imgs/Mechanical/USBW_IRL_2.jpeg
     :width: 100%
